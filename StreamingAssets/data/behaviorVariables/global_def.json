@@ -1,0 +1,151 @@
+{
+  "behaviorVariables": [
+    {
+      "k": "Float_PreferHigherPositionFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.1
+      }
+    },
+    {
+      "k": "Float_PreferHigherExpectedDamageToHostileFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.0
+      }
+    },
+    {
+      "k": "Float_PreferLowerExpectedDamageFromHostileFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 1.0
+      }
+    },
+    {
+      "k": "Float_SprintPreferLowerExpectedDamageFromHostileFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 1.0
+      }
+    },
+    {
+      "k": "Float_PreferFacingHostileFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 2.0
+      }
+    },
+    {
+      "k": "Float_OptimalAllyDistance",
+      "v": {
+        "type": "Float",
+        "floatVal": 30.0
+      }
+    },
+    {
+      "k": "Float_PreferOptimalDistanceToAllyFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.3
+      }
+    },
+    {
+      "k": "Float_AcceptableHeatLevel",
+      "v": {
+        "type": "Float",
+        "floatVal": 1.4
+      }
+    },
+    {
+      "k": "Float_MeleeDamageMultiplier",
+      "v": {
+        "type": "Float",
+        "floatVal": 1.5
+      }
+    },
+    {
+      "k": "Float_DFADamageMultiplier",
+      "v": {
+        "type": "Float",
+        "floatVal": 0
+      }
+    },
+    {
+      "k": "Float_PreferLessTargetableLocationFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.1
+      }
+    },
+    {
+      "k": "Float_SprintPreferLessTargetableLocationFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 1.0
+      }
+    },
+    {
+      "k": "Float_PreferHigherHeatSinkLocationsFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 1.5
+      }
+    },
+    {
+      "k": "Float_SprintPreferHigherHeatSinkLocationsFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.8
+      }
+    },
+    {
+      "k": "Float_PreferNoCloserThanPersonalSpaceToAllyFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 10.0
+      }
+    },
+    {
+      "k": "Float_PreferLessSteepPositionFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.3
+      }
+    },
+    {
+      "k": "Float_SprintPreferLOSToFewestHostileFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.5
+      }
+    },
+    {
+      "k": "Float_PreferOutsideCoolDownRangeFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 1.0
+      }
+    },
+    {
+      "k": "Float_PreferPresentingHigherArmorToHostileFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.7
+      }
+    },
+    {
+      "k": "Float_UnsteadyCausesBracePercentage",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.2
+      }
+    },
+    {
+      "k": "Float_BraceWhenOverheatedPercentage",
+      "v": {
+        "type": "Float",
+        "floatVal": 50
+      }
+    }
+  ]
+}

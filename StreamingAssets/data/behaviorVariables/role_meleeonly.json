@@ -1,0 +1,39 @@
+{
+  "behaviorVariables": [
+    {
+      "k": "Float_MeleeDamageMultiplier",
+      "v": {
+        "type": "Float",
+        "floatVal": 12
+      }
+    },
+    {
+      "k": "Float_DFADamageMultiplier",
+      "v": {
+        "type": "Float",
+        "floatVal": 6
+      }
+    },
+    {
+      "k": "Float_MeleeDamageRatioCap",
+      "v": {
+        "type": "Float",
+        "floatVal": 150
+      }
+    },
+    {
+      "k": "Float_PreferInsideMeleeRangeFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 1.5
+      }
+    },
+    {
+      "k": "Float_SprintPreferInsideMeleeRangeFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.5
+      }
+    }
+  ]
+}

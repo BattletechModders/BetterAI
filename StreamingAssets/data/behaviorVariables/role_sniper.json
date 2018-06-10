@@ -1,0 +1,74 @@
+{
+  "behaviorVariables": [
+    {
+      "k": "Float_PreferLowerMovementFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.0
+      }
+    },
+    {
+      "k": "Float_ShootingDamageMultiplier",
+      "v": {
+        "type": "Float",
+        "floatVal": 2.0
+      }
+    },
+    {
+      "k": "Float_MeleeDamageMultiplier",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.5
+      }
+    },
+    {
+      "k": "Float_PreferLessTargetableLocationFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.5
+      }
+    },
+    {
+      "k": "Float_MeleeRevengeBonus",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.0
+      }
+    },
+    {
+      "k": "Float_PreferInsideMeleeRangeFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.0
+      }
+    },
+    {
+      "k": "Float_PreferLocationsThatGrantGuardFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.5
+      }
+    },
+    {
+      "k": "Float_SprintPreferSurroundingHostileUnitsFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.1
+      }
+    },
+    {
+      "k": "Float_SprintPreferStayInsideFenceNegativeLogicFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": -0.5
+      }
+    },
+    {
+      "k": "Float_FenceRadius",
+      "v": {
+        "type": "Float",
+        "floatVal": 150
+      }
+    }
+  ]
+}

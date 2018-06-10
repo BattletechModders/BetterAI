@@ -1,0 +1,11 @@
+{
+  "behaviorVariables": [
+    {
+      "k": "Float_UseRecklessSkillPercentageChance",
+      "v": {
+        "type": "Float",
+        "floatVal": 100
+      }
+    }
+  ]
+}

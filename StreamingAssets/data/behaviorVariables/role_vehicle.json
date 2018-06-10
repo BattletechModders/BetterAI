@@ -1,0 +1,53 @@
+{
+  "behaviorVariables": [
+    {
+      "k": "Float_SprintPreferNotLethalPositionFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.5
+      }
+    },
+    {
+      "k": "Float_PreferLethalDamageToRearArcFromHostileFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0
+      }
+    },
+    {
+      "k": "Float_SprintPreferLethalDamageToRearArcFromHostileFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0
+      }
+    },
+    {
+      "k": "Float_PreferSurroundingHostileUnitsFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0
+      }
+    },
+    {
+      "k": "Float_SprintPreferSurroundingHostileUnitsFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0
+      }
+    },
+    {
+      "k": "Float_PreferNotSurroundedByHostileUnitsFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0
+      }
+    },
+    {
+      "k": "Float_SprintPreferNotSurroundedByHostileUnitsFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0
+      }
+    }
+  ]
+}
