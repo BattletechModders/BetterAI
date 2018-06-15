@@ -1,1 +1,25 @@
-{}
+{
+  "behaviorVariables": [
+    {
+      "k": "Float_PreferInsideMeleeRangeFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": -3.0
+      }
+    },
+    {
+      "k": "Float_SprintPreferInsideMeleeRangeFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": -3.0
+      }
+    },
+    {
+      "k": "Float_SprintExclusionRadius",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.0
+      }
+    }
+  ]
+}

@@ -1,1 +1,151 @@
-{}
+{
+  "behaviorVariables": [
+    {
+      "k": "Float_AccuracyNeededForOverheatAttack",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.6
+      }
+    },
+    {
+      "k": "Float_ExistingTargetDamageForOverheatAttack",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.1
+      }
+    },
+    {
+      "k": "Float_ExistingTargetDamageForDFAAttack",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.0
+      }
+    },
+    {
+      "k": "Float_OwnMaxLegDamageForDFAAttack",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.9
+      }
+    },
+    {
+      "k": "Float_PreferHigherExpectedDamageToHostileFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 4.0
+      }
+    },
+    {
+      "k": "Float_PreferLowerExpectedDamageFromHostileFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 1.0
+      }
+    },
+    {
+      "k": "Float_SprintPreferLowerExpectedDamageFromHostileFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 1.0
+      }
+    },
+    {
+      "k": "Float_AcceptableHeatLevel",
+      "v": {
+        "type": "Float",
+        "floatVal": 2.9
+      }
+    },
+    {
+      "k": "Float_MeleeDamageMultiplier",
+      "v": {
+        "type": "Float",
+        "floatVal": 3.0
+      }
+    },
+    {
+      "k": "Float_DFADamageMultiplier",
+      "v": {
+        "type": "Float",
+        "floatVal": 2.0
+      }
+    },
+    {
+      "k": "Float_PreferHigherHeatSinkLocationsFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.4
+      }
+    },
+    {
+      "k": "Float_MeleeRevengeBonus",
+      "v": {
+        "type": "Float",
+        "floatVal": 3.0
+      }
+    },
+    {
+      "k": "Float_MeleeDamageRatioCap",
+      "v": {
+        "type": "Float",
+        "floatVal": 1.75
+      }
+    },
+    {
+      "k": "Float_ReserveBasePercentage",
+      "v": {
+        "type": "Float",
+        "floatVal": 25
+      }
+    },
+    {
+      "k": "Float_MultiTargetOverkillThreshold",
+      "v": {
+        "type": "Float",
+        "floatVal": 90.0
+      }
+    },
+    {
+      "k": "Float_OverkillFactorForReserve",
+      "v": {
+        "type": "Float",
+        "floatVal": 90.0
+      }
+    },
+    {
+      "k": "Float_CalledShotHeadBaseChance",
+      "v": {
+        "type": "Float",
+        "floatVal": 15.0
+      }
+    },
+    {
+      "k": "Float_PreferNotSurroundedByHostileUnitsFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.5
+      }
+    },
+    {
+      "k": "Float_SprintPreferNotSurroundedByHostileUnitsFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.5
+      }
+    },
+    {
+      "k": "Float_PreferLOSToMostHostilesFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.0
+      }
+    },
+    {
+      "k": "Float_SprintPreferLOSToMostHostilesFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.0
+      }
+    }
+  ]
+}

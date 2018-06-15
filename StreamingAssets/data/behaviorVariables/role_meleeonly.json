@@ -34,6 +34,139 @@
         "type": "Float",
         "floatVal": 0.5
       }
+    },
+    {
+      "k": "Float_ExistingTargetDamageForDFAAttack",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.1
+      }
+    },
+    {
+      "k": "Float_OwnMaxLegDamageForDFAAttack",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.7
+      }
+    },
+    {
+      "k": "Float_PreferHigherPositionFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.0
+      }
+    },
+    {
+      "k": "Float_SprintPreferHigherPositionFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.0
+      }
+    },
+    {
+      "k": "Float_PreferHigherExpectedDamageToHostileFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 4.0
+      }
+    },
+    {
+      "k": "Float_PreferOptimalDistanceToAllyFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.0
+      }
+    },
+    {
+      "k": "Float_PreferHigherHeatSinkLocationsFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.0
+      }
+    },
+    {
+      "k": "Float_SprintPreferHigherHeatSinkLocationsFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.0
+      }
+    },
+    {
+      "k": "Float_PreferHigherHeatPerTurnLocationsFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.0
+      }
+    },
+    {
+      "k": "Float_SprintPreferHigherHeatPerTurnLocationsFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.0
+      }
+    },
+    {
+      "k": "Float_UnsteadyCausesDefensiveMovePercentage",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.0
+      }
+    },
+    {
+      "k": "Float_SprintPreferInsideSprintExclusionRadiusHostileFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 1.0
+      }
+    },
+    {
+      "k": "Float_PreferStayInsideFenceNegativeLogicFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": -1.0
+      }
+    },
+    {
+      "k": "Float_DownedMechFenceContributionMultiplier",
+      "v": {
+        "type": "Float",
+        "floatVal": 1.0
+      }
+    },
+    {
+      "k": "Float_PreferStationaryWhenHostilesInMeleeRangeFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.0
+      }
+    },
+    {
+      "k": "Float_PreferPresentingHigherArmorToHostileFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 1.0
+      }
+    },
+    {
+      "k": "Float_SprintPreferPresentingHigherArmorToHostileFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 1.0
+      }
+    },
+    {
+      "k": "Bool_AllowTurningRearArmorToEnemy",
+      "v": {
+        "type": "Bool",
+        "boolVal": true
+      }
+    },
+    {
+      "k": "Bool_AlwaysOffensiveMood",
+      "v": {
+        "type": "Bool",
+        "boolVal": true
+      }
     }
   ]
 }
