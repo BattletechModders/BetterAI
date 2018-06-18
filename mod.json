@@ -1,4 +1,9 @@
 {
-    "Name": "AI Tweaks",
-    "Enabled": true
+    "Name": "Better AI",
+    "Enabled": true,
+
+    "Version": "0.1.0",
+    "Description": "Changes AI Behavior Variables for a better AI experience",
+    "Author": "amechwarrior",
+    "Website": "https://forum.paradoxplaza.com/forum/index.php?threads/ai-tweaking-v2-still-building-a-better-mouse-trap.1075322/"
 }
