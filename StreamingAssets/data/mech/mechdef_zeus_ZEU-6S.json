@@ -1,0 +1,11 @@
+{
+    "MechTags": {
+        "items": [
+            "unit_mech",
+            "unit_assault",
+            "unit_lance_tank",
+            "unit_role_sniper",
+            "unit_release"
+        ]
+    }
+}
