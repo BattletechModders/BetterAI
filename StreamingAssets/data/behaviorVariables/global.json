@@ -1023,6 +1023,34 @@
       }
     },
     {
+      "k" : "Float_PatrolRouteThrottlePercentage",
+      "v" : {
+        "type" : "Float",
+        "floatVal" : 80.0
+      }
+    },
+    {
+      "k" : "Bool_FilterHostileInfluenceMapsToPriorityTargets",
+      "v" : {
+        "type" : "Bool",
+        "boolVal" : false
+      }
+    },
+    {
+      "k" : "Bool_SimpleShortRangeLOF",
+      "v" : {
+        "type" : "Bool",
+        "boolVal" : false
+      }
+    },
+    {
+      "k" : "Bool_RuthlessPriorityTargeting",
+      "v" : {
+        "type" : "Bool",
+        "boolVal" : false
+      }
+    },
+    {
       "k": "Bool_Alerted",
       "v": {
         "type": "Bool",
