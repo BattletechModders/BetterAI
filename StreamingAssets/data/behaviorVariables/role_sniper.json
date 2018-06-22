@@ -46,7 +46,7 @@
       "k": "Float_PreferLocationsThatGrantGuardFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.8
+        "floatVal": 1.5
       }
     },
     {
@@ -102,7 +102,7 @@
       "k": "Float_BulwarkThresholdPercentage",
       "v": {
         "type": "Float",
-        "floatVal": 75
+        "floatVal": 80.0
       }
     },
     {
@@ -186,14 +186,14 @@
       "k": "Float_PreferNoCloserThanMinDistToHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.6
+        "floatVal": 0.8
       }
     },
     {
       "k": "Float_SprintPreferNoCloserThanMinDistToHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.4
+        "floatVal": 0.5
       }
     },
     {

@@ -214,7 +214,7 @@
       "k": "Float_MeleeDamageMultiplier",
       "v": {
         "type": "Float",
-        "floatVal": 2
+        "floatVal": 2.5
       }
     },
     {
@@ -431,14 +431,14 @@
       "k": "Float_MeleeBonusMultiplierWhenAttackingEvasiveTargets",
       "v": {
         "type": "Float",
-        "floatVal": 2.0
+        "floatVal": 2.5
       }
     },
     {
       "k": "Float_MeleeBonusMultiplierWhenAttackingBracedTargets",
       "v": {
         "type": "Float",
-        "floatVal": 2.0
+        "floatVal": 2.5
       }
     },
     {
@@ -452,21 +452,21 @@
       "k": "Float_PreferLocationsThatGrantGuardFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 1.25
+        "floatVal": 1.4
       }
     },
     {
       "k": "Float_SprintPreferLocationsThatGrantGuardFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 1.0
+        "floatVal": 1.25
       }
     },
     {
       "k": "Float_BulwarkThresholdPercentage",
       "v": {
         "type": "Float",
-        "floatVal": 60
+        "floatVal": 70
       }
     },
     {
@@ -480,21 +480,21 @@
       "k": "Bool_LogInfluenceMapCalculations",
       "v": {
         "type": "Bool",
-        "boolVal": true
+        "boolVal": false
       }
     },
     {
       "k": "Bool_ProfileInfluenceMapCalculations",
       "v": {
         "type": "Bool",
-        "boolVal": true
+        "boolVal": false
       }
     },
     {
       "k": "Bool_LogBehaviorTreeLogic",
       "v": {
         "type": "Bool",
-        "boolVal": true
+        "boolVal": false
       }
     },
     {
@@ -536,7 +536,7 @@
       "k": "Float_MultiTargetOverkillThreshold",
       "v": {
         "type": "Float",
-        "floatVal": 175.0
+        "floatVal": 180.0
       }
     },
     {
@@ -599,14 +599,14 @@
       "k": "Float_CalledShotCenterTorsoBaseChance",
       "v": {
         "type": "Float",
-        "floatVal": 20.0
+        "floatVal": 25.0
       }
     },
     {
       "k": "Float_CalledShotOtherBaseChance",
       "v": {
         "type": "Float",
-        "floatVal": 2.5
+        "floatVal": 2.0
       }
     },
     {
@@ -620,7 +620,7 @@
       "k": "Float_CalledShotDamagedChanceMultiplier",
       "v": {
         "type": "Float",
-        "floatVal": 5.0
+        "floatVal": 10.0
       }
     },
     {
@@ -1023,31 +1023,31 @@
       }
     },
     {
-      "k" : "Float_PatrolRouteThrottlePercentage",
-      "v" : {
-        "type" : "Float",
-        "floatVal" : 80.0
+      "k": "Float_PatrolRouteThrottlePercentage",
+      "v": {
+        "type": "Float",
+        "floatVal": 80.0
       }
     },
     {
-      "k" : "Bool_FilterHostileInfluenceMapsToPriorityTargets",
-      "v" : {
-        "type" : "Bool",
-        "boolVal" : false
+      "k": "Bool_FilterHostileInfluenceMapsToPriorityTargets",
+      "v": {
+        "type": "Bool",
+        "boolVal": false
       }
     },
     {
-      "k" : "Bool_SimpleShortRangeLOF",
-      "v" : {
-        "type" : "Bool",
-        "boolVal" : false
+      "k": "Bool_SimpleShortRangeLOF",
+      "v": {
+        "type": "Bool",
+        "boolVal": false
       }
     },
     {
-      "k" : "Bool_RuthlessPriorityTargeting",
-      "v" : {
-        "type" : "Bool",
-        "boolVal" : false
+      "k": "Bool_RuthlessPriorityTargeting",
+      "v": {
+        "type": "Bool",
+        "boolVal": false
       }
     },
     {
@@ -1166,7 +1166,7 @@
       "k": "Float_PreferNoCloserThanMinDistToHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.4
+        "floatVal": 0.5
       }
     },
     {

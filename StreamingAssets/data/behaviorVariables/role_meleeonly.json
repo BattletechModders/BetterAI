@@ -39,7 +39,7 @@
       "k": "Float_ExistingTargetDamageForDFAAttack",
       "v": {
         "type": "Float",
-        "floatVal": 0.1
+        "floatVal": 0.0
       }
     },
     {

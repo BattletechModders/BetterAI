@@ -137,7 +137,7 @@
       "k": "Float_PreferNoCloserThanMinDistToHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.3
+        "floatVal": 0.4
       }
     },
     {
@@ -172,7 +172,7 @@
       "k": "Float_PreferHigherDistanceFromClosestHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.5
+        "floatVal": 1.5
       }
     },
     {
@@ -204,6 +204,20 @@
       }
     },
     {
+      "k": "Float_SprintToCombatPercentage",
+      "v": {
+        "type": "Float",
+        "floatVal": 60.0
+      }
+    },
+    {
+      "k": "Float_ThreatBattleValueRoot",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.0
+      }
+    },
+    {
       "k": "Float_ShootingDamageMultiplier",
       "v": {
         "type": "Float",
@@ -214,7 +228,7 @@
       "k": "Float_MeleeDamageMultiplier",
       "v": {
         "type": "Float",
-        "floatVal": 1.5
+        "floatVal": 2.0
       }
     },
     {
@@ -242,7 +256,7 @@
       "k": "Float_PreferLessTargetableLocationFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.5
+        "floatVal": 1.0
       }
     },
     {
@@ -256,35 +270,35 @@
       "k": "Float_UnsteadyCausesBracePercentage",
       "v": {
         "type": "Float",
-        "floatVal": 0.2
+        "floatVal": 0.15
       }
     },
     {
       "k": "Float_PreferPresentingHigherArmorToHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.9
+        "floatVal": 1.5
       }
     },
     {
       "k": "Float_PreferLowerExpectedDamageFromHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 1.0
+        "floatVal": 1.75
       }
     },
     {
       "k": "Float_SprintPreferLowerExpectedDamageFromHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 1.0
+        "floatVal": 1.75
       }
     },
     {
       "k": "Float_BraceWhenOverheatedPercentage",
       "v": {
         "type": "Float",
-        "floatVal": 40
+        "floatVal": 30
       }
     },
     {
@@ -316,6 +330,13 @@
       }
     },
     {
+      "k": "Float_MeleeRevengeBonus",
+      "v": {
+        "type": "Float",
+        "floatVal": 1.0
+      }
+    },
+    {
       "k": "Float_PreferInsideMeleeRangeFactorWeight",
       "v": {
         "type": "Float",
@@ -333,21 +354,28 @@
       "k": "Float_PreferLocationsThatGrantGuardFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 1.0
+        "floatVal": 1.5
       }
     },
     {
       "k": "Float_SprintPreferLocationsThatGrantGuardFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 1.0
+        "floatVal": 1.25
       }
     },
     {
       "k": "Float_BulwarkThresholdPercentage",
       "v": {
         "type": "Float",
-        "floatVal": 80
+        "floatVal": 85
+      }
+    },
+    {
+      "k": "Float_ReserveBasePercentage",
+      "v": {
+        "type": "Float",
+        "floatVal": 45
       }
     },
     {
@@ -361,7 +389,7 @@
       "k": "Float_OverkillFactorForReserve",
       "v": {
         "type": "Float",
-        "floatVal": 100.0
+        "floatVal": 90.0
       }
     },
     {
@@ -404,6 +432,20 @@
       "v": {
         "type": "Float",
         "floatVal": 0.0
+      }
+    },
+    {
+      "k": "Float_PreferHigherDamageReductionLocationsFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 1.0
+      }
+    },
+    {
+      "k": "Float_SprintPreferHigherDamageReductionLocationsFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 1.0
       }
     }
   ]

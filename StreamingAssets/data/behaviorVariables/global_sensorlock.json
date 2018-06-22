@@ -32,7 +32,7 @@
       "k": "Float_PreferNoCloserThanMinDistToHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.0
+        "floatVal": 0.4
       }
     },
     {
@@ -85,6 +85,13 @@
       }
     },
     {
+      "k": "Float_SprintToCombatPercentage",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.0
+      }
+    },
+    {
       "k": "Float_CoolDownRange",
       "v": {
         "type": "Float",
@@ -116,7 +123,7 @@
       "k": "Float_PreferPresentingHigherArmorToHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.7
+        "floatVal": 1.0
       }
     },
     {
@@ -172,7 +179,7 @@
       "k": "Float_PreferLocationsThatGrantGuardFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 1.0
+        "floatVal": 1.5
       }
     },
     {

@@ -18,7 +18,7 @@
       "k": "Float_PreferHigherExpectedDamageToHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 2.0
+        "floatVal": 2.5
       }
     },
     {
@@ -60,21 +60,21 @@
       "k": "Float_PreferInsideMeleeRangeFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": -2.0
+        "floatVal": -4.0
       }
     },
     {
       "k": "Float_SprintPreferInsideMeleeRangeFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": -2.0
+        "floatVal": -4.0
       }
     },
     {
       "k": "Float_PreferNotLethalPositionFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.6
+        "floatVal": 0.8
       }
     },
     {
@@ -102,35 +102,35 @@
       "k": "Float_PreferSurroundingHostileUnitsFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0
+        "floatVal": 0.6
       }
     },
     {
       "k": "Float_SprintPreferSurroundingHostileUnitsFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0
+        "floatVal": 0.8
       }
     },
     {
       "k": "Float_PreferNotSurroundedByHostileUnitsFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.25
+        "floatVal": 0.3
       }
     },
     {
       "k": "Float_SprintPreferNotSurroundedByHostileUnitsFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.25
+        "floatVal": 0.3
       }
     },
     {
       "k": "Float_PreferStationaryWhenHostilesInMeleeRangeFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": -0.5
+        "floatVal": -4.0
       }
     },
     {
@@ -148,6 +148,20 @@
       }
     },
     {
+      "k": "Float_PreferLOSToMostHostilesFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.0
+      }
+    },
+    {
+      "k": "Float_SprintPreferLOSToMostHostilesFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.0
+      }
+    },
+    {
       "k": "Float_PreferHigherMeleeToHitPenaltyLocationsFactorWeight",
       "v": {
         "type": "Float",
@@ -158,14 +172,14 @@
       "k": "Float_PreferPresentingHigherArmorToHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.5
+        "floatVal": 1.5
       }
     },
     {
       "k": "Float_SprintPreferPresentingHigherArmorToHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.5
+        "floatVal": 1.5
       }
     },
     {

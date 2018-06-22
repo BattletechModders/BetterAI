@@ -67,7 +67,7 @@
       "k": "Float_PreferHigherExpectedDamageToHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 1.6
+        "floatVal": 2.0
       }
     },
     {
@@ -95,7 +95,7 @@
       "k": "Float_ExistingTargetDamageForOverheatAttack",
       "v": {
         "type": "Float",
-        "floatVal": 0.5
+        "floatVal": 0.7
       }
     },
     {
@@ -109,7 +109,7 @@
       "k": "Float_PreferLowerMovementFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": -0.8
+        "floatVal": -0.9
       }
     },
     {
@@ -194,6 +194,13 @@
       "v": {
         "type": "Float",
         "floatVal": 60
+      }
+    },
+    {
+      "k": "Float_ReserveBasePercentage",
+      "v": {
+        "type": "Float",
+        "floatVal": 75
       }
     },
     {
@@ -291,14 +298,14 @@
       "k": "Float_PreferStationaryWhenHostilesInMeleeRangeFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": -1.5
+        "floatVal": -2.0
       }
     },
     {
       "k": "Float_PreferAttackFromBehindHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.7
+        "floatVal": 0.8
       }
     },
     {
