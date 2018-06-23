@@ -57,11 +57,11 @@
       }
     },
     {
-	    "k": "Float_SprintPreferHigherMeleeToHitPenaltyLocationsFactorWeight",
-	    "v": {
-		    "type": "Float",
-		    "floatVal": 0.3
-	    }
-	  }
+      "k": "Float_SprintPreferHigherMeleeToHitPenaltyLocationsFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.3
+      }
+    }
   ]
 }
