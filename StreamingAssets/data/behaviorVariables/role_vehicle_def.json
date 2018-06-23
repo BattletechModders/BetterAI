@@ -1,17 +1,45 @@
 {
   "behaviorVariables": [
     {
+      "k": "Float_PreferLowerMovementFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": -0.8
+      }
+    },
+    {
+      "k": "Float_PreferHigherPositionFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.0
+      }
+    },
+    {
+      "k": "Float_PreferHigherHeatSinkLocationsFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": -0.4
+      }
+    },
+    {
+      "k": "Float_SprintPreferHigherHeatSinkLocationsFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": -0.4
+      }
+    },
+    {
       "k": "Float_PreferInsideMeleeRangeFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": -3.0
+        "floatVal": -5.0
       }
     },
     {
       "k": "Float_SprintPreferInsideMeleeRangeFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": -3.0
+        "floatVal": -5.0
       }
     },
     {
@@ -20,6 +48,20 @@
         "type": "Float",
         "floatVal": 0.0
       }
-    }
+    },
+    {
+      "k": "Float_PreferHigherMeleeToHitPenaltyLocationsFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.3
+      }
+    },
+    {
+	    "k": "Float_SprintPreferHigherMeleeToHitPenaltyLocationsFactorWeight",
+	    "v": {
+		    "type": "Float",
+		    "floatVal": 0.3
+	    }
+	  }
   ]
 }
