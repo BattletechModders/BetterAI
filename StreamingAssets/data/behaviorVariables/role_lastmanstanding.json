@@ -134,6 +134,13 @@
       }
     },
     {
+      "k": "Float_EvasiveToHitFloor",
+      "v": {
+        "type": "Float",
+        "floatVal": 30.0
+      }
+    },
+    {
       "k": "Float_PreferLOSToMostHostilesFactorWeight",
       "v": {
         "type": "Float",
