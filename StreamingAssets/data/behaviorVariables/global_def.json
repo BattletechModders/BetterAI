@@ -267,6 +267,20 @@
       }
     },
     {
+      "k": "Float_PreferHigherHeatPerTurnLocationsFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": -0.6
+      }
+    },
+    {
+      "k": "Float_SprintPreferHigherHeatPerTurnLocationsFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": -0.6
+      }
+    },
+    {
       "k": "Float_UnsteadyCausesBracePercentage",
       "v": {
         "type": "Float",
