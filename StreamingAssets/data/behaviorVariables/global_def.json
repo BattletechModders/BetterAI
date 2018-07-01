@@ -407,6 +407,13 @@
       }
     },
     {
+      "k": "Float_SprintExclusionRadius",
+      "v": {
+        "type": "Float",
+        "floatVal": 100.0
+      }
+    },
+    {
       "k": "Float_PreferNotSurroundedByHostileUnitsFactorWeight",
       "v": {
         "type": "Float",
