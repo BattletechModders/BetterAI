@@ -466,7 +466,7 @@
       "k": "Float_BulwarkThresholdPercentage",
       "v": {
         "type": "Float",
-        "floatVal": 70
+        "floatVal": 75
       }
     },
     {
