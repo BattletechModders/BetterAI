@@ -228,7 +228,7 @@
       "k": "Float_MeleeDamageMultiplier",
       "v": {
         "type": "Float",
-        "floatVal": 2.0
+        "floatVal": 2.5
       }
     },
     {
@@ -264,6 +264,20 @@
       "v": {
         "type": "Float",
         "floatVal": 1.5
+      }
+    },
+    {
+      "k": "Float_PreferHigherHeatPerTurnLocationsFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": -0.6
+      }
+    },
+    {
+      "k": "Float_SprintPreferHigherHeatPerTurnLocationsFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": -0.6
       }
     },
     {
@@ -319,7 +333,7 @@
       "k": "Float_SprintPreferLOSToFewestHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.5
+        "floatVal": 0.6
       }
     },
     {
@@ -390,6 +404,13 @@
       "v": {
         "type": "Float",
         "floatVal": 90.0
+      }
+    },
+    {
+      "k": "Float_SprintExclusionRadius",
+      "v": {
+        "type": "Float",
+        "floatVal": 100.0
       }
     },
     {

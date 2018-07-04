@@ -11,7 +11,7 @@
       "k": "Float_ExistingTargetDamageForOverheatAttack",
       "v": {
         "type": "Float",
-        "floatVal": 0.85
+        "floatVal": 0.0
       }
     },
     {
@@ -193,7 +193,7 @@
       "k": "Float_AcceptableHeatLevel",
       "v": {
         "type": "Float",
-        "floatVal": 2.0
+        "floatVal": 1.9
       }
     },
     {
@@ -466,7 +466,7 @@
       "k": "Float_BulwarkThresholdPercentage",
       "v": {
         "type": "Float",
-        "floatVal": 70
+        "floatVal": 75
       }
     },
     {
@@ -816,7 +816,7 @@
       "k": "Float_MinimumSensorLockQuality",
       "v": {
         "type": "Float",
-        "floatVal": 55
+        "floatVal": 60
       }
     },
     {
