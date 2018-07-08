@@ -15,31 +15,17 @@
       }
     },
     {
-      "k": "Float_PreferAttackFromBehindHostileFactorWeight",
+      "k": "Float_PreferLowerExpectedDamageFromHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.0
+        "floatVal": 1.5
       }
     },
     {
-      "k": "Float_PreferAttackFrom90DegreesToHostileFactorWeight",
+      "k": "Float_SprintPreferLowerExpectedDamageFromHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.0
-      }
-    },
-    {
-      "k": "Float_PreferNoCloserThanMinDistToHostileFactorWeight",
-      "v": {
-        "type": "Float",
-        "floatVal": 0.4
-      }
-    },
-    {
-      "k": "Float_PreferNoCloserThanPersonalSpaceToAllyFactorWeight",
-      "v": {
-        "type": "Float",
-        "floatVal": 10.0
+        "floatVal": 1.5
       }
     },
     {
@@ -47,27 +33,6 @@
       "v": {
         "type": "Float",
         "floatVal": 0.5
-      }
-    },
-    {
-      "k": "Float_PreferLessSteepPositionFactorWeight",
-      "v": {
-        "type": "Float",
-        "floatVal": 0.5
-      }
-    },
-    {
-      "k": "Float_PreferHigherDistanceFromClosestHostileFactorWeight",
-      "v": {
-        "type": "Float",
-        "floatVal": 1.5
-      }
-    },
-    {
-      "k": "Float_PreferLOSToFewestHostileFactorWeight",
-      "v": {
-        "type": "Float",
-        "floatVal": 1.0
       }
     },
     {
@@ -85,13 +50,6 @@
       }
     },
     {
-      "k": "Float_SprintToCombatPercentage",
-      "v": {
-        "type": "Float",
-        "floatVal": 0.0
-      }
-    },
-    {
       "k": "Float_CoolDownRange",
       "v": {
         "type": "Float",
@@ -99,14 +57,14 @@
       }
     },
     {
-      "k": "Float_PreferOutsideCoolDownRangeFactorWeight",
+      "k": "Float_PreferLessTargetableLocationFactorWeight",
       "v": {
         "type": "Float",
         "floatVal": 1.0
       }
     },
     {
-      "k": "Float_PreferLessTargetableLocationFactorWeight",
+      "k": "Float_SprintPreferLessTargetableLocationFactorWeight",
       "v": {
         "type": "Float",
         "floatVal": 1.0
@@ -120,45 +78,10 @@
       }
     },
     {
-      "k": "Float_PreferPresentingHigherArmorToHostileFactorWeight",
-      "v": {
-        "type": "Float",
-        "floatVal": 1.0
-      }
-    },
-    {
-      "k": "Float_PreferLowerExpectedDamageFromHostileFactorWeight",
-      "v": {
-        "type": "Float",
-        "floatVal": 1.5
-      }
-    },
-    {
-      "k": "Float_SprintPreferLowerExpectedDamageFromHostileFactorWeight",
-      "v": {
-        "type": "Float",
-        "floatVal": 1.5
-      }
-    },
-    {
-      "k": "Float_SprintPreferLessTargetableLocationFactorWeight",
-      "v": {
-        "type": "Float",
-        "floatVal": 1.0
-      }
-    },
-    {
       "k": "Float_SprintPreferHigherHeatSinkLocationsFactorWeight",
       "v": {
         "type": "Float",
         "floatVal": 0.2
-      }
-    },
-    {
-      "k": "Float_SprintPreferLOSToFewestHostileFactorWeight",
-      "v": {
-        "type": "Float",
-        "floatVal": 0.5
       }
     },
     {
@@ -197,6 +120,62 @@
       }
     },
     {
+      "k": "Float_PreferAttackFromBehindHostileFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.0
+      }
+    },
+    {
+      "k": "Float_PreferAttackFrom90DegreesToHostileFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.0
+      }
+    },
+    {
+      "k": "Float_PreferNoCloserThanMinDistToHostileFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.4
+      }
+    },
+    {
+      "k": "Float_PreferNoCloserThanPersonalSpaceToAllyFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 10.0
+      }
+    },
+    {
+      "k": "Float_PreferLessSteepPositionFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.5
+      }
+    },
+    {
+      "k": "Float_PreferHigherDistanceFromClosestHostileFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 1.5
+      }
+    },
+    {
+      "k": "Float_PreferLOSToFewestHostileFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 1.0
+      }
+    },
+    {
+      "k": "Float_SprintPreferLOSToFewestHostileFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.5
+      }
+    },
+    {
       "k": "Float_PreferLOSToMostHostilesFactorWeight",
       "v": {
         "type": "Float",
@@ -205,6 +184,27 @@
     },
     {
       "k": "Float_SprintPreferLOSToMostHostilesFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.0
+      }
+    },
+    {
+      "k": "Float_PreferOutsideCoolDownRangeFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 1.0
+      }
+    },
+    {
+      "k": "Float_PreferPresentingHigherArmorToHostileFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 1.0
+      }
+    },
+    {
+      "k": "Float_SprintToCombatPercentage",
       "v": {
         "type": "Float",
         "floatVal": 0.0

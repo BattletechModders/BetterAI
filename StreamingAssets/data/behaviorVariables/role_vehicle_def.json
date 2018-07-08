@@ -43,6 +43,13 @@
       }
     },
     {
+      "k": "Bool_RewriteNonAttackMoves",
+      "v": {
+        "type": "Bool",
+        "boolVal": true
+      }
+    },
+    {
       "k": "Float_SprintExclusionRadius",
       "v": {
         "type": "Float",
