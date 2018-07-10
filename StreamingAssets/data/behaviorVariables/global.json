@@ -214,7 +214,7 @@
       "k": "Float_MeleeDamageMultiplier",
       "v": {
         "type": "Float",
-        "floatVal": 2.5
+        "floatVal": 2.75
       }
     },
     {
@@ -466,7 +466,7 @@
       "k": "Float_BulwarkThresholdPercentage",
       "v": {
         "type": "Float",
-        "floatVal": 75
+        "floatVal": 80
       }
     },
     {
