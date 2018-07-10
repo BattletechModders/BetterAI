@@ -438,7 +438,7 @@
       "k": "Float_MeleeBonusMultiplierWhenAttackingBracedTargets",
       "v": {
         "type": "Float",
-        "floatVal": 2.5
+        "floatVal": 3.0
       }
     },
     {
