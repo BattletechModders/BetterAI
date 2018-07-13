@@ -214,7 +214,7 @@
       "k": "Float_MeleeDamageMultiplier",
       "v": {
         "type": "Float",
-        "floatVal": 2.75
+        "floatVal": 3.0
       }
     },
     {
@@ -634,14 +634,14 @@
       "k": "Float_PreferLethalDamageToRearArcFromHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": -1.5
+        "floatVal": -1.75
       }
     },
     {
       "k": "Float_SprintPreferLethalDamageToRearArcFromHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": -1.5
+        "floatVal": -2.0
       }
     },
     {
@@ -837,7 +837,7 @@
       "k": "Float_CenterTorsoRearArmorMultiplier",
       "v": {
         "type": "Float",
-        "floatVal": 15
+        "floatVal": 10
       }
     },
     {
@@ -858,14 +858,14 @@
       "k": "Float_OpportunityFireExceedsDesignatedTargetByPercentage",
       "v": {
         "type": "Float",
-        "floatVal": 30.0
+        "floatVal": 25.0
       }
     },
     {
       "k": "Float_OpportunityFireExceedsDesignatedTargetFirepowerTakeawayByPercentage",
       "v": {
         "type": "Float",
-        "floatVal": 30.0
+        "floatVal": 25.0
       }
     },
     {
@@ -956,7 +956,7 @@
       "k": "Float_AlonePreferenceWeight",
       "v": {
         "type": "Float",
-        "floatVal": -0.8
+        "floatVal": -1.2
       }
     },
     {
