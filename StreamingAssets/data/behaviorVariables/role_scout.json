@@ -109,7 +109,7 @@
       "k": "Float_PreferInsideMeleeRangeFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": -0.8
+        "floatVal": -1.0
       }
     },
     {
@@ -138,6 +138,13 @@
       "v": {
         "type": "Float",
         "floatVal": 1.0
+      }
+    },
+    {
+      "k": "Float_BulwarkThresholdPercentage",
+      "v": {
+        "type": "Float",
+        "floatVal": 30
       }
     },
     {
@@ -179,7 +186,7 @@
       "k": "Float_OverkillFactorForReserve",
       "v": {
         "type": "Float",
-        "floatVal": 100.0
+        "floatVal": 80.0
       }
     },
     {
@@ -228,7 +235,7 @@
       "k": "Float_SprintHysteresisRecoveryTurns",
       "v": {
         "type": "Float",
-        "floatVal": 0.0
+        "floatVal": 1.0
       }
     },
     {
@@ -249,7 +256,7 @@
       "k": "Float_FenceRadius",
       "v": {
         "type": "Float",
-        "floatVal": 200.0
+        "floatVal": 192.0
       }
     },
     {
@@ -263,7 +270,7 @@
       "k": "Bool_UseBulwarkActions",
       "v": {
         "type": "Bool",
-        "boolVal": false
+        "boolVal": true
       }
     },
     {
