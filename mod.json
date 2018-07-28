@@ -1,8 +1,7 @@
 {
     "Name": "Better AI",
     "Enabled": true,
-
-    "Version": "1.1.1",
+    "Version": "1.2.0",
     "Description": "Changes AI Behavior Variables for a better AI experience",
     "Author": "amechwarrior",
     "Website": "https://github.com/Mpstark/BetterAI/"

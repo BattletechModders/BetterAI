@@ -186,7 +186,7 @@
       "k": "Float_MeleeDamageMultiplier",
       "v": {
         "type": "Float",
-        "floatVal": 2.5
+        "floatVal": 3.0
       }
     },
     {
@@ -305,7 +305,7 @@
       "k": "Float_OverkillFactorForReserve",
       "v": {
         "type": "Float",
-        "floatVal": 90.0
+        "floatVal": 80.0
       }
     },
     {
