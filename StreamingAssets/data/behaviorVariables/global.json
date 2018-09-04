@@ -197,6 +197,27 @@
       }
     },
     {
+      "k" : "Float_VentCoolantHeatThreshold",
+      "v" : {
+         "type" : "Float",
+	 "floatVal" : 2.1
+      }
+    },
+    {
+      "k" : "Int_VentCoolantHealthThreshold",
+      "v" : {
+	 "type" : "Int",
+	 "intVal" : 2
+      }
+    },
+    {
+      "k" : "Float_SureFootingAbilityWalkBoost",
+      "v" : {
+	 "type" : "Float",
+	 "floatVal" : 0.1
+      }
+    },
+    {
       "k": "Float_ThreatBattleValueRoot",
       "v": {
         "type": "Float",
