@@ -130,7 +130,7 @@
       "k": "Float_PreferHigherExpectedDamageToHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 2.5
+        "floatVal": 4.0
       }
     },
     {
@@ -585,7 +585,7 @@
       "k": "Float_OverkillFactorForReserve",
       "v": {
         "type": "Float",
-        "floatVal": 125.0
+        "floatVal": 100.0
       }
     },
     {
