@@ -1051,6 +1051,13 @@
       }
     },
     {
+	    "k" : "Bool_AllowAttack",
+	    "v" : {
+	       "type" : "Bool",
+		     "boolVal" : true
+	    }
+    },
+    {
       "k": "Bool_Alerted",
       "v": {
         "type": "Bool",
