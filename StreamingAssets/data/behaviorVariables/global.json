@@ -319,14 +319,14 @@
       "k": "Float_CalledShotVulnerabilityMultiplier",
       "v": {
         "type": "Float",
-        "floatVal": 6.0
+        "floatVal": 7.0
       }
     },
     {
       "k": "Float_ThreatDamageRatioThreshold",
       "v": {
         "type": "Float",
-        "floatVal": 0.7
+        "floatVal": 0.5
       }
     },
     {
@@ -578,7 +578,7 @@
       "k": "Float_OverkillThresholdHighForRearArcPositionFactor",
       "v": {
         "type": "Float",
-        "floatVal": 100
+        "floatVal": 75
       }
     },
     {
