@@ -193,7 +193,7 @@
       "k": "Float_AcceptableHeatLevel",
       "v": {
         "type": "Float",
-        "floatVal": 1.9
+        "floatVal": 1.99
       }
     },
     {
