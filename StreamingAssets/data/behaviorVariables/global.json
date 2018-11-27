@@ -130,7 +130,7 @@
       "k": "Float_PreferHigherExpectedDamageToHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 2.5
+        "floatVal": 4.0
       }
     },
     {
@@ -194,6 +194,27 @@
       "v": {
         "type": "Float",
         "floatVal": 1.9
+      }
+    },
+    {
+      "k" : "Float_VentCoolantHeatThreshold",
+      "v" : {
+         "type" : "Float",
+	 "floatVal" : 2.1
+      }
+    },
+    {
+      "k" : "Int_VentCoolantHealthThreshold",
+      "v" : {
+	 "type" : "Int",
+	 "intVal" : 2
+      }
+    },
+    {
+      "k" : "Float_SureFootingAbilityWalkBoost",
+      "v" : {
+	 "type" : "Float",
+	 "floatVal" : 0.1
       }
     },
     {
@@ -319,14 +340,14 @@
       "k": "Float_CalledShotVulnerabilityMultiplier",
       "v": {
         "type": "Float",
-        "floatVal": 6.0
+        "floatVal": 7.0
       }
     },
     {
       "k": "Float_ThreatDamageRatioThreshold",
       "v": {
         "type": "Float",
-        "floatVal": 0.7
+        "floatVal": 0.5
       }
     },
     {
@@ -578,14 +599,14 @@
       "k": "Float_OverkillThresholdHighForRearArcPositionFactor",
       "v": {
         "type": "Float",
-        "floatVal": 100
+        "floatVal": 75
       }
     },
     {
       "k": "Float_OverkillFactorForReserve",
       "v": {
         "type": "Float",
-        "floatVal": 125.0
+        "floatVal": 100.0
       }
     },
     {
