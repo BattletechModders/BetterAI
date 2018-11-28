@@ -1,7 +1,7 @@
 # BetterAI
 AI Behavior Variable Tweaks for HBS's BattleTech
 
-This is a ModTek mod to improve the tactical AI in game.  This shouldn't cause any errors in save files or with version updates.
+This is a ModTek mod to improve the tactical AI in game.  The biggest improvement is that the AI is now allowed to reserve units like any human player.  It also considers protecting their weakened side and exploiting the damaged sides of the enemy.  While there are still some poor tactical choices baked in to the AI, this should be much harder to fight than stock.  This shouldn't cause any errors in save files or with version updates.
 
 Full change log of every variable can be found here:
 
