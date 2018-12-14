@@ -655,7 +655,7 @@
       "k": "Float_PreferLethalDamageToRearArcFromHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": -1.75
+        "floatVal": -2.0
       }
     },
     {
@@ -1159,14 +1159,14 @@
       "k": "Float_PreferStationaryWhenHostilesInMeleeRangeFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": -0.5
+        "floatVal": -0.75
       }
     },
     {
       "k": "Float_PreferAttackFromBehindHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.3
+        "floatVal": 0.4
       }
     },
     {
