@@ -1,8 +1,8 @@
 {
     "Name": "Better AI",
     "Enabled": true,
-    "Version": "1.3.3",
-    "Description": "Changes AI Behavior Variables for a better AI experience, for 1.3.0.",
+    "Version": "1.4.0",
+    "Description": "Changes AI Behavior Variables for a better AI experience, for BATTLETECH 1.3.2.",
     "Author": "amechwarrior",
     "Website": "https://github.com/BattletechModders/BetterAI"
 }
