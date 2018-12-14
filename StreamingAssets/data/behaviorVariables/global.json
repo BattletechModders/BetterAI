@@ -130,7 +130,7 @@
       "k": "Float_PreferHigherExpectedDamageToHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 4.0
+        "floatVal": 3.0
       }
     },
     {
@@ -389,14 +389,14 @@
       "k": "Float_PreferInsideMeleeRangeFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": -0.5
+        "floatVal": -1.0
       }
     },
     {
       "k": "Float_SprintPreferInsideMeleeRangeFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": -0.7
+        "floatVal": -1.5
       }
     },
     {
