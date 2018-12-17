@@ -11,7 +11,7 @@
       "k": "Float_PreferLowerMovementFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.0
+        "floatVal": -0.6
       }
     },
     {
