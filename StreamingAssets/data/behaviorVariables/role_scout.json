@@ -39,7 +39,7 @@
       "k": "Float_PreferHigherExpectedDamageToHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 2.0
+        "floatVal": 3.0
       }
     },
     {
@@ -179,7 +179,7 @@
       "k": "Float_OverkillThresholdHighForLethalPositionFactor",
       "v": {
         "type": "Float",
-        "floatVal": 90
+        "floatVal": 95
       }
     },
     {
@@ -228,14 +228,14 @@
       "k": "Float_PreferNotSurroundedByHostileUnitsFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.5
+        "floatVal": 0.4
       }
     },
     {
       "k": "Float_SprintHysteresisRecoveryTurns",
       "v": {
         "type": "Float",
-        "floatVal": 1.0
+        "floatVal": 2.0
       }
     },
     {
