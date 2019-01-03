@@ -123,14 +123,14 @@
       "k": "Float_PreferNotSurroundedByHostileUnitsFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.5
+        "floatVal": 0.4
       }
     },
     {
       "k": "Float_SprintPreferNotSurroundedByHostileUnitsFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.5
+        "floatVal": 0.4
       }
     },
     {
@@ -144,14 +144,14 @@
       "k": "Float_PreferLOSToMostHostilesFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.0
+        "floatVal": 0.2
       }
     },
     {
       "k": "Float_SprintPreferLOSToMostHostilesFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.0
+        "floatVal": 0.1
       }
     }
   ]
