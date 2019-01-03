@@ -5,7 +5,7 @@ Better AI shouldn't cause any errors with save files, even saves in combat, or w
 
 ### Instructions:
 
-    Copy Better AI folder in to Mods folder created for ModTek.
+    Copy Better AI folder in to Mods folder created for ModTek.  Remove older Better AI folder if present.
 
 ### Full change log can be found here:
 
