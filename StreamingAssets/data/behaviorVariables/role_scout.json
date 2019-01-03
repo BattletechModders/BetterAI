@@ -347,7 +347,7 @@
       "k": "Float_PreferLOSToFewestHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.4
+        "floatVal": 0.2
       }
     },
     {
