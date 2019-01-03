@@ -60,7 +60,7 @@
       "k": "Float_PreferOptimalDistanceToAllyFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.1
+        "floatVal": 0.2
       }
     },
     {
