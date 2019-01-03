@@ -53,3 +53,14 @@ https://forum.paradoxplaza.com/forum/index.php?threads/mod-release-better-ai-twe
 ### Here is a link to the googledoc sheet with all stock and modded variables:
 
 https://docs.google.com/spreadsheets/d/1Q-Z0jSjb1rRd5-r0zYHwH_yES8cgVdmv-kE2WS_7lHE/edit#gid=0&range=A1
+
+### Recommended Companion Mods
+
+https://github.com/BattletechModders/cFixes - Commuinity bug fixes, Better AI integrates some of the 'Mech tag fixes found in cFixes, but not all.  These may help the game better categorize units for Lance selection.
+
+### ModTek/BTML
+This mod needs ModTek and BTML to work, links below:
+
+https://github.com/BattletechModders/ModTek/releases
+
+https://github.com/BattletechModders/BattleTechModLoader/releases
