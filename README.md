@@ -8,7 +8,7 @@ Better AI shouldn't cause any errors with save files, even saves in combat, or w
 
 ## Stock Files edited by this mod:
 
-StreamingAssets\data\behaviorVariables - AI variable edits
+### StreamingAssets\data\behaviorVariables - AI variable edits
 global.json
 
 global_def.json
@@ -27,10 +27,12 @@ role_vehicle.json
 
 role_vehicle_def.json
 
-StreamingAssets\data\constants - AI Crit Chance and Dynamic Role Maximums
+
+### StreamingAssets\data\constants - AI Crit Chance and Dynamic Role Maximums
 CombatGameConstants.json
 
-StreamingAssets\data\mech - Adjusting 'Mech roles to match stock load-outs to appropriate role
+
+### StreamingAssets\data\mech - Adjusting 'Mech roles to match stock load-outs to appropriate role
 mechdef_awesome_AWS-8Q.json
 
 mechdef_enforcer_ENF-4R.json
@@ -46,6 +48,7 @@ mechdef_shadowhawk_SHD-2D.json
 mechdef_urbanmech_UM-R60.json
 
 mechdef_zeus_ZEU-6S.json
+
 
 Full change log can be found here:
 
