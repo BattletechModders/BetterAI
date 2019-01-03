@@ -21,10 +21,8 @@ https://github.com/BattletechModders/cFixes - Commuinity bug fixes, Better AI in
 
 ### ModTek/BTML
 This mod needs ModTek and BTML to work, links below:
-
-https://github.com/BattletechModders/ModTek/releases
-
-https://github.com/BattletechModders/BattleTechModLoader/releases
+    https://github.com/BattletechModders/ModTek/releases
+    https://github.com/BattletechModders/BattleTechModLoader/releases
 
 ## Stock Files Edited:
 #### StreamingAssets\data\behaviorVariables - AI variable edits
@@ -38,24 +36,15 @@ https://github.com/BattletechModders/BattleTechModLoader/releases
     role_vehicle.json
     role_vehicle_def.json
 
-
 #### StreamingAssets\data\constants - AI Crit Chance and Dynamic Role Maximums
-CombatGameConstants.json
-
+    CombatGameConstants.json
 
 #### StreamingAssets\data\mech - Adjusting 'Mech roles to match stock load-outs to appropriate role
-mechdef_awesome_AWS-8Q.json
-
-mechdef_enforcer_ENF-4R.json
-
-mechdef_locust_LCT-1M.json
-
-mechdef_quickdraw_QKD-4G.json
-
-mechdef_quickdraw_QKD-5A.json
-
-mechdef_shadowhawk_SHD-2D.json
-
-mechdef_urbanmech_UM-R60.json
-
-mechdef_zeus_ZEU-6S.json
+    mechdef_awesome_AWS-8Q.json
+    mechdef_enforcer_ENF-4R.json
+    mechdef_locust_LCT-1M.json
+    mechdef_quickdraw_QKD-4G.json
+    mechdef_quickdraw_QKD-5A.json
+    mechdef_shadowhawk_SHD-2D.json
+    mechdef_urbanmech_UM-R60.json
+    mechdef_zeus_ZEU-6S.json
