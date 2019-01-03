@@ -28,23 +28,15 @@ https://github.com/BattletechModders/BattleTechModLoader/releases
 
 ## Stock Files Edited:
 #### StreamingAssets\data\behaviorVariables - AI variable edits
-global.json
-
-global_def.json
-
-global_sensorlock.json
-
-role_lastmanstanding.json
-
-role_meleeonly.json
-
-role_scout.json
-
-role_sniper.json
-
-role_vehicle.json
-
-role_vehicle_def.json
+    global.json
+    global_def.json
+    global_sensorlock.json
+    role_lastmanstanding.json
+    role_meleeonly.json
+    role_scout.json
+    role_sniper.json
+    role_vehicle.json
+    role_vehicle_def.json
 
 
 #### StreamingAssets\data\constants - AI Crit Chance and Dynamic Role Maximums
