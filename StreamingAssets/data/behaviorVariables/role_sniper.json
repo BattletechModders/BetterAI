@@ -109,7 +109,7 @@
       "k": "Float_PreferStayInsideFenceNegativeLogicFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": -3.0
+        "floatVal": -4.0
       }
     },
     {
@@ -123,7 +123,7 @@
       "k": "Float_FenceRadius",
       "v": {
         "type": "Float",
-        "floatVal": 192
+        "floatVal": 168
       }
     },
     {
