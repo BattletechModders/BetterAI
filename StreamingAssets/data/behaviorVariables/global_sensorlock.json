@@ -204,6 +204,20 @@
       }
     },
     {
+      "k": "Float_PreferHigherDamageReductionLocationsFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 1.0
+      }
+    },
+    {
+      "k": "Float_SprintPreferHigherDamageReductionLocationsFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 1.0
+      }
+    },
+    {
       "k": "Float_PreferPresentingHigherArmorToHostileFactorWeight",
       "v": {
         "type": "Float",
