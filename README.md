@@ -23,7 +23,7 @@ https://github.com/BattletechModders/ModTek/releases
 https://github.com/BattletechModders/BattleTechModLoader/releases
 
 
-## Stock Files edited by this mod:
+## Stock Files Edited:
 #### StreamingAssets\data\behaviorVariables - AI variable edits
 global.json
 
