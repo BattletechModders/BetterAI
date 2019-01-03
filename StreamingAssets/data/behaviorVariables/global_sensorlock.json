@@ -1,6 +1,13 @@
 {
   "behaviorVariables": [
     {
+      "k": "Float_PriorityMovePercentage",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.0
+      }
+    },
+    {
       "k": "Float_PreferHigherPositionFactorWeight",
       "v": {
         "type": "Float",
