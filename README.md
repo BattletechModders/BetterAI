@@ -21,8 +21,10 @@ https://github.com/BattletechModders/cFixes - Commuinity bug fixes, Better AI in
 
 ### ModTek/BTML
 This mod needs ModTek and BTML to work, links below:
-    https://github.com/BattletechModders/ModTek/releases
-    https://github.com/BattletechModders/BattleTechModLoader/releases
+
+https://github.com/BattletechModders/ModTek/releases
+
+https://github.com/BattletechModders/BattleTechModLoader/releases
 
 ## Stock Files Edited:
 #### StreamingAssets\data\behaviorVariables - AI variable edits
