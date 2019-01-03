@@ -3,6 +3,26 @@ This is a ModTek mod to improve the tactical AI in combat.  The biggest improvem
 
 Better AI shouldn't cause any errors with save files, even saves in combat, or with version updates.  I've done extensive testing back and forth between stock and modded play without any errors.  It does not add any new items to the VersionManifest.csv.
 
+### Full change log can be found here:
+
+https://forum.paradoxplaza.com/forum/index.php?threads/mod-release-better-ai-tweaks-for-deadlier-ai.1075322/
+
+### Googledoc sheets with all stock + modded variables, unit_role and unit_lance tags:
+
+https://docs.google.com/spreadsheets/d/1Q-Z0jSjb1rRd5-r0zYHwH_yES8cgVdmv-kE2WS_7lHE/edit#gid=0&range=A1
+
+### Recommended Companion Mods
+
+https://github.com/BattletechModders/cFixes - Commuinity bug fixes, Better AI integrates some of the 'Mech tag fixes found in cFixes, but not all.  These may help the game better categorize units for Lance selection.
+
+### ModTek/BTML
+This mod needs ModTek and BTML to work, links below:
+
+https://github.com/BattletechModders/ModTek/releases
+
+https://github.com/BattletechModders/BattleTechModLoader/releases
+
+
 ## Stock Files edited by this mod:
 #### StreamingAssets\data\behaviorVariables - AI variable edits
 global.json
@@ -44,23 +64,3 @@ mechdef_shadowhawk_SHD-2D.json
 mechdef_urbanmech_UM-R60.json
 
 mechdef_zeus_ZEU-6S.json
-
-
-### Full change log can be found here:
-
-https://forum.paradoxplaza.com/forum/index.php?threads/mod-release-better-ai-tweaks-for-deadlier-ai.1075322/
-
-### Here is a link to the googledoc sheet with all stock and modded variables:
-
-https://docs.google.com/spreadsheets/d/1Q-Z0jSjb1rRd5-r0zYHwH_yES8cgVdmv-kE2WS_7lHE/edit#gid=0&range=A1
-
-### Recommended Companion Mods
-
-https://github.com/BattletechModders/cFixes - Commuinity bug fixes, Better AI integrates some of the 'Mech tag fixes found in cFixes, but not all.  These may help the game better categorize units for Lance selection.
-
-### ModTek/BTML
-This mod needs ModTek and BTML to work, links below:
-
-https://github.com/BattletechModders/ModTek/releases
-
-https://github.com/BattletechModders/BattleTechModLoader/releases
