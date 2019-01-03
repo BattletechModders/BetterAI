@@ -3,6 +3,10 @@ This is a ModTek mod to improve the tactical AI in combat.  The biggest improvem
 
 Better AI shouldn't cause any errors with save files, even saves in combat, or with version updates.  I've done extensive testing back and forth between stock and modded play without any errors.  It does not add any new items to the VersionManifest.csv.
 
+### Instructions:
+
+    Copy Better AI folder in to Mods folder created for ModTek.
+
 ### Full change log can be found here:
 
 https://forum.paradoxplaza.com/forum/index.php?threads/mod-release-better-ai-tweaks-for-deadlier-ai.1075322/
@@ -21,7 +25,6 @@ This mod needs ModTek and BTML to work, links below:
 https://github.com/BattletechModders/ModTek/releases
 
 https://github.com/BattletechModders/BattleTechModLoader/releases
-
 
 ## Stock Files Edited:
 #### StreamingAssets\data\behaviorVariables - AI variable edits
