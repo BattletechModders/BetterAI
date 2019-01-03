@@ -102,7 +102,7 @@
       "k": "Float_PreferLowerMovementFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": -0.6
+        "floatVal": -0.9
       }
     },
     {
@@ -130,7 +130,7 @@
       "k": "Float_PreferHigherExpectedDamageToHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 4.0
+        "floatVal": 3.25
       }
     },
     {
@@ -193,7 +193,7 @@
       "k": "Float_AcceptableHeatLevel",
       "v": {
         "type": "Float",
-        "floatVal": 1.9
+        "floatVal": 1.99
       }
     },
     {
@@ -389,14 +389,14 @@
       "k": "Float_PreferInsideMeleeRangeFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": -0.5
+        "floatVal": -1.25
       }
     },
     {
       "k": "Float_SprintPreferInsideMeleeRangeFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": -0.7
+        "floatVal": -1.5
       }
     },
     {
@@ -473,21 +473,21 @@
       "k": "Float_PreferLocationsThatGrantGuardFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 1.4
+        "floatVal": 1.5
       }
     },
     {
       "k": "Float_SprintPreferLocationsThatGrantGuardFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 1.25
+        "floatVal": 1.5
       }
     },
     {
       "k": "Float_BulwarkThresholdPercentage",
       "v": {
         "type": "Float",
-        "floatVal": 80
+        "floatVal": 0.0
       }
     },
     {
@@ -592,14 +592,14 @@
       "k": "Float_OverkillThresholdLowForRearArcPositionFactor",
       "v": {
         "type": "Float",
-        "floatVal": 50
+        "floatVal": 40
       }
     },
     {
       "k": "Float_OverkillThresholdHighForRearArcPositionFactor",
       "v": {
         "type": "Float",
-        "floatVal": 75
+        "floatVal": 60
       }
     },
     {
@@ -655,7 +655,7 @@
       "k": "Float_PreferLethalDamageToRearArcFromHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": -1.75
+        "floatVal": -2.0
       }
     },
     {
@@ -1159,14 +1159,14 @@
       "k": "Float_PreferStationaryWhenHostilesInMeleeRangeFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": -0.5
+        "floatVal": -0.75
       }
     },
     {
       "k": "Float_PreferAttackFromBehindHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.3
+        "floatVal": 0.4
       }
     },
     {
@@ -1229,7 +1229,7 @@
       "k": "Float_SprintPreferLOSToMostHostilesFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.3
+        "floatVal": 0.2
       }
     },
     {
