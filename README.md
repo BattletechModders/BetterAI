@@ -20,7 +20,7 @@ https://docs.google.com/spreadsheets/d/1Q-Z0jSjb1rRd5-r0zYHwH_yES8cgVdmv-kE2WS_7
 https://github.com/BattletechModders/cFixes - Commuinity bug fixes, Better AI integrates some of the 'Mech tag fixes found in cFixes, but not all.  These may help the game better categorize units for Lance selection.
 
 ### ModTek/BTML
-This mod needs ModTek and BTML to work, links below:
+This mod needs ModTek and BTML to work:
 
 https://github.com/BattletechModders/ModTek/releases
 
