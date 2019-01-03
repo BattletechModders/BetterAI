@@ -277,7 +277,7 @@
       "k": "Float_BuddyAloneFiringSolutionPreferenceWeight",
       "v": {
         "type": "Float",
-        "floatVal": -0.4
+        "floatVal": -0.6
       }
     },
     {
@@ -291,14 +291,14 @@
       "k": "Float_BuddyAloneMoveNearbyPreferenceWeight",
       "v": {
         "type": "Float",
-        "floatVal": -0.6
+        "floatVal": -1.2
       }
     },
     {
       "k": "Float_SprintBuddyAloneMoveNearbyPreferenceWeight",
       "v": {
         "type": "Float",
-        "floatVal": -0.4
+        "floatVal": -0.8
       }
     },
     {
