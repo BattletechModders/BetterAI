@@ -130,7 +130,7 @@
       "k": "Float_BuddyAloneFiringSolutionPreferenceWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.0
+        "floatVal": -0.6
       }
     },
     {
