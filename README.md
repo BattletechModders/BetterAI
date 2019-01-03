@@ -1,14 +1,10 @@
-# BetterAI
-
-## AI Behavior Variable Tweaks for HBS BATTLETECH
-
+# BetterAI - AI Behavior Variable Tweaks for HBS BATTLETECH
 This is a ModTek mod to improve the tactical AI in combat.  The biggest improvement allows the AI to reserve 'Mechs.  I've also removed the lowered critical hit chance for the AI team and put it on par with the player's default values.  It also considers protecting their weakened side and exploiting the damaged sides of the enemy to a greater degree.  While there are still some poor tactical choices baked in to the AI, this should be much harder to fight than stock.  
 
 Better AI shouldn't cause any errors with save files, even saves in combat, or with version updates.  I've done extensive testing back and forth between stock and modded play without any errors.  It does not add any new items to the versionManifest.csv.
 
 ## Stock Files edited by this mod:
-
-### StreamingAssets\data\behaviorVariables - AI variable edits
+#### StreamingAssets\data\behaviorVariables - AI variable edits
 global.json
 
 global_def.json
@@ -28,11 +24,11 @@ role_vehicle.json
 role_vehicle_def.json
 
 
-### StreamingAssets\data\constants - AI Crit Chance and Dynamic Role Maximums
+#### StreamingAssets\data\constants - AI Crit Chance and Dynamic Role Maximums
 CombatGameConstants.json
 
 
-### StreamingAssets\data\mech - Adjusting 'Mech roles to match stock load-outs to appropriate role
+#### StreamingAssets\data\mech - Adjusting 'Mech roles to match stock load-outs to appropriate role
 mechdef_awesome_AWS-8Q.json
 
 mechdef_enforcer_ENF-4R.json
@@ -50,10 +46,10 @@ mechdef_urbanmech_UM-R60.json
 mechdef_zeus_ZEU-6S.json
 
 
-Full change log can be found here:
+### Full change log can be found here:
 
 https://forum.paradoxplaza.com/forum/index.php?threads/mod-release-better-ai-tweaks-for-deadlier-ai.1075322/
 
-Here is a link to the googledoc sheet with all stock and modded variables:
+### Here is a link to the googledoc sheet with all stock and modded variables:
 
 https://docs.google.com/spreadsheets/d/1Q-Z0jSjb1rRd5-r0zYHwH_yES8cgVdmv-kE2WS_7lHE/edit#gid=0&range=A1
