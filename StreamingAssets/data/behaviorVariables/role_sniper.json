@@ -43,6 +43,13 @@
       }
     },
     {
+      "k": "Float_DFADamageMultiplier",
+      "v": {
+        "type": "Float",
+	"floatVal": 1.75
+      }
+    },
+    {
       "k": "Float_PreferLessTargetableLocationFactorWeight",
       "v": {
         "type": "Float",
