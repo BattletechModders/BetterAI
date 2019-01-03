@@ -109,7 +109,7 @@
       "k": "Float_SprintPreferLocationsThatGrantGuardFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 1.0
+        "floatVal": 1.5
       }
     },
     {
