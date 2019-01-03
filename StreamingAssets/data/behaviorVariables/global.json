@@ -200,14 +200,14 @@
       "k" : "Float_VentCoolantHeatThreshold",
       "v" : {
          "type" : "Float",
-	 "floatVal" : 2.1
+	 "floatVal" : 1.99
       }
     },
     {
       "k" : "Int_VentCoolantHealthThreshold",
       "v" : {
 	 "type" : "Int",
-	 "intVal" : 2
+	 "intVal" : 1
       }
     },
     {
