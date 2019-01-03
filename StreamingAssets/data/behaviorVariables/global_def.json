@@ -256,14 +256,14 @@
       "k": "Float_PreferInsideMeleeRangeFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": -1.0
+        "floatVal": -1.3
       }
     },
     {
       "k": "Float_SprintPreferInsideMeleeRangeFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": -1.0
+        "floatVal": -1.75
       }
     },
     {
