@@ -134,6 +134,13 @@
       }
     },
     {
+      "k": "Float_PreferHigherRangedDefenseBonusLocationsFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.0
+      }
+    },
+    {
       "k": "Float_BuddyAloneFiringSolutionPreferenceWeight",
       "v": {
         "type": "Float",
@@ -257,6 +264,15 @@
       "v": {
         "type": "Float",
         "floatVal": 0.0
+      }
+    },
+    {
+      /* Weight for an influence factor that seeks to minimize
+      * ranged to hit penalties (e.g. mineral fields). */
+      "k" : "Float_PreferLowerRangedToHitPenaltyLocationsFactorWeight",
+      "v" : {
+        "type" : "Float",
+        "floatVal" : 1.0
       }
     }
   ]
