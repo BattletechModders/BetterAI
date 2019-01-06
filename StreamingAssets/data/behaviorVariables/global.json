@@ -1150,7 +1150,7 @@
       "k": "Float_MinimumSensorLockQuality",
       "v": {
         "type": "Float",
-        "floatVal": 60
+        "floatVal": 55
       }
     },
     {
@@ -1206,7 +1206,7 @@
       "k": "Float_OpportunityFireExceedsDesignatedTargetByPercentage",
       "v": {
         "type": "Float",
-        "floatVal": 25.0
+        "floatVal": 20.0
       }
     },
     {
