@@ -5,7 +5,7 @@
       "k": "Float_PreferLowerMovementFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": -0.7
+        "floatVal": -0.9
       }
     },
     {
@@ -24,7 +24,7 @@
       "k": "Float_PreferHigherExpectedDamageToHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 2.5
+        "floatVal": 3.5
       }
     },
     {
@@ -35,6 +35,24 @@
       "v": {
         "type": "Float",
         "floatVal": 0.1
+      }
+    },
+    {
+	    /* Optimal distance to nearest ally. (See
+	       PreferOptimalDistanceToAllyFactor.) */
+      "k": "Float_OptimalAllyDistance",
+      "v": {
+        "type": "Float",
+        "floatVal": 96.0
+      }
+    },
+    {
+	    /* Influence Factor Weight to prefer locations close to
+	       optimal distance to other allies. */
+      "k": "Float_PreferOptimalDistanceToAllyFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.3
       }
     },
     {
@@ -131,7 +149,7 @@
       "k": "Float_PreferLethalDamageToRearArcFromHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": -0.5
+        "floatVal": -2.0
       }
     },
     {
@@ -145,7 +163,7 @@
       "k": "Float_SprintPreferLethalDamageToRearArcFromHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": -0.5
+        "floatVal": -2.0
       }
     },
     {
@@ -203,6 +221,24 @@
 	       SPRINTING from closest hostile. Useful for defensive
 	       moves. */
       "k": "Float_SprintPreferHigherDistanceFromClosestHostileFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.4
+      }
+    },
+    {
+	    /* Influence Factor Weight to prefer having LOS to
+	       fewest hostiles. Useful for defensive moves. */
+      "k": "Float_PreferLOSToFewestHostileFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.1
+      }
+    },
+    {
+	    /* Influence Factor Weight to prefer having LOS to fewest
+	       hostiles WHEN SPRINTING. Useful for defensive moves. */
+      "k": "Float_SprintPreferLOSToFewestHostileFactorWeight",
       "v": {
         "type": "Float",
         "floatVal": 0.3
