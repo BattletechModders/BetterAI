@@ -301,7 +301,7 @@
       }
     },
     {
-
+	    /* Influence Factor to prefer not to be surrounded by hostile units.*/
       "k": "Float_PreferNotSurroundedByHostileUnitsFactorWeight",
       "v": {
         "type": "Float",
@@ -309,7 +309,11 @@
       }
     },
     {
-	    /* Influence Factor to prefer not to be surrounded by hostile units.*/
+	    /* Sprint Hysteresis Multiplier value, the value
+	       multiplies the "sprint juice level" when a sprint move
+	       happens. Values can be between 0.0 and 1.0, with larger
+	       values (closer to 1.0) leaving more "sprint juice"
+	       around for next turn. */
       "k": "Float_SprintHysteresisRecoveryTurns",
       "v": {
         "type": "Float",
