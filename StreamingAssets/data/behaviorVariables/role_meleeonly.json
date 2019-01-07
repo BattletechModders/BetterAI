@@ -154,6 +154,22 @@
       }
     },
     {
+	    /* Radius (in meters) to avoid sprinting within. */
+      "k": "Float_SprintExclusionRadius",
+      "v": {
+        "type": "Float",
+        "floatVal": 96.0
+      }
+    },
+    {
+	    /* Influence Factor Weight to be inside SprintExclusionRadius. */
+      "k": "Float_PreferInsideSprintExclusionRadiusHostileFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 1.0
+      }
+    },
+    {
 	    /* Influence Factor Weight to be inside
 	       SprintExclusionRadius WHEN SPRINTING.  N.B. this should
 	       have NEGATIVE weights to discourage sprinting close to
