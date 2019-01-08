@@ -270,7 +270,7 @@
       "k": "Float_CoolDownRange",
       "v": {
         "type": "Float",
-        "floatVal": 100.0
+        "floatVal": 200.0
       }
     },
     {
@@ -442,6 +442,15 @@
       }
     },
     {
+	    /* Appetitive Influence Factor Weight to approach
+	       hostile's rear arc. */
+      "k": "Float_AppetitivePreferApproachingRearArcOfHostileFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.3
+      }
+    },
+    {
 	    /* Radius (in meters) to avoid sprinting within. */
       "k": "Float_SprintExclusionRadius",
       "v": {
@@ -464,6 +473,17 @@
       "v": {
         "type": "Float",
         "floatVal": 0.5
+      }
+    },
+    {
+	    /* Description: Number of points of damage that a sensor
+	      locking turn needs to do over a straight up shooting
+	      turn before deciding to sensor lock. Positive is a
+	      shooting bias, negative is a sensor lock bias.*/
+      "k": "Float_MinimumSensorLockQuality",
+      "v": {
+        "type": "Float",
+        "floatVal": 75
       }
     },
     {
@@ -537,7 +557,7 @@
       "k": "Float_PreferLOSToFewestHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.5
+        "floatVal": 0.6
       }
     },
     {
@@ -546,7 +566,7 @@
       "k": "Float_SprintPreferLOSToFewestHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.6
+        "floatVal": 0.8
       }
     },
     {
