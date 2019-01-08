@@ -1,13 +1,16 @@
 {
   "behaviorVariables": [
     {
+	    /* Influence Factor Weight for preferring moving less. */
       "k": "Float_PreferLowerMovementFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": -0.8
+        "floatVal": -1.0
       }
     },
     {
+	    /* Influence Factor Weight for preferring higher
+	       elevations. */
       "k": "Float_PreferHigherPositionFactorWeight",
       "v": {
         "type": "Float",
@@ -15,6 +18,8 @@
       }
     },
     {
+	    /* Influence Factor Weight to control the desire to be
+	       inside water. */
       "k": "Float_PreferHigherHeatSinkLocationsFactorWeight",
       "v": {
         "type": "Float",
@@ -22,6 +27,8 @@
       }
     },
     {
+	    /* Influence Factor Weight to control the desire to be
+	       inside water WHEN SPRINTING. */
       "k": "Float_SprintPreferHigherHeatSinkLocationsFactorWeight",
       "v": {
         "type": "Float",
@@ -29,6 +36,9 @@
       }
     },
     {
+	    /* A weight for an influence factor to prefer to get
+	       inside melee range. Negative values will encourage
+	       units to get out of melee range. */
       "k": "Float_PreferInsideMeleeRangeFactorWeight",
       "v": {
         "type": "Float",
@@ -36,6 +46,9 @@
       }
     },
     {
+	    /* A weight for an influence factor to prefer to get
+	       inside melee range WHEN SPRINTING. Negative values will
+	       encourage units to get out of melee range. */
       "k": "Float_SprintPreferInsideMeleeRangeFactorWeight",
       "v": {
         "type": "Float",
@@ -43,6 +56,8 @@
       }
     },
     {
+	    /* If my move would not result in being able to fire,
+	       should I rewrite that move as a sprint? */
       "k": "Bool_RewriteNonAttackMoves",
       "v": {
         "type": "Bool",
@@ -50,6 +65,7 @@
       }
     },
     {
+	    /* Radius (in meters) to avoid sprinting within. */
       "k": "Float_SprintExclusionRadius",
       "v": {
         "type": "Float",
@@ -57,6 +73,8 @@
       }
     },
     {
+	    /* Influence Factor Weight to control the desire to be in
+	       locations with higher melee to-hit penalty.*/
       "k": "Float_PreferHigherMeleeToHitPenaltyLocationsFactorWeight",
       "v": {
         "type": "Float",
@@ -64,6 +82,9 @@
       }
     },
     {
+	    /* Influence Factor Weight to control the desire to be in
+	       locations with higher melee to-hit penalty WHEN
+	       SPRINTING. */
       "k": "Float_SprintPreferHigherMeleeToHitPenaltyLocationsFactorWeight",
       "v": {
         "type": "Float",

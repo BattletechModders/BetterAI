@@ -1,6 +1,9 @@
 {
   "behaviorVariables": [
     {
+	    /* How much a location must be damaged before a DFA attack
+	       will be considered , as a fraction from 0.0 (undamaged)
+	       to 1.0 (location destroyed) */
       "k": "Float_ExistingTargetDamageForDFAAttack",
       "v": {
         "type": "Float",
@@ -8,6 +11,9 @@
       }
     },
     {
+	    /* Maximum leg damage allowed for DFA attack (above which
+	       attacks will not be considered), as a fraction from 0.0
+	       (undamaged) to 1.0 (location destroyed) */
       "k": "Float_OwnMaxLegDamageForDFAAttack",
       "v": {
         "type": "Float",
@@ -15,6 +21,8 @@
       }
     },
     {
+	    /* Influence Factor Weight for preferring higher
+	       elevations. */
       "k": "Float_PreferHigherPositionFactorWeight",
       "v": {
         "type": "Float",
@@ -22,6 +30,8 @@
       }
     },
     {
+	    /* Influence Factor Weight for preferring higher
+	       elevations WHEN SPRINTING. */
       "k": "Float_SprintPreferHigherPositionFactorWeight",
       "v": {
         "type": "Float",
@@ -29,6 +39,9 @@
       }
     },
     {
+	    /* Influence Factor Weight to maximize expected damage to
+	       hostiles.
+	       Hostile Factor: 1.0 / 0.5 / 0.25 based on threat */
       "k": "Float_PreferHigherExpectedDamageToHostileFactorWeight",
       "v": {
         "type": "Float",
@@ -36,13 +49,18 @@
       }
     },
     {
+	    /* Influence Factor Weight to prefer locations close to
+	       optimal distance to other allies. */
       "k": "Float_PreferOptimalDistanceToAllyFactorWeight",
       "v": {
         "type": "Float",
         "floatVal": 0.0
       }
     },
-	{
+    {
+	    /* When considering different kinds of attacks, multiply
+	       the melee damage by this value to decide which attack
+	       to use. */
       "k": "Float_MeleeDamageMultiplier",
       "v": {
         "type": "Float",
@@ -50,6 +68,9 @@
       }
     },
     {
+	    /* When considering different kinds of attacks, multiply
+	       the DFA damage by this value to decide which attack to
+	       use. */
       "k": "Float_DFADamageMultiplier",
       "v": {
         "type": "Float",
@@ -57,6 +78,8 @@
       }
     },
     {
+	    /* Influence Factor Weight to control the desire to be
+	       inside water. */
       "k": "Float_PreferHigherHeatSinkLocationsFactorWeight",
       "v": {
         "type": "Float",
@@ -64,6 +87,8 @@
       }
     },
     {
+	    /* Influence Factor Weight to control the desire to be
+	       inside water WHEN SPRINTING. */
       "k": "Float_SprintPreferHigherHeatSinkLocationsFactorWeight",
       "v": {
         "type": "Float",
@@ -71,6 +96,8 @@
       }
     },
     {
+	    /* Influence Factor Weight to control the desire to be
+	       inside heat generating regions. */
       "k": "Float_PreferHigherHeatPerTurnLocationsFactorWeight",
       "v": {
         "type": "Float",
@@ -78,6 +105,8 @@
       }
     },
     {
+	    /* Influence Factor Weight to control the desire to be
+	       inside heat generating regions WHEN SPRINTING. */
       "k": "Float_SprintPreferHigherHeatPerTurnLocationsFactorWeight",
       "v": {
         "type": "Float",
@@ -85,6 +114,10 @@
       }
     },
     {
+	    /* If a target is a melee revenge target, but the ratio of
+	       its expected melee damage to my expected melee damage
+	       is higher than this threshold, DO NOT MELEE! It'll all
+	       end in tears! */
       "k": "Float_MeleeDamageRatioCap",
       "v": {
         "type": "Float",
@@ -92,6 +125,9 @@
       }
     },
     {
+	    /* A weight for an influence factor to prefer to get
+	       inside melee range. Negative values will encourage
+	       units to get out of melee range. */
       "k": "Float_PreferInsideMeleeRangeFactorWeight",
       "v": {
         "type": "Float",
@@ -99,6 +135,9 @@
       }
     },
     {
+	    /* A weight for an influence factor to prefer to get
+	       inside melee range WHEN SPRINTING. Negative values will
+	       encourage units to get out of melee range. */
       "k": "Float_SprintPreferInsideMeleeRangeFactorWeight",
       "v": {
         "type": "Float",
@@ -106,6 +145,8 @@
       }
     },
     {
+	    /* If unsteady, the chance of just deciding to switch to
+	       defensive. */
       "k": "Float_UnsteadyCausesDefensiveMovePercentage",
       "v": {
         "type": "Float",
@@ -113,6 +154,26 @@
       }
     },
     {
+	    /* Radius (in meters) to avoid sprinting within. */
+      "k": "Float_SprintExclusionRadius",
+      "v": {
+        "type": "Float",
+        "floatVal": 96.0
+      }
+    },
+    {
+	    /* Influence Factor Weight to be inside SprintExclusionRadius. */
+      "k": "Float_PreferInsideSprintExclusionRadiusHostileFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 1.0
+      }
+    },
+    {
+	    /* Influence Factor Weight to be inside
+	       SprintExclusionRadius WHEN SPRINTING.  N.B. this should
+	       have NEGATIVE weights to discourage sprinting close to
+	       hostiles. */
       "k": "Float_SprintPreferInsideSprintExclusionRadiusHostileFactorWeight",
       "v": {
         "type": "Float",
@@ -120,6 +181,11 @@
       }
     },
     {
+	    /* Weight for an influence factor that seeks to stay
+	       within a circular fence from the centerpoint of the
+	       lance. Note - negative logic; this should use negative
+	       numbers, as it's designed to discourage being outside
+	       the radius and have no effect inside the fence. */
       "k": "Float_PreferStayInsideFenceNegativeLogicFactorWeight",
       "v": {
         "type": "Float",
@@ -127,6 +193,12 @@
       }
     },
     {
+	    /* Multiplier applied when considering the value of a
+	       downed mech when calculating the centerpoint of the
+	       lance fence. 1.0 would be no special consideration, 2.0
+	       would make a downed mech as important as two other
+	       units. Values less than one would give the lance a
+	       tendency to abandon their wounded. */
       "k": "Float_DownedMechFenceContributionMultiplier",
       "v": {
         "type": "Float",
@@ -134,6 +206,7 @@
       }
     },
     {
+	    /* Influence Factor Weight for standing still when hostiles are in melee range. */
       "k": "Float_PreferStationaryWhenHostilesInMeleeRangeFactorWeight",
       "v": {
         "type": "Float",
@@ -141,6 +214,8 @@
       }
     },
     {
+	    /* Influence Factor Weight to control the desire to defend
+	       my own weak armor. */
       "k": "Float_PreferPresentingHigherArmorToHostileFactorWeight",
       "v": {
         "type": "Float",
@@ -148,6 +223,8 @@
       }
     },
     {
+	    /* Influence Factor Weight to control the desire to defend
+	       my own weak armor WHEN SPRINTING. */
       "k": "Float_SprintPreferPresentingHigherArmorToHostileFactorWeight",
       "v": {
         "type": "Float",
@@ -155,6 +232,10 @@
       }
     },
     {
+	    /* When choosing to turn the strongest armor towards the
+	       enemy, the rear armor can be presented to the enemy if
+	       the unit is in "offensive" mode, only if this is set to
+	       True. */
       "k": "Bool_AllowTurningRearArmorToEnemy",
       "v": {
         "type": "Bool",
@@ -162,6 +243,7 @@
       }
     },
     {
+	    /* Whether the AI should always be in offensive mood. */
       "k": "Bool_AlwaysOffensiveMood",
       "v": {
         "type": "Bool",
