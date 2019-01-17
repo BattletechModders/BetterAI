@@ -5,5 +5,11 @@
     "Version": "1.4.0",
     "Description": "Changes AI Behavior Variables for a better AI experience, for BATTLETECH 1.3.2.",
     "Author": "amechwarrior",
-    "Website": "https://github.com/BattletechModders/BetterAI"
+    "Website": "https://github.com/BattletechModders/BetterAI",
+
+    "OptionallyDependsOn": [ "cFixes" ],
+
+    "Manifest": [
+        { "Path": "TagChanges", "Type": "AdvancedJSONMerge" }
+    ]
 }
