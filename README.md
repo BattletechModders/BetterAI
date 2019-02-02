@@ -26,7 +26,6 @@ This mod needs ModTek and BTML to work:
 
 https://github.com/BattletechModders/ModTek/releases
 
-https://github.com/BattletechModders/BattleTechModLoader/releases
 
 ## Stock Files Edited:
 #### StreamingAssets\data\behaviorVariables - AI variable edits
