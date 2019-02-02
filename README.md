@@ -21,8 +21,8 @@ https://github.com/BattletechModders/cFixes - Commuinity bug fixes, Better AI in
 
 #####  NOTE - Make sure Better AI loads after cFixes by launching the modded game with cFixes, without Better AI.  Then, install Better AI to force ModTek to add it to the end of the load order list.  You can also hand edit the load order list at BATTLETECH\Mods\.modtek\load_order.json and make sure Better AI is lower on the list than cFixes.
 
-### ModTek/BTML
-This mod needs ModTek and BTML to work:
+### ModTek
+This mod needs ModTek to work:
 
 https://github.com/BattletechModders/ModTek/releases
 
