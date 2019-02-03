@@ -548,7 +548,7 @@
       "k": "Float_PreferHigherDistanceFromClosestHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 1.5
+        "floatVal": 1.25
       }
     },
     {

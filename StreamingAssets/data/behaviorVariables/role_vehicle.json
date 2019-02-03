@@ -24,7 +24,7 @@
       "k": "Float_PreferHigherExpectedDamageToHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 3.5
+        "floatVal": 3.8
       }
     },
     {
@@ -43,7 +43,7 @@
       "k": "Float_OptimalAllyDistance",
       "v": {
         "type": "Float",
-        "floatVal": 96.0
+        "floatVal": 120.0
       }
     },
     {
@@ -126,7 +126,7 @@
       "k": "Float_PreferNotLethalPositionFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.8
+        "floatVal": 0.7
       }
     },
     {
@@ -197,6 +197,16 @@
       "v": {
         "type": "Float",
         "floatVal": 0.3
+      }
+    },
+    {
+	    /* When a buddy is exposed to enemy fire alone, apply this
+	     * weight to locations that DO NOT have line of fire to
+	     * hostiles. Probably negative. */
+      "k": "Float_BuddyAloneFiringSolutionPreferenceWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": -1.0
       }
     },
     {

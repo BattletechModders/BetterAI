@@ -175,7 +175,7 @@
       "k": "Float_PreferHigherExpectedDamageToHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 3.25
+        "floatVal": 3.8
       }
     },
     {
@@ -529,7 +529,7 @@
       "k": "Float_PreferInsideMeleeRangeFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": -1.25
+        "floatVal": -1.0
       }
     },
     {
@@ -611,7 +611,7 @@
       "k": "Float_MeleeBonusMultiplierWhenAttackingEvasiveTargets",
       "v": {
         "type": "Float",
-        "floatVal": 2.5
+        "floatVal": 3.0
       }
     },
     {
