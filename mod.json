@@ -10,6 +10,6 @@
     "OptionallyDependsOn": [ "cFixes" ],
 
     "Manifest": [
-        { "Path": "TagChanges", "Type": "AdvancedJSONMerge" }
+        { "Path": "mechMerge", "Type": "AdvancedJSONMerge" }
     ]
 }
