@@ -41,7 +41,7 @@ https://github.com/BattletechModders/ModTek/releases
 #### StreamingAssets\data\constants - AI Crit Chance
     CombatGameConstants.json
 
-#### Tag Changes - Adjusting 'Mech roles to match stock load-outs to appropriate role
+#### StreamingAssets\data\mech - Role Tag Replacement
     mechdef_awesome_AWS-8Q.json
     mechdef_enforcer_ENF-4R.json
     mechdef_locust_LCT-1M.json
