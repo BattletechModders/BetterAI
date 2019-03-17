@@ -42,11 +42,11 @@ https://github.com/BattletechModders/ModTek/releases
     CombatGameConstants.json
 
 #### Tag Changes - Adjusting 'Mech roles to match stock load-outs to appropriate role
-    awesome_AWS-8Q.json
-    enforcer_ENF-4R.json
-    locust_LCT-1M.json
-    quickdraw_QKD-4G.json
-    quickdraw_QKD-5A.json
-    shadowhawk_SHD-2D.json
-    urbanmech_UM-R60.json
-    zeus_ZEU-6S.json
+    mechdef_awesome_AWS-8Q.json
+    mechdef_enforcer_ENF-4R.json
+    mechdef_locust_LCT-1M.json
+    mechdef_quickdraw_QKD-4G.json
+    mechdef_quickdraw_QKD-5A.json
+    mechdef_shadowhawk_SHD-2D.json
+    mechdef_urbanmech_UM-R60.json
+    mechdef_zeus_ZEU-6S.json
