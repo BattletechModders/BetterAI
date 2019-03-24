@@ -2,7 +2,7 @@
     "TargetID": "lancedef_mech_d4_dynamic_lightMedScout",
     "Instructions": [
         {
-            "JSONPath": "LanceUnits[0].PilotTagSet.items",
+            "JSONPath": "LanceUnits[0].ilotTagSet.items",
             "Action": "ArrayAdd",
             "Value": "pilot_npc_tactician"
         },
