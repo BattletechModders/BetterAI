@@ -1,8 +1,8 @@
 {
-    "TargetID": "lancedef_mixed_d3_dynamic_lightBattle",
+    "TargetID": "lancedef_vehicle_d3_dynamic_lightBattle",
     "Instructions": [
         {
-            "JSONPath": "LanceUnits[1].pilotTagSet.items",
+            "JSONPath": "LanceUnits[2].pilotTagSet.items",
             "Action": "ArrayAdd",
             "Value": "pilot_npc_gunner"
         },
@@ -10,8 +10,8 @@
             "JSONPath": "LanceUnits[3].excludedPilotTagSet.items",
             "Action": "Replace",
             "Value": [
-				"pilot_npc_gunner",
-				"pilot_npc_defender"
+				"pilot_npc_pilot",
+				"pilot_npc_tactician"
 			]
         }
     ]
