@@ -53,6 +53,19 @@ https://github.com/BattletechModders/ModTek/releases
     lancedef_mech_d3_dynamic_solo.json
     lancedef_mixed_d3_dynamic_lightBattle.json
     lancedef_vehicle_d3_dynamic_lightBattle.json
+    lancedef_mech_d4_dynamic_lightMedBattle.json
+    lancedef_mech_d4_dynamic_lightMedCavalry.json
+    lancedef_mech_d4_dynamic_lightMedFire.json
+    lancedef_mech_d4_dynamic_lightMedScout.json
+    lancedef_mech_d4_dynamic_lightMedSupport.json
+    lancedef_mech_d4_dynamic_smallLightMedBattle.json
+    lancedef_mech_d4_dynamic_smallLightMedFire.json
+    lancedef_mech_d4_dynamic_smallMedCavalry.json
+    lancedef_mech_d4_dynamic_smallMedScout.json
+    lancedef_mech_d4_dynamic_smallMedSupport.json
+    lancedef_mech_d4_dynamic_solo.json
+    lancedef_mixed_d4_dynamic_lightBattle.json
+    lancedef_vehicle_d4_dynamic_lightBattle.json
 
 #### StreamingAssets\data\mech - Role Tag Replacement
     mechdef_awesome_AWS-8Q.json
