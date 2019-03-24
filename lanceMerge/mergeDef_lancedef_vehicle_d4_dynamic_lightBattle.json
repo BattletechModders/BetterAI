@@ -2,7 +2,7 @@
     "TargetID": "lancedef_vehicle_d4_dynamic_lightBattle",
     "Instructions": [
         {
-            "JSONPath": "LanceUnits[0].PilotTagSet.items",
+            "JSONPath": "LanceUnits[0].pilotTagSet.items",
             "Action": "ArrayAdd",
             "Value": "pilot_npc_gunner"
         },
