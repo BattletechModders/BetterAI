@@ -43,8 +43,16 @@ https://github.com/BattletechModders/ModTek/releases
 
 #### StreamingAssets\data\lance - LanceDef Pilot Optimizations (WIP)
     Planned - All Dynamic Lances difficulty 3 - 10
+    lancedef_mech_d1_dynamic_solo.json
+    lancedef_mech_d2_dynamic_solo.json
     lancedef_mech_d3_dynamic_lightBattle.json
     lancedef_mech_d3_dynamic_lightCavalry.json
+    lancedef_mech_d3_dynamic_lightFire.json
+    lancedef_mech_d3_dynamic_lightScout.json
+    lancedef_mech_d3_dynamic_lightSupport.json
+    lancedef_mech_d3_dynamic_solo.json
+    lancedef_mixed_d3_dynamic_lightBattle.json
+    lancedef_vehicle_d3_dynamic_lightBattle.json
 
 #### StreamingAssets\data\mech - Role Tag Replacement
     mechdef_awesome_AWS-8Q.json
