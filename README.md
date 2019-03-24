@@ -42,7 +42,9 @@ https://github.com/BattletechModders/ModTek/releases
     CombatGameConstants.json
 
 #### StreamingAssets\data\lance - LanceDef Pilot Optimizations (WIP)
-    All Dynamic Lances difficulty 3 - 10
+    Planned - All Dynamic Lances difficulty 3 - 10
+    lancedef_mech_d3_dynamic_lightBattle.json
+    lancedef_mech_d3_dynamic_lightCavalry.json
 
 #### StreamingAssets\data\mech - Role Tag Replacement
     mechdef_awesome_AWS-8Q.json
