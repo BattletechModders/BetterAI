@@ -2,14 +2,15 @@
     "Name": "Better AI",
     "Enabled": true,
     
-    "Version": "1.5.0.1",
-    "Description": "Changes AI Behavior Variables for a better AI experience, for BATTLETECH 1.5.0",
+    "Version": "1.5.1.1",
+    "Description": "Changes AI Behavior Variables for a better AI experience, for BATTLETECH 1.5.1",
     "Author": "amechwarrior",
     "Website": "https://github.com/BattletechModders/BetterAI",
 
     "OptionallyDependsOn": [ "cFixes" ],
 
     "Manifest": [
+        { "Path": "lanceMerge", "Type": "AdvancedJSONMerge" },
         { "Path": "mechMerge", "Type": "AdvancedJSONMerge" }
     ]
 }
