@@ -7,7 +7,7 @@
             "Value": [
                 "pilot_npc_pilot",
                 "pilot_npc_tactician"
-			]
+            ]
         },
         {
             "JSONPath": "LanceUnits[3].PilotTagSet.items",
