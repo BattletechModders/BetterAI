@@ -1,5 +1,5 @@
 # BetterAI - AI Behavior Variable Tweaks for HBS BATTLETECH
-This is a ModTek mod to improve the tactical AI in combat.  The biggest improvement allows the AI to reserve 'Mechs.  The AI's critical hit chance is also raised to the same level as the player.  It also considers protecting their weakened side and exploiting the damaged sides of the enemy to a greater degree.  There are some poor tactical choices baked in to the AI, this should still be much harder to fight than stock.  
+This is a ModTek mod to improve the tactical AI in combat.  The biggest improvement allows the AI to reserve 'Mechs and execute "Double Turns."  The AI's critical hit chance is also raised to the same level as the player.  It now considers protecting their weakened side and exploits the damaged sides of the target to a greater degree.  The Pilot selections for AI Lances have been slightly constrained to put appropriate pilots in the right units, this has been limited to two units or less per Lance to preserve encounter variety.  This should be harder to fight than stock, but some bad choices are not fixable with .json edits.  
 
 Better AI shouldn't cause any errors with save files, even saves in combat, or with version updates.  I've done extensive testing back and forth between stock and modded play without any errors.  It does not add any new items to the VersionManifest.csv.
 
@@ -42,7 +42,7 @@ https://github.com/BattletechModders/ModTek/releases
     CombatGameConstants.json
 
 #### StreamingAssets\data\lance - LanceDef Pilot Optimizations (WIP)
-    Planned - All Dynamic Lances difficulty 3 - 10
+    Planned - Remaining Dynamic Lances difficulty 5 - 10
     lancedef_mech_d1_dynamic_solo.json
     lancedef_mech_d2_dynamic_solo.json
     lancedef_mech_d3_dynamic_lightBattle.json
