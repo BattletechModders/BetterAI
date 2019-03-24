@@ -2,7 +2,7 @@
     "TargetID": "lancedef_mech_d4_dynamic_smallLightMedBattle",
     "Instructions": [
         {
-            "JSONPath": "LanceUnits[1].PilotTagSet.items",
+            "JSONPath": "LanceUnits[1].pilotTagSet.items",
             "Action": "ArrayAdd",
             "Value": "pilot_npc_gunner"
         },
