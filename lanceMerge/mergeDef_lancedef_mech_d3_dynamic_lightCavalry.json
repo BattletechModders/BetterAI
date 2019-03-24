@@ -6,7 +6,7 @@
             "Action": "ArrayAdd",
             "Value": "pilot_npc_gunner"
         },
-		{
+	{
             "JSONPath": "LanceUnits[3].pilotTagSet.items",
             "Action": "ArrayAdd",
             "Value": "pilot_npc_defender"
