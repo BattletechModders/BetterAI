@@ -41,6 +41,9 @@ https://github.com/BattletechModders/ModTek/releases
 #### StreamingAssets\data\constants - AI Crit Chance
     CombatGameConstants.json
 
+#### StreamingAssets\data\lance - LanceDef Pilot Optimizations (WIP)
+    All Dynamic Lances difficulty 3 - 10
+
 #### StreamingAssets\data\mech - Role Tag Replacement
     mechdef_awesome_AWS-8Q.json
     mechdef_enforcer_ENF-4R.json
