@@ -2,7 +2,7 @@
     "TargetID": "lancedef_mech_d4_dynamic_lightMedCavalry",
     "Instructions": [
         {
-            "JSONPath": "LanceUnits[2].PilotTagSet.items",
+            "JSONPath": "LanceUnits[2].pilotTagSet.items",
             "Action": "ArrayAdd",
             "Value": "pilot_npc_gunner"
         },
