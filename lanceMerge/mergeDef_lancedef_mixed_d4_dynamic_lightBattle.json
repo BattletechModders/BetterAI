@@ -1,0 +1,15 @@
+{
+    "TargetID": "lancedef_mixed_d4_dynamic_lightBattle",
+    "Instructions": [
+        {
+            "JSONPath": "LanceUnits[0].PilotTagSet.items",
+            "Action": "ArrayAdd",
+            "Value": "pilot_npc_gunner"
+        },
+        {
+            "JSONPath": "LanceUnits[3].excludedPilotTagSet.items",
+            "Action": "ArrayAdd",
+            "Value": "pilot_npc_tactician"
+        }
+    ]
+}
