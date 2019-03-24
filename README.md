@@ -17,7 +17,7 @@ https://docs.google.com/spreadsheets/d/1Q-Z0jSjb1rRd5-r0zYHwH_yES8cgVdmv-kE2WS_7
 
 ### Recommended Companion Mods
 
-https://github.com/BattletechModders/cFixes/releases - Commuinity bug fixes, Better AI integrates some of the 'Mech tag fixes found in cFixes, but not all.  These may help the game better categorize units for Lance selection.
+https://github.com/BattletechModders/cFixes/releases - Commuinity bug fixes, Better AI greatly benifits from the corrected NPC pilot traits fixes and integrates with that mod's 'Mech tag fixes.  NPC pilots are missing a lot of passive traits without cFixes.
 
 #####  NOTE - Better AI has cFixes set as an Optional Dependency.  It will automatically load after cFixes changes.  Better AI does not need cFixes to work.
 
