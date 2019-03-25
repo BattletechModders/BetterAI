@@ -6,7 +6,8 @@ Better AI shouldn't cause any errors with save files, even saves in combat, or w
 ##### Credits:
     Mpstark: For creating this inital git and ModTek support
     scJazz: The idea for Lance Pilot tuning
-    Thanks to all who have provided feedback and bounced ideas around with me. Team Banzai, Goons, discord modders and everyone since beta onward has helped shape this AI to be as robust as I can make it.
+    Thanks to all who have provided feedback and bounced ideas around with me. 
+    Team Banzai, Goons, discord modders and everyone since beta onward has helped shape this AI to be as robust as I can make it.
 
 ### Instructions:
 
