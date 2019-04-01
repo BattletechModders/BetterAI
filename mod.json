@@ -10,7 +10,7 @@
     "OptionallyDependsOn": [
         "cFixes", 
         "Z_Sab_JK_RarityTables"
-    ]
+    ],
 
     "Manifest": [
         { "Path": "lanceMerge", "Type": "AdvancedJSONMerge" },
