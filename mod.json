@@ -7,7 +7,7 @@
     "Author": "amechwarrior",
     "Website": "https://github.com/BattletechModders/BetterAI",
 
-    "OptionallyDependsOn": [ "cFixes" ], [ "Z_Sab_JK_RarityTables" ]
+    "OptionallyDependsOn": [ "cFixes", "Z_Sab_JK_RarityTables" ]
 
     "Manifest": [
         { "Path": "lanceMerge", "Type": "AdvancedJSONMerge" },
