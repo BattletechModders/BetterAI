@@ -4,10 +4,10 @@ This is a ModTek mod to improve the tactical AI in combat.  The AI is allowed to
 Better AI shouldn't cause any errors with save files, even saves in combat, or with version updates.  I've done extensive testing back and forth between stock and modded play without any errors.  It does not add any new items to the VersionManifest.csv.
 
 ##### Credits:
-    Mpstark: For creating this inital git and ModTek support
+    Mpstark + ModTek Crew: For creating this inital git and ModTek support
     scJazz: The idea for Lance Pilot tuning
     Thanks to all who have provided feedback and bounced ideas around with me, 
-    Team Banzai, Goons, discord modders and everyone since beta onward has helped shape the AI.
+    Team Banzai, Goons, discord modders and everyone since beta onward that has helped shape the AI.
 
 ### Instructions:
 
