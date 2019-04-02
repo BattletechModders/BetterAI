@@ -17,7 +17,7 @@ Better AI shouldn't cause any errors with save files, even saves in combat, or w
     BT_Extended_Overrides
     cFixes
     Z_Sab_JK_RarityTables
-Better AI will load AFTER these mods by default, none of these are required to use Better AI.  This is so they may apply their JSON overwrites first, then Better AI's advanvced JSON merge will apply on top of the modded file.
+Better AI will load AFTER these mods by default, none of these are required to use Better AI.  This is so they may apply their JSON overwrites first, then Better AI's advanvced JSON merge will apply on top of the modded file.  Better AI edits some 'Mech Tags in MechDefs and nearly all Pilot's Tags in LanceDefs.
 
 ### Full change log can be found here:
 
