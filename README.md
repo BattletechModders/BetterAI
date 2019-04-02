@@ -12,6 +12,12 @@ Better AI shouldn't cause any errors with save files, even saves in combat, or w
 ### Instructions:
 
     Copy Better AI folder in to Mods folder created for ModTek.  Remove older Better AI folder if present.
+    
+#### Optional Dependancies:
+    BT_Extended_Overrides
+    cFixes
+    Z_Sab_JK_RarityTables
+Better AI will load AFTER these mods by default, none of these are required to use Better AI.  This is so they may apply their JSON overwrites first, then Better AI's advanvced JSON merge will apply on top of the modded file.
 
 ### Full change log can be found here:
 
@@ -24,8 +30,6 @@ https://docs.google.com/spreadsheets/d/1Q-Z0jSjb1rRd5-r0zYHwH_yES8cgVdmv-kE2WS_7
 ### Recommended Companion Mods
 
 https://github.com/BattletechModders/cFixes/releases - Commuinity bug fixes, Better AI greatly benifits from the corrected NPC pilot traits fixes and integrates with that mod's 'Mech tag fixes.  NPC pilots are missing a lot of passive traits without cFixes.
-
-#####  NOTE - Better AI has cFixes set as an Optional Dependency.  It will automatically load after cFixes changes.  Better AI does not need cFixes to work.
 
 ### ModTek
 This mod needs ModTek to work:
