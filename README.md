@@ -47,8 +47,7 @@ https://github.com/BattletechModders/ModTek/releases
 #### StreamingAssets\data\constants - AI Crit Chance
     CombatGameConstants.json
 
-#### StreamingAssets\data\lance - LanceDef Pilot Optimizations (WIP)
-    Planned - Remaining Dynamic Lances difficulty 5 - 10
+#### StreamingAssets\data\lance - LanceDef Pilot Optimizations
     lancedef_mech_d1_dynamic_solo.json
     lancedef_mech_d2_dynamic_solo.json
     lancedef_mech_d3_dynamic_lightBattle.json
@@ -57,8 +56,6 @@ https://github.com/BattletechModders/ModTek/releases
     lancedef_mech_d3_dynamic_lightScout.json
     lancedef_mech_d3_dynamic_lightSupport.json
     lancedef_mech_d3_dynamic_solo.json
-    lancedef_mixed_d3_dynamic_lightBattle.json
-    lancedef_vehicle_d3_dynamic_lightBattle.json
     lancedef_mech_d4_dynamic_lightMedBattle.json
     lancedef_mech_d4_dynamic_lightMedCavalry.json
     lancedef_mech_d4_dynamic_lightMedFire.json
@@ -70,8 +67,80 @@ https://github.com/BattletechModders/ModTek/releases
     lancedef_mech_d4_dynamic_smallMedScout.json
     lancedef_mech_d4_dynamic_smallMedSupport.json
     lancedef_mech_d4_dynamic_solo.json
+    lancedef_mech_d5_dynamic_MedBattle.json
+    lancedef_mech_d5_dynamic_MedCavalry.json
+    lancedef_mech_d5_dynamic_MedFire.json
+    lancedef_mech_d5_dynamic_MedScout.json
+    lancedef_mech_d5_dynamic_MedSupport.json
+    lancedef_mech_d5_dynamic_smallMedBattle.json
+    lancedef_mech_d5_dynamic_smallMedCavalry.json
+    lancedef_mech_d5_dynamic_smallMedFire.json
+    lancedef_mech_d5_dynamic_smallMedScout.json
+    lancedef_mech_d5_dynamic_smallMedSupport.json
+    lancedef_mech_d5_dynamic_solo.json
+    lancedef_mech_d6_dynamic_MedHeavyBattle.json
+    lancedef_mech_d6_dynamic_MedHeavyCavalry.json
+    lancedef_mech_d6_dynamic_MedHeavyFire.json
+    lancedef_mech_d6_dynamic_MedHeavyScout.json
+    lancedef_mech_d6_dynamic_MedHeavySupport.json
+    lancedef_mech_d6_dynamic_SmallMedHeavyBattle.json
+    lancedef_mech_d6_dynamic_SmallMedHeavyCavalry.json
+    lancedef_mech_d6_dynamic_smallMedHeavyFire.json
+    lancedef_mech_d6_dynamic_smallMedHeavySupport.json
+    lancedef_mech_d6_dynamic_solo.json
+    lancedef_mech_d7_dynamic_HeavyBattle.json
+    lancedef_mech_d7_dynamic_HeavyCavalry.json
+    lancedef_mech_d7_dynamic_HeavyFire.json
+    lancedef_mech_d7_dynamic_HeavyScout.json
+    lancedef_mech_d7_dynamic_HeavySupport.json
+    lancedef_mech_d7_dynamic_SmallHeavyBattle.json
+    lancedef_mech_d7_dynamic_SmallHeavyCavalry.json
+    lancedef_mech_d7_dynamic_SmallHeavyFire.json
+    lancedef_mech_d7_dynamic_SmallHeavyScout.json
+    lancedef_mech_d7_dynamic_SmallHeavySupport.json
+    lancedef_mech_d7_dynamic_solo.json
+    lancedef_mech_d8_dynamic_HeavyBattle.json
+    lancedef_mech_d8_dynamic_HeavyCavalry.json
+    lancedef_mech_d8_dynamic_HeavyFire.json
+    lancedef_mech_d8_dynamic_HeavyScout.json
+    lancedef_mech_d8_dynamic_HeavySupport.json
+    lancedef_mech_d8_dynamic_solo.json
+    lancedef_mech_d9_dynamic_assaultHeavyBattle.json
+    lancedef_mech_d9_dynamic_assaultHeavyCavalry.json
+    lancedef_mech_d9_dynamic_assaultHeavyFire.json
+    lancedef_mech_d9_dynamic_assaultHeavyScout.json
+    lancedef_mech_d9_dynamic_assaultHeavySupport.json
+    lancedef_mech_d9_dynamic_solo.json
+    lancedef_mech_d10_dynamic_assaultBattle.json
+    lancedef_mech_d10_dynamic_assaultCavalry.json
+    lancedef_mech_d10_dynamic_assaultFire.json
+    lancedef_mech_d10_dynamic_assaultHeavySupport.json
+    lancedef_mech_d10_dynamic_assaultScout.json
+    lancedef_mech_d10_dynamic_solo.json
+    lancedef_mixed_d3_dynamic_lightBattle.json
     lancedef_mixed_d4_dynamic_lightBattle.json
+    lancedef_mixed_d5_dynamic_mediumBattle1.json
+    lancedef_mixed_d5_dynamic_mediumBattle2.json
+    lancedef_mixed_d5_dynamic_mediumBattle3.json
+    lancedef_mixed_d6_dynamic_mediumBattle1.json
+    lancedef_mixed_d6_dynamic_mediumBattle2.json
+    lancedef_mixed_d6_dynamic_mediumBattle3.json
+    lancedef_mixed_d7_dynamic_heavyBattle1.json
+    lancedef_mixed_d7_dynamic_heavyBattle2.json
+    lancedef_mixed_d8_dynamic_heavyBattle1.json
+    lancedef_mixed_d8_dynamic_heavyBattle2.json
+    lancedef_mixed_d9_dynamic_assaultBattle1.json
+    lancedef_mixed_d9_dynamic_assaultBattle2.json
+    lancedef_mixed_d10_dynamic_assaultBattle1.json
+    lancedef_mixed_d10_dynamic_assaultBattle2.json
+    lancedef_vehicle_d3_dynamic_lightBattle.json
     lancedef_vehicle_d4_dynamic_lightBattle.json
+    lancedef_vehicle_d5_dynamic_mediumBattle.json
+    lancedef_vehicle_d6_dynamic_mediumBattle.json
+    lancedef_vehicle_d7_dynamic_HeavyBattle.json
+    lancedef_vehicle_d8_dynamic_HeavyBattle.json
+    lancedef_vehicle_d9_dynamic_AssaultBattle.json
+    lancedef_vehicle_d10_dynamic_AssaultBattle.json
 
 #### StreamingAssets\data\mech - Role Tag Replacement
     mechdef_awesome_AWS-8Q.json
