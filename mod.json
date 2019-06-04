@@ -8,7 +8,6 @@
     "Website": "https://github.com/BattletechModders/BetterAI",
 
     "OptionallyDependsOn": [
-        "BT_Extended_Overrides",
         "cFixes", 
         "Z_Sab_JK_RarityTables"
     ],
