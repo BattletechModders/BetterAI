@@ -14,7 +14,6 @@ Better AI shouldn't cause any errors with save files, even saves in combat, or w
     Copy Better AI folder in to Mods folder created for ModTek.  Remove older Better AI folder if present.
     
 #### Optional Dependancies:
-    BT_Extended_Overrides
     cFixes
     Z_Sab_JK_RarityTables
 Better AI will load AFTER these mods by default, none of these are required to use Better AI.  This is so they may apply their JSON overwrites first, then Better AI's advanvced JSON merge will apply on top of the modded file.  Better AI edits some 'Mech Tags in MechDefs and nearly all Pilot's Tags in LanceDefs.
@@ -41,6 +40,9 @@ https://github.com/BattletechModders/ModTek/releases
     global.json
     global_def.json
     global_sensorlock.json
+    role_activeprobe.json
+    role_ecmcarrier.json
+    role_ewe.json
     role_lastmanstanding.json
     role_meleeonly.json
     role_scout.json
@@ -154,4 +156,5 @@ https://github.com/BattletechModders/ModTek/releases
     mechdef_quickdraw_QKD-5A.json
     mechdef_shadowhawk_SHD-2D.json
     mechdef_urbanmech_UM-R60.json
+    mechdef_urbanmech_UM-R90.json
     mechdef_zeus_ZEU-6S.json
