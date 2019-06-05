@@ -7,7 +7,7 @@
             "floatVal" : -1.0
          }
       },
-	  {
+      {
 	    /* Influence Factor Weight for preferring moving less WHEN
 	       SPRINTING. */
             "k" : "Float_SprintPreferLowerMovementFactorWeight",
@@ -175,14 +175,14 @@
             "floatVal" : 1.75
          }
     },
-	{
+    {
          "k" : "Float_SprintPreferLOSToFewestHostileFactorWeight",
          "v" : {
             "type" : "Float",
              "floatVal" : 0.2
          }
     },
-		{
+    {
 	    /* Appetitive Influence Factor Weight to approach
 	       hostile's rear arc WHEN SPRINTING. */
 	    "k" : "Float_SprintAppetitivePreferApproachingRearArcOfHostileFactorWeight",
