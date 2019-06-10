@@ -1593,7 +1593,7 @@
       "k" : "Float_PreferHostileECMFields",
       "v" : {
         "type" : "Float",
-        "floatVal" : 2
+        "floatVal" : 5.0
       }
     },
     {
@@ -1602,7 +1602,7 @@
       "k" : "Float_SprintPreferHostileECMFields",
       "v" : {
         "type" : "Float",
-        "floatVal" : 2
+        "floatVal" : 5.0
       }
     },
     {
