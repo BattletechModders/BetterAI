@@ -539,7 +539,7 @@
       "k": "Float_SprintPreferInsideMeleeRangeFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": -1.5
+        "floatVal": -1.0
       }
     },
     {
@@ -948,7 +948,7 @@
       "k": "Float_SprintExclusionRadius",
       "v": {
         "type": "Float",
-        "floatVal": 200.0
+        "floatVal": 120.0
       }
     },
     {
@@ -1593,7 +1593,7 @@
       "k" : "Float_PreferHostileECMFields",
       "v" : {
         "type" : "Float",
-        "floatVal" : 1.5
+        "floatVal" : 2
       }
     },
     {
@@ -1602,7 +1602,7 @@
       "k" : "Float_SprintPreferHostileECMFields",
       "v" : {
         "type" : "Float",
-        "floatVal" : 0.5
+        "floatVal" : 2
       }
     },
     {
