@@ -1638,7 +1638,7 @@
       "k" : "Int_MinimumECMGhostedPipsToFire",
       "v" : {
         "type" : "Int",
-        "intVal" : "2"
+        "intVal" : "1"
       }
     },
     {
@@ -1654,7 +1654,7 @@
       "k" : "Bool_EnableUrbanBiomeNavigationEverywhere",
       "v" : {
         "type" : "Bool",
-        "boolVal" : false
+        "boolVal" : true
       }
     },
     {
