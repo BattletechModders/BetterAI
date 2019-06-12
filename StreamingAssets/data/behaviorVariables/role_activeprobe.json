@@ -1,7 +1,7 @@
 {
   "behaviorVariables": [
     {
-           /* Influence Factor Weight for preferring moving less. */
+          /* Influence Factor Weight for preferring moving less. */
       "k": "Float_PreferLowerMovementFactorWeight",
       "v": {
         "type": "Float",
@@ -9,6 +9,8 @@
       }
     },
     {
+          /* Influence Factor Weight for preferring moving less WHEN
+	       SPRINTING. */
       "k": "Float_SprintPreferLowerMovementFactorWeight",
       "v": {
         "type": "Float",
