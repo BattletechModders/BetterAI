@@ -320,7 +320,7 @@
       "k": "Float_MeleeDamageMultiplier",
       "v": {
         "type": "Float",
-        "floatVal": 3.0
+        "floatVal": 2.5
       }
     },
     {
@@ -1740,7 +1740,7 @@
       "k": "Float_PreferAttackFromBehindHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.4
+        "floatVal": 0.5
       }
     },
     {
