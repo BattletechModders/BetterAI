@@ -320,7 +320,7 @@
       "k": "Float_MeleeDamageMultiplier",
       "v": {
         "type": "Float",
-        "floatVal": 2.5
+        "floatVal": 2.75
       }
     },
     {
