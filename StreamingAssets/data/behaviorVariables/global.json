@@ -16,7 +16,7 @@
       "k": "Float_ExistingTargetDamageForOverheatAttack",
       "v": {
         "type": "Float",
-        "floatVal": 90.0
+        "floatVal": 0.90
       }
     },
     {
@@ -320,7 +320,7 @@
       "k": "Float_MeleeDamageMultiplier",
       "v": {
         "type": "Float",
-        "floatVal": 3.0
+        "floatVal": 2.75
       }
     },
     {
@@ -1139,7 +1139,7 @@
       "k": "Float_EvasiveToHitFloor",
       "v": {
         "type": "Float",
-        "floatVal": 40.0
+        "floatVal": 30.0
       }
     },
     {
@@ -1177,7 +1177,7 @@
       "k": "Float_CenterTorsoRearArmorMultiplier",
       "v": {
         "type": "Float",
-        "floatVal": 10
+        "floatVal": 5
       }
     },
     {
@@ -1740,7 +1740,7 @@
       "k": "Float_PreferAttackFromBehindHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.4
+        "floatVal": 0.5
       }
     },
     {
