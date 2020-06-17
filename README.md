@@ -160,3 +160,4 @@ https://github.com/BattletechModders/ModTek/releases
     mechdef_urbanmech_UM-R90.json
     mechdef_victor_VTR-9S.json
     mechdef_zeus_ZEU-6S.json
+    mechdef_zeus_ZEU-6T.json
