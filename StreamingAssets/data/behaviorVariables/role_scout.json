@@ -100,7 +100,7 @@
       "k": "Float_DFADamageMultiplier",
       "v": {
         "type": "Float",
-        "floatVal": 0.75
+        "floatVal": 1.2
       }
     },
     {
@@ -179,7 +179,7 @@
       "k": "Float_MeleeBonusMultiplierWhenAttackingEvasiveTargets",
       "v": {
         "type": "Float",
-        "floatVal": 0.5
+        "floatVal": 1.5
       }
     },
     {
