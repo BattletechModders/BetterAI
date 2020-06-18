@@ -98,7 +98,7 @@
       "k": "Float_PreferInsideMeleeRangeFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": -4.0
+        "floatVal": -3.5
       }
     },
     {
@@ -223,7 +223,7 @@
       "k": "Float_PreferHigherDistanceFromClosestHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.3
+        "floatVal": 0.2
       }
     },
     {
@@ -242,7 +242,7 @@
       "k": "Float_PreferLOSToFewestHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.1
+        "floatVal": 0.0
       }
     },
     {
