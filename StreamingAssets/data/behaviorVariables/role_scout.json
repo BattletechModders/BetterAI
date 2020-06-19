@@ -7,7 +7,7 @@
       "k": "Float_ExistingTargetDamageForOverheatAttack",
       "v": {
         "type": "Float",
-        "floatVal": 0.5
+        "floatVal": 0.55
       }
     },
     {
