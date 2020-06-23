@@ -203,7 +203,7 @@
       "k": "Float_SprintPreferLowerExpectedDamageFromHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.8
+        "floatVal": 0.7
       }
     },
     {
