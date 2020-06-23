@@ -296,7 +296,7 @@
       "k": "Float_PreferPresentingHigherArmorToHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 1.0
+        "floatVal": 1.4
       }
     },
     {
