@@ -38,6 +38,15 @@
       }
     },
     {
+	    /* Influence Factor Weight to minimize expected damage
+	       from hostiles WHEN SPRINTING. */
+      "k": "Float_SprintPreferLowerExpectedDamageFromHostileFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.7
+      }
+    },
+    {
 	    /* Optimal distance to nearest ally. (See
 	       PreferOptimalDistanceToAllyFactor.) */
       "k": "Float_OptimalAllyDistance",
@@ -233,7 +242,7 @@
       "k": "Float_SprintPreferHigherDistanceFromClosestHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.4
+        "floatVal": 0.2
       }
     },
     {
@@ -287,7 +296,7 @@
       "k": "Float_PreferPresentingHigherArmorToHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 1.5
+        "floatVal": 1.0
       }
     },
     {
@@ -296,7 +305,7 @@
       "k": "Float_SprintPreferPresentingHigherArmorToHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 1.5
+        "floatVal": 1.0
       }
     },
     {
