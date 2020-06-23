@@ -737,7 +737,7 @@
       "k": "Float_ReserveBasePercentage",
       "v": {
         "type": "Float",
-        "floatVal": 55
+        "floatVal": 50
       }
     },
     {
