@@ -458,7 +458,7 @@
       "k": "Float_PreferAttackingLowerArmorHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.8
+        "floatVal": 0.9
       }
     },
     {
@@ -958,7 +958,7 @@
       "k": "Float_AppetitivePreferApproachingRearArcOfHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.6
+        "floatVal": 0.7
       }
     },
     {
@@ -1785,7 +1785,7 @@
       "k": "Float_PreferAttackFromBehindHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.5
+        "floatVal": 0.7
       }
     },
     {
