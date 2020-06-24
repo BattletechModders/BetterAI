@@ -90,7 +90,7 @@
       "k": "Float_MeleeDamageMultiplier",
       "v": {
         "type": "Float",
-        "floatVal": 1
+        "floatVal": 1.2
       }
     },
     {
@@ -118,7 +118,7 @@
       "k": "Float_SprintPreferLessTargetableLocationFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.7
+        "floatVal": 0.6
       }
     },
     {
@@ -224,7 +224,7 @@
       "k": "Float_SprintPreferNotLethalPositionFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 1.25
+        "floatVal": 1.1
       }
     },
     {
