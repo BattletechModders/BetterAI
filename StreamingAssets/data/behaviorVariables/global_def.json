@@ -175,7 +175,7 @@
       "k": "Float_PreferLowerExpectedDamageFromHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 1.75
+        "floatVal": 1.5
       }
     },
     {
@@ -184,7 +184,7 @@
       "k": "Float_SprintPreferLowerExpectedDamageFromHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 1.75
+        "floatVal": 1.5
       }
     },
     {
@@ -211,7 +211,7 @@
       "k": "Float_PreferOptimalDistanceToAllyFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.3
+        "floatVal": 0.4
       }
     },
     {
@@ -355,7 +355,7 @@
       "k": "Float_SprintPreferInsideMeleeRangeFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": -1.75
+        "floatVal": -1.4
       }
     },
     {
@@ -364,7 +364,7 @@
       "k": "Float_PreferLocationsThatGrantGuardFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 1.8
+        "floatVal": 2.0
       }
     },
     {
@@ -374,7 +374,7 @@
       "k": "Float_SprintPreferLocationsThatGrantGuardFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 1.5
+        "floatVal": 2.0
       }
     },
     {
@@ -391,7 +391,7 @@
       "k": "Float_ReserveBasePercentage",
       "v": {
         "type": "Float",
-        "floatVal": 45
+        "floatVal": 25
       }
     },
     {
@@ -410,7 +410,7 @@
       "k": "Float_OverkillFactorForReserve",
       "v": {
         "type": "Float",
-        "floatVal": 80.0
+        "floatVal": 60.0
       }
     },
     {
@@ -455,7 +455,7 @@
       "k": "Float_SprintExclusionRadius",
       "v": {
         "type": "Float",
-        "floatVal": 100.0
+        "floatVal": 120.0
       }
     },
     {
@@ -501,7 +501,7 @@
       "k" : "Float_SprintPreferFriendlyECMFields",
       "v" : {
         "type" : "Float",
-        "floatVal" : 1.0
+        "floatVal" : 1.75
       }
     },
     {
