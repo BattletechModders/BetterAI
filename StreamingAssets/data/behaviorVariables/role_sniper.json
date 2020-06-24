@@ -186,6 +186,17 @@
       }
     },
     {
+	    /* Description: Number of points of damage that a sensor
+	      locking turn needs to do over a straight up shooting
+	      turn before deciding to sensor lock. Positive is a
+	      shooting bias, negative is a sensor lock bias.*/
+      "k": "Float_MinimumSensorLockQuality",
+      "v": {
+        "type": "Float",
+        "floatVal": 65
+      }
+    },
+    {
 	    /* Weight for an influence factor that seeks to maximize
 	     * ranged defense bonus (e.g. mineral fields). */
       "k": "Float_PreferHigherRangedDefenseBonusLocationsFactorWeight",
