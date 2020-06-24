@@ -24,7 +24,7 @@
       "k": "Float_PreferHigherExpectedDamageToHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 4.5
+        "floatVal": 4.6
       }
     },
     {
@@ -117,7 +117,7 @@
       "k": "Float_SprintPreferInsideMeleeRangeFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": -3.0
+        "floatVal": -2.8
       }
     },
     {
@@ -158,7 +158,7 @@
       "k": "Float_PreferLethalDamageToRearArcFromHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": -2.0
+        "floatVal": -1.8
       }
     },
     {
@@ -172,7 +172,7 @@
       "k": "Float_SprintPreferLethalDamageToRearArcFromHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": -2.0
+        "floatVal": -1.8
       }
     },
     {
@@ -206,6 +206,18 @@
       "v": {
         "type": "Float",
         "floatVal": 0.3
+      }
+    },
+    {
+            /* Weight for an influence factor that seeks to stay
+               within a circular fence from the centerpoint of the
+               lance. Note - negative logic; this should use negative
+               numbers, as it's designed to discourage being outside
+               the radius and have no effect inside the fence. */
+      "k": "Float_PreferStayInsideFenceNegativeLogicFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": -6.0
       }
     },
     {
@@ -269,7 +281,7 @@
       "k": "Float_PreferLOSToMostHostilesFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.0
+        "floatVal": 0.2
       }
     },
     {
@@ -288,6 +300,24 @@
       "v": {
         "type": "Float",
         "floatVal": 0.2
+      }
+    },
+    {
+	    /* Influence Factor Weight to control the desire to be in
+	       locations with stability bonus. */
+      "k": "Float_PreferLowerStabilityDamageMultiplierLocationsFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.0
+      }
+    },
+    {
+	    /* Influence Factor Weight to control the desire to be in
+	       locations with stability bonus WHEN SPRINTING. */
+      "k": "Float_SprintPreferLowerStabilityDamageMultiplierLocationsFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.0
       }
     },
     {
