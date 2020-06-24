@@ -10,6 +10,14 @@
       }
     },
     {
+	    /* Influence Factor Weight for preferring moving less. */
+      "k": "Float_PreferLowerMovementFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": -1.5
+      }
+    },
+    {
 	    /* Influence Factor Weight for preferring higher
 	       elevations. */
       "k": "Float_PreferHigherPositionFactorWeight",
@@ -43,7 +51,7 @@
       "k": "Float_SprintPreferLowerExpectedDamageFromHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 1.5
+        "floatVal": 0.7
       }
     },
     {
@@ -82,7 +90,7 @@
       "k": "Float_CoolDownRange",
       "v": {
         "type": "Float",
-        "floatVal": 100.0
+        "floatVal": 200.0
       }
     },
     {
@@ -100,7 +108,7 @@
       "k": "Float_SprintPreferLessTargetableLocationFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 1.0
+        "floatVal": 0.8
       }
     },
     {
@@ -118,7 +126,7 @@
       "k": "Float_SprintPreferHigherHeatSinkLocationsFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.2
+        "floatVal": 0.0
       }
     },
     {
@@ -138,7 +146,7 @@
       "k": "Float_SprintPreferInsideMeleeRangeFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": -1.75
+        "floatVal": -1.0
       }
     },
     {
@@ -157,7 +165,7 @@
       "k": "Float_SprintPreferLocationsThatGrantGuardFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 1.5
+        "floatVal": 1.25
       }
     },
     {
@@ -294,7 +302,7 @@
       "k": "Float_PreferPresentingHigherArmorToHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 1.0
+        "floatVal": 1.2
       }
     },
     {
