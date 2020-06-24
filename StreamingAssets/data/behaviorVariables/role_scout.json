@@ -224,7 +224,7 @@
       "k": "Float_SprintPreferNotLethalPositionFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 1.7
+        "floatVal": 1.25
       }
     },
     {
@@ -272,7 +272,7 @@
       "k": "Float_SprintAppetitivePreferApproachingRearArcOfHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 1.0
+        "floatVal": 0.9
       }
     },
     {
@@ -297,7 +297,7 @@
       "k": "Float_SprintPreferSurroundingHostileUnitsFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 1.5
+        "floatVal": 1.25
       }
     },
     {
@@ -492,7 +492,7 @@
       "k": "Float_SprintPreferLOSToFewestHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.4
+        "floatVal": 0.3
       }
     },
     {
