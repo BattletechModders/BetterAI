@@ -1133,7 +1133,7 @@
       "k": "Float_PreferStayInsideFenceNegativeLogicFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": -6.0
+        "floatVal": -5.0
       }
     },
     {
