@@ -332,7 +332,7 @@
       "k": "Float_SprintPreferHigherDistanceFromClosestHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.8
+        "floatVal": 0.6
       }
     },
     {
@@ -350,7 +350,7 @@
       "k": "Float_SprintPreferLOSToFewestHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.8
+        "floatVal": 0.6
       }
     },
     {
