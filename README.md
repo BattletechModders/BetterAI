@@ -41,6 +41,8 @@ https://github.com/BattletechModders/ModTek/releases
     global_def.json
     global_sensorlock.json
     role_activeprobe.json
+    role_brawler.json
+    role_brawler_def.json
     role_ecmcarrier.json
     role_ewe.json
     role_lastmanstanding.json
@@ -49,6 +51,7 @@ https://github.com/BattletechModders/ModTek/releases
     role_noncombatant.json
     role_scout.json
     role_sniper.json
+    role_turret.json
     role_vehicle.json
     role_vehicle_def.json
 
