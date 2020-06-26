@@ -1,11 +1,12 @@
 # BetterAI - AI Behavior Variable Tweaks for HBS BATTLETECH
-This is a ModTek mod to improve the tactical AI in combat.  The AI is allowed to reserve 'Mechs and execute "Double Turns," AI critical hit chance is on par with the player's, it now considers protecting their weakened side and exploits the damaged sides of the target to a greater degree.  The Pilot selections for AI Lances are constrained to put appropriate pilots in the right units, this has been limited to two 'Mechs or less per Lance to preserve encounter variety, all vehicles have had "useless" pilot abilities excluded.  This should be harder to fight than stock, but some bad choices are not fixable with .json edits.  
+This is a ModTek mod to improve the tactical AI in combat.  The AI is allowed to reserve 'Mechs and execute "Double Turns," it now considers protecting their weakened side and exploits the damaged sides of the target to a greater degree.  The AI's critical hit chance is adjusted to be on par with the player's.  The Pilot selections for AI Lances are constrained to put appropriate pilots in the right units, this has been limited to two 'Mechs or less per Lance to preserve encounter variety, all vehicles have had "useless" pilot abilities excluded.  This should be harder to fight than stock, but some bad choices are not fixable with .json edits.  
 
-Better AI shouldn't cause any errors with save files, even saves in combat, or with version updates.  I've done extensive testing back and forth between stock and modded play without any errors.  It does not add any new items to the VersionManifest.csv.
+Better AI shouldn't cause any errors with save files, even saves in combat.  I've done extensive testing back and forth between stock and modded play without any errors.  It does not add any new items to the VersionManifest.csv.
 
 ##### Credits:
     Mpstark + ModTek Crew: For creating this inital git and ModTek support
     scJazz: The idea for Lance Pilot tuning
+    Koztaz: For the fresh eyes on an old project
     Thanks to all who have provided feedback and bounced ideas around with me, 
     Team Banzai, Goons, discord modders and everyone since beta onward that has helped shape the AI.
 
