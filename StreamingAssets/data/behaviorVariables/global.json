@@ -915,7 +915,7 @@
       "k": "Float_PreferLethalDamageToRearArcFromHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": -2.0
+        "floatVal": -2.5
       }
     },
     {
@@ -929,7 +929,7 @@
       "k": "Float_SprintPreferLethalDamageToRearArcFromHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": -2.0
+        "floatVal": -2.5
       }
     },
     {
