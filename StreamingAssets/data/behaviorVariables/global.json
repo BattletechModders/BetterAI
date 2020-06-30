@@ -1491,7 +1491,7 @@
 		"boolVal" : false
 	    }
 	},
-    {
+        {
             /* If true, allow AI to attack hostiles. Otherwise, only move and brace.
 	     */
 
@@ -1500,7 +1500,7 @@
 		"type" : "Bool",
 		"boolVal" : true
 	    }
-    },
+        },
 	{
 	    /* An alerted unit will act on visibility information,
 	       closing, attacking. Non-alerted units will still follow
@@ -1787,42 +1787,42 @@
 			"floatVal" : 0.5
 		}
 	},
-    {
-	    /* Influence Factor Weight for standing still when hostiles are in melee range. */
-      "k": "Float_PreferStationaryWhenHostilesInMeleeRangeFactorWeight",
-      "v": {
-        "type": "Float",
-        "floatVal": -0.1
-      }
-    },
-    {
+        {
+    	    /* Influence Factor Weight for standing still when hostiles are in melee range. */
+              "k": "Float_PreferStationaryWhenHostilesInMeleeRangeFactorWeight",
+              "v": {
+                        "type": "Float",
+                        "floatVal": -0.1
+              }
+        },
+        {
 	    /* Influence Factor Weight to prefer being behind
 	       hostiles.
 	       Hostile Factor: 1.0 / 0.5 / 0.25 based on threat */
-      "k": "Float_PreferAttackFromBehindHostileFactorWeight",
-      "v": {
-        "type": "Float",
-        "floatVal": 0.1
-      }
-    },
-    {
+              "k": "Float_PreferAttackFromBehindHostileFactorWeight",
+              "v": {
+                        "type": "Float",
+                        "floatVal": 0.1
+              }
+        },
+        {
 	    /* Influence Factor Weight to prefer being behind hostiles
 	       WHEN SPRINTING.
 	       Hostile Factor: 1.0 / 0.5 / 0.25 based on threat */
-      "k": "Float_SprintPreferAttackFromBehindHostileFactorWeight",
-      "v": {
-        "type": "Float",
-        "floatVal": 0.1
-      }
-    },
-    {
+              "k": "Float_SprintPreferAttackFromBehindHostileFactorWeight",
+              "v": {
+                        "type": "Float",
+                        "floatVal": 0.1
+              }
+        },
+        {
 	    /* Influence Factor Weight to prefer being beside
 	       hostiles.
 	       Hostile Factor: 1.0 / 0.5 / 0.25 based on threat */
-      "k": "Float_PreferAttackFrom90DegreesToHostileFactorWeight",
-      "v": {
-        "type": "Float",
-        "floatVal": 0.1
+              "k": "Float_PreferAttackFrom90DegreesToHostileFactorWeight",
+              "v": {
+                        "type": "Float",
+                        "floatVal": 0.1
       }
     },
     {
