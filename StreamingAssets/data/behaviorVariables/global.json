@@ -133,7 +133,7 @@
 		"type" : "Float",
 		"floatVal" : 100
             }
-	}
+	},
 	{
 	    /* Influence Factor Weight for preferring moving less. */
             "k" : "Float_PreferLowerMovementFactorWeight",
@@ -562,7 +562,7 @@
             "k" : "Float_PreferInsideMeleeRangeFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.5
+		"floatVal" : -0.25
             }
 	},
 	{
@@ -572,7 +572,7 @@
             "k" : "Float_SprintPreferInsideMeleeRangeFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.3
+		"floatVal" : -0.25
             }
 	},
 	{
@@ -673,7 +673,7 @@
             "k" : "Float_PreferLocationsThatGrantGuardFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.25
+		"floatVal" : 0.35
             }
 	},
 	{
@@ -683,7 +683,7 @@
             "k" : "Float_SprintPreferLocationsThatGrantGuardFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.1
+		"floatVal" : 0.25
             }
 	},
 	{
@@ -710,7 +710,7 @@
 	    "k" : "Bool_ReserveEnabled",
 	    "v" : {
 		"type" : "Bool",
-		"boolVal" : false
+		"boolVal" : true
 	    }
 	},
 	{
@@ -718,7 +718,7 @@
 	    "k" : "Float_ReserveBasePercentage",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 0
+		"floatVal" : 50
 	    }
 	},
 	{
@@ -1491,7 +1491,7 @@
 		"boolVal" : false
 	    }
 	},
-        {
+    {
             /* If true, allow AI to attack hostiles. Otherwise, only move and brace.
 	     */
 
@@ -1500,8 +1500,7 @@
 		"type" : "Bool",
 		"boolVal" : true
 	    }
-        }
-
+    },
 	{
 	    /* An alerted unit will act on visibility information,
 	       closing, attacking. Non-alerted units will still follow
@@ -1594,7 +1593,7 @@
                 "intVal" : "-1"
 	    }
 	},
-			{
+	{
 	    /* Weight for an influence factor that seeks to stay
 	       within ECM range of friendlies */
 		"k" : "Float_PreferFriendlyECMFields",
@@ -1739,7 +1738,7 @@
 		{
 			"type" : "Float",
 			"floatVal" : 0.3
-	}
+		}
 	},
 	{	
 	    /* Enables more precise predictions about expected damage by counting weapons in range and damage reductions of the unit*/
@@ -1787,6 +1786,164 @@
 			"type" : "Float",
 			"floatVal" : 0.5
 		}
-	}
-    ]
+	},
+    {
+	    /* Influence Factor Weight for standing still when hostiles are in melee range. */
+      "k": "Float_PreferStationaryWhenHostilesInMeleeRangeFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": -0.1
+      }
+    },
+    {
+	    /* Influence Factor Weight to prefer being behind
+	       hostiles.
+	       Hostile Factor: 1.0 / 0.5 / 0.25 based on threat */
+      "k": "Float_PreferAttackFromBehindHostileFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.1
+      }
+    },
+    {
+	    /* Influence Factor Weight to prefer being behind hostiles
+	       WHEN SPRINTING.
+	       Hostile Factor: 1.0 / 0.5 / 0.25 based on threat */
+      "k": "Float_SprintPreferAttackFromBehindHostileFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.1
+      }
+    },
+    {
+	    /* Influence Factor Weight to prefer being beside
+	       hostiles.
+	       Hostile Factor: 1.0 / 0.5 / 0.25 based on threat */
+      "k": "Float_PreferAttackFrom90DegreesToHostileFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.1
+      }
+    },
+    {
+	    /* Influence Factor Weight to prefer being beside hostiles
+	       WHEN SPRINTING.
+	       Hostile Factor: 1.0 / 0.5 / 0.25 based on threat */
+      "k": "Float_SprintPreferAttackFrom90DegreesToHostileFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.1
+      }
+    },
+    {
+	    /* Influence Factor Weight to reject being closer than the
+	       minimum weapon range to hostiles.  */
+      "k": "Float_PreferNoCloserThanMinDistToHostileFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.2
+      }
+    },
+    {
+	    /* Influence Factor Weight to reject being closer than the
+	       minimum weapon range to hostiles WHEN SPRINTING.  */
+      "k": "Float_SprintPreferNoCloserThanMinDistToHostileFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.1
+      }
+    },
+    {
+	    /* Influence Factor Weight to prefer being behind braced
+	       targets.
+	       Hostile Factor: 1.0 / 0.5 / 0.25 based on threat */
+      "k": "Float_PreferBeingBehindBracedHostileFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.1
+      }
+    },
+    {
+	    /* Influence Factor Weight to prefer being behind braced
+	       targets WHEN SPRINTING.
+	       Hostile Factor: 1.0 / 0.5 / 0.25 based on threat */
+      "k": "Float_SprintPreferBeingBehindBracedHostileFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.1
+      }
+    },
+    {
+	    /* Influence Factor Weight to prefer having LOS to most
+		   hostiles. */
+      "k": "Float_PreferLOSToMostHostilesFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.1
+      }
+    },
+    {
+	    /* Influence Factor Weight to prefer having LOS to most
+		   hostiles WHEN SPRINTING. */
+      "k": "Float_SprintPreferLOSToMostHostilesFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.1
+      }
+    },
+    {
+	    /* Influence Factor Weight to control the desire to be in
+	       locations with damage reduction.*/
+      "k": "Float_PreferHigherDamageReductionLocationsFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.1
+      }
+    },
+    {
+	    /* Influence Factor Weight to control the desire to be in
+	       locations with damage reduction WHEN SPRINTING.*/
+      "k": "Float_SprintPreferHigherDamageReductionLocationsFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.1
+      }
+    },
+    {
+	    /* Influence Factor Weight to control the desire to be in
+	       locations with stability bonus. */
+      "k": "Float_PreferLowerStabilityDamageMultiplierLocationsFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.1
+      }
+    },
+    {
+	    /* Influence Factor Weight to control the desire to be in
+	       locations with stability bonus WHEN SPRINTING. */
+      "k": "Float_SprintPreferLowerStabilityDamageMultiplierLocationsFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.1
+      }
+    },
+    {
+	    /* Influence Factor Weight to control the desire to defend
+	       my own weak armor. */
+      "k": "Float_PreferPresentingHigherArmorToHostileFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.1
+      }
+    },
+    {
+	    /* Influence Factor Weight to control the desire to defend
+	       my own weak armor WHEN SPRINTING. */
+      "k": "Float_SprintPreferPresentingHigherArmorToHostileFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.1
+      }
+    }
+  ]
 }

@@ -1,0 +1,29 @@
+{
+  "behaviorVariables": [
+    {
+	    /* Weight for an influence factor that seeks to stay
+	       within a circular fence from the centerpoint of the
+	       lance. Note - negative logic; this should use negative
+	       numbers, as it's designed to discourage being outside
+	       the radius and have no effect inside the fence. */
+      "k": "Float_PreferStayInsideFenceNegativeLogicFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.0
+      }
+    },
+    {
+	    /* Weight for an influence factor that seeks to stay
+	       within a circular fence from the centerpoint of the
+	       lance WHEN SPRINTING. Note - negative logic; this
+	       should use negative numbers, as it's designed to
+	       discourage being outside the radius and have no effect
+	       inside the fence. */
+      "k": "Float_SprintPreferStayInsideFenceNegativeLogicFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.0
+      }
+    }
+  ]
+}
