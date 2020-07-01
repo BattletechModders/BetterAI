@@ -1114,7 +1114,7 @@
 			"k" : "Float_PreferStayInsideFenceNegativeLogicFactorWeight",
 			"v" : {
 		"type" : "Float",
-		"floatVal" : -6.0
+		"floatVal" : -5.0
 			}
 	},
 	{
@@ -1844,6 +1844,15 @@
         "type": "Float",
         "floatVal": 0.1
 			}
+    },
+    {
+	    /* Influence Factor Weight to reject being closer than
+	       personal space to allies WHEN SPRINTING. */
+	    		"k" : "Float_SprintPreferNoCloserThanPersonalSpaceToAllyFactorWeight",
+	    		"v" : {
+	"type" : "Float",
+	"floatVal" : 1.0
+	    }
     },
     {
 	    /* Influence Factor Weight to prefer having LOS to most
