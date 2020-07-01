@@ -447,7 +447,7 @@
 	    "v" : {
 		"type" : "Float",
 		"floatVal" : 0.05
-	    }
+			}
 	},
 	{
 	    /* Influence Factor Weight to control the desire to be in
@@ -456,7 +456,7 @@
 	    "v" : {
 		"type" : "Float",
 		"floatVal" : 0.0
-	    }
+			}
 	},
 	{
 	    /* Influence Factor Weight to control the desire to attack
@@ -711,7 +711,7 @@
 			"v" : {
 		"type" : "Bool",
 		"boolVal" : true
-	    }
+			}
 	},
 	{
 	    /* The base percentage chance (0-100) to reserve. */
@@ -719,7 +719,7 @@
 			"v" : {
 		"type" : "Float",
 		"floatVal" : 50
-	    }
+			}
 	},
 	{
 	    /* The "X" value in "for every X percent of hostile units
@@ -729,7 +729,7 @@
 			"v" : {
 		"type" : "Float",
 		"floatVal" : 25.0
-	    }
+			}
 	},
 	{
 	    /* The "Y" value in "for every X percent of hostile units
@@ -739,7 +739,7 @@
 			"v" : {
 		"type" : "Float",
 		"floatVal" : 12.5
-	    }
+			}
 	},
 	{
 	    /* Positive values mean to go that much AFTER the average
@@ -748,7 +748,7 @@
 			"v" : {
 		"type" : "Float",
 		"floatVal" : 0.5
-	    }
+			}
 	},
 	{
 	    /* Threshold Percentage (100.0 equals 100%) of target hit
@@ -757,7 +757,7 @@
 			"v" : {
 		"type" : "Float",
 		"floatVal" : 110.0
-	    }
+			}
 	},
 	{
 	    /* Weight to prefer not being in locations that have
@@ -766,7 +766,7 @@
 			"v" : {
 		"type" : "Float",
 		"floatVal" : 0.6
-	    }
+			}
 	},
 	{
 	    /* Weight to prefer sprinting to locations that do not
@@ -775,7 +775,7 @@
 			"v" : {
 		"type" : "Float",
 		"floatVal" : 1.0
-	    }
+			}
 	},
 	{
 	    /* Percentage (100.0 equals 100%) of unit's hit points
@@ -785,7 +785,7 @@
 			"v" : {
 		"type" : "Float",
 		"floatVal" : 100
-	    }
+			}
 	},
 	{
 	    /* Percentage (100.0 equals 100%) of unit's hit points
@@ -795,7 +795,7 @@
 			"v" : {
 		"type" : "Float",
 		"floatVal" : 350
-	    }
+			}
 	},
 	{	    /* Percentage (100.0 equals 100%) of unit's hit points
 	       below which damage is considered not lethal. Used by
@@ -804,7 +804,7 @@
 			"v" : {
 		"type" : "Float",
 		"floatVal" : 60
-	    }
+			}
 	},
 	{
 	    /* Percentage (100.0 equals 100%) of unit's hit points
@@ -814,7 +814,7 @@
 			"v" : {
 		"type" : "Float",
 		"floatVal" : 100
-	    }
+			}
 	},
 	{
 	    /* If a hostile actor can do this percentage (100.0
@@ -824,7 +824,7 @@
 			"v" : {
 		"type" : "Float",
 		"floatVal" : 150.0
-	    }
+			}
 	},
 	{
 	    /* Base chance for a called shot to the head. Not "out of"
@@ -834,7 +834,7 @@
 			"v" : {
 		"type" : "Float",
 		"floatVal" : 15.0
-	    }
+			}
 	},
 	{
 	    /* Base chance for a called shot to the center torso. Not
@@ -844,7 +844,7 @@
 			"v" : {
 		"type" : "Float",
 		"floatVal" : 15.0
-	    }
+			}
 	},
 	{
 	    /* Base chance for a called shot to other locations. Not
@@ -854,7 +854,7 @@
 			"v" : {
 		"type" : "Float",
 		"floatVal" : 2.5
-	    }
+			}
 	},
 	{
 	    /* Additional chance for a called shot per each point of
@@ -864,7 +864,7 @@
 			"v" : {
 		"type" : "Float",
 		"floatVal" : 0.35
-	    }
+			}
 	},
 	{
 	    /* Called shot location multiplier if that location is
@@ -873,7 +873,7 @@
 			"v" : {
 		"type" : "Float",
 		"floatVal" : 2.5
-	    }
+			}
 	},
 	{
 	    /* How long the AI is allowed to think, in seconds per
@@ -882,7 +882,7 @@
 			"v" : {
 		"type" : "Float",
 		"floatVal" : 200.0
-	    }
+			}
 	},
 	{
 	    /* Influence Factor Weight to prefer moving to locations
@@ -939,7 +939,7 @@
 			"v" : {
 		"type" : "Float",
 		"floatVal" : 0.6
-	    }
+			}
 	},
 	{
 	    /* Appetitive Influence Factor Weight to approach
@@ -948,7 +948,7 @@
 			"v" : {
 		"type" : "Float",
 		"floatVal" : 0.7
-	    }
+			}
 	},
 	{
 	    /* Radius (in meters) to avoid sprinting within. */
@@ -956,7 +956,7 @@
 			"v" : {
 		"type" : "Float",
 		"floatVal" : 244.0
-	    }
+			}
 	},
 	{
 	    /* Influence Factor Weight to be inside SprintExclusionRadius. */
@@ -964,7 +964,7 @@
 			"v" : {
 		"type" : "Float",
 		"floatVal" : 0.0
-	    }
+			}
 	},
 	{
 	    /* Influence Factor Weight to be inside
@@ -976,7 +976,7 @@
 			"v" : {
 		"type" : "Float",
 		"floatVal" : -10
-	    }
+			}
 	},
 	{
 	    /* Maximum distance (in meters) to hostile used for
@@ -985,7 +985,7 @@
 			"v" : {
 		"type" : "Float",
 		"floatVal" : 300.0
-	    }
+			}
 	},
 	{
 	    /* Appetitive Influence Factor Weight to approach ideal
@@ -994,7 +994,7 @@
 			"v" : {
 		"type" : "Float",
 		"floatVal" : 0.75
-	    }
+			}
 	},
 	{
 	    /* Appetitive Influence Factor Weight to approach ideal
@@ -1003,7 +1003,7 @@
 			"v" : {
 		"type" : "Float",
 		"floatVal" : 0.1
-	    }
+			}
 	},
 	{
 	    /* DEPRECATED: Whether to use the new threat sorting that
@@ -1015,7 +1015,7 @@
 			"v" : {
 		"type" : "Bool",
 		"boolVal" : true
-	    }
+			}
 	},
 	{
 	    /* Influence Factor to prefer this lance to surround hostile units.*/
@@ -1023,7 +1023,7 @@
 			"v" : {
 		"type" : "Float",
 		"floatVal" : 0.8
-	    }
+			}
 	},
 	{
 	    /* Influence Factor to prefer this lance to surround
@@ -1032,7 +1032,7 @@
 			"v" : {
 		"type" : "Float",
 		"floatVal" : 0.8
-	    }
+			}
 	},
 	{
 	    /* Influence Factor to prefer not to be surrounded by hostile units.*/
@@ -1040,7 +1040,7 @@
 			"v" : {
 		"type" : "Float",
 		"floatVal" : 0.25
-	    }
+			}
 	},
 	{
 	    /* Influence Factor to prefer not to be surrounded by
@@ -1049,7 +1049,7 @@
 			"v" : {
 		"type" : "Float",
 		"floatVal" : 0.25
-	    }
+			}
 	},
 	{
 	    /* Sprint Hysteresis Multiplier value, the value
@@ -1061,7 +1061,7 @@
 			"v" : {
 		"type" : "Float",
 		"floatVal" : 0.80
-	    }
+			}
 	},
 	{
 	    /* Sprint Hysteresis Recovery Turns, the number of turns
@@ -1071,7 +1071,7 @@
 			"v" : {
 		"type" : "Float",
 		"floatVal" : 2.0
-	    }
+			}
 	},
 	{
 	    /* The window (0.0 - 1.0) below the calculated ideal
@@ -1082,7 +1082,7 @@
 			"v" : {
 		"type" : "Float",
 		"floatVal" : 0.35
-	    }
+			}
 	},
 	{
 	    /* The increment window (0.0 - 1.0) below the calculated
@@ -1094,7 +1094,7 @@
 			"v" : {
 		"type" : "Float",
 		"floatVal" : 0.3
-	    }
+			}
 	},
 	{
 	    /* The minimum expected damage inspiration should get us
@@ -1103,7 +1103,7 @@
 			"v" : {
 		"type": "Float",
 		"floatVal" : 10.0
-	    }
+			}
 	},
 	{
 	    /* Weight for an influence factor that seeks to stay
@@ -1115,7 +1115,7 @@
 			"v" : {
 		"type" : "Float",
 		"floatVal" : -6.0
-	    }
+			}
 	},
 	{
 	    /* Weight for an influence factor that seeks to stay
@@ -1128,7 +1128,7 @@
 			"v" : {
 		"type" : "Float",
 		"floatVal" : -1.0
-	    }
+			}
 	},
 	{
 	    /* Fence radius (in meters) for
@@ -1137,7 +1137,7 @@
 			"v" : {
 		"type" : "Float",
 		"floatVal" : 96.0
-	    }
+			}
 	},
 	{
 	    /* Evasive "to hit" floor - if the to-hit is below this
@@ -1148,7 +1148,7 @@
 			"v" : {
 		"type": "Float",
 		"floatVal" : 40.0
-	    }
+			}
 	},
 	{
 	    /*
@@ -1160,7 +1160,7 @@
 			"v" : {
 		"type": "Float",
 		"floatVal" : 35
-	    }
+			}
 	},
 	{
 	    /* Multiplier for how 'strong' each point of head armor is
@@ -1169,7 +1169,7 @@
 			"v" : {
 		"type": "Float",
 		"floatVal" : 1000.0
-	    }
+			}
 	},
 	{
 	    /* Multiplier for how 'strong' each point of center torso
@@ -1178,7 +1178,7 @@
 			"v" : {
 		"type": "Float",
 		"floatVal" : 1.0
-	    }
+			}
 	},
 	{
 	    /* Multiplier for how 'strong' each point of center torso
@@ -1187,7 +1187,7 @@
 			"v" : {
 		"type": "Float",
 		"floatVal" : 5
-	    }
+			}
 	},
 	{
 	    /* Multiplier for how 'strong' each point of center torso
@@ -1197,7 +1197,7 @@
 			"v" : {
 		"type": "Float",
 		"floatVal" : 1.0
-	    }
+			}
 	},
 	{
 	    /* Multiplier for how 'strong' each point of leg armor is
@@ -1206,7 +1206,7 @@
 			"v" : {
 		"type": "Float",
 		"floatVal" : 2.0
-	    }
+			}
 	},
 	{
 	    /* Percentage (0-100+) that the unit's locally evaluated
@@ -1216,7 +1216,7 @@
 			"v" : {
 		"type": "Float",
 		"floatVal" : 20.0
-	    }
+			}
 	},
 	{
 	    /* Percentage (0-100+) that the unit's locally evaluated
@@ -1226,7 +1226,7 @@
 			"v" : {
 		"type": "Float",
 		"floatVal" : 20.0
-	    }
+			}
 	},
 	{
 	    /* Whether to use firepower takeaway when determining the designated target */
@@ -1234,7 +1234,7 @@
 			"v" : {
 		"type": "Bool",
 		"boolVal" : true
-	    }
+			}
 	},
 	{
 	    /* When predicting whether an attack will strip a pip,
@@ -1245,7 +1245,7 @@
 			"v" : {
 		"type" : "Float",
 		"floatVal" : 0.75
-	    }
+			}
 	},
 	{
 	    /* Weight for an influence factor that seeks to maximize
@@ -1254,7 +1254,7 @@
 			"v" : {
 		"type" : "Float",
 		"floatVal" : 1.0
-	    }
+			}
 	},
 	{
 	    /* Weight for an influence factor that seeks to maximize
@@ -1263,7 +1263,7 @@
 			"v" : {
 		"type" : "Float",
 		"floatVal" : 0.0
-	    }
+			}
 	},
 	{
 	    /* Multiplier applied when considering the value of a
@@ -1276,7 +1276,7 @@
 			"v" : {
 		"type" : "Float",
 		"floatVal" : 1.5
-	    }
+			}
 	},
 	{
 	    /* Percentage (0.0 - 100.0+) of my "critical hit points"
@@ -1322,7 +1322,7 @@
 			"v" : {
 		"type": "Float",
         "floatVal" : -20
-	    }
+			}
 	},
 	{
 	    /* how much to prefer to be in 'excluded' regions WHILE SPRINTING. Probably negative. */
@@ -1330,7 +1330,7 @@
 			"v" : {
 		"type": "Float",
         "floatVal" : -20
-	    }
+			}
 	},
 	{
 	    /* Percent chance (0-100) of actually using the "Reckless" skill. */
@@ -1428,7 +1428,7 @@
 			"v" : {
 		"type" : "Bool",
 		"boolVal" : true
-	    }
+			}
 	},
 	{
 	    /* Whether to use the dynamic hex-based long range
@@ -1440,7 +1440,7 @@
 			"v" : {
 		"type" : "Bool",
 		"boolVal" : true
-	    }
+			}
 	},
 	{
         /* How fast (percentage of full speed, 0% = 0, 100% = 100.0) to
@@ -1450,7 +1450,7 @@
 			"v" : {
 		"type" : "Float",
 		"floatVal" : 80.0
-	    }
+			}
 	},
 	{
         /* If we have priority targets, should we only consider priority
@@ -1460,7 +1460,7 @@
 			"v" : {
 		"type" : "Bool",
 		"boolVal" : false
-	    }
+			}
 	},
 	{
         /* If true, drop out of long range pathfinding if we can walk to
@@ -1471,7 +1471,7 @@
 			"v" : {
 		"type" : "Bool",
 		"boolVal" : false
-	    }
+			}
 	},
 	{
         /* If true, apply "ruthless" mood to AIs that have priority
@@ -1482,7 +1482,7 @@
 			"v" : {
 		"type" : "Bool",
 		"boolVal" : false
-	    }
+			}
 	},
     {
         /* If true, allow AI to attack hostiles. Otherwise, only move and brace.
@@ -1491,7 +1491,7 @@
 			"v" : {
 		"type" : "Bool",
 		"boolVal" : true
-	    }
+			}
     },
 	{
 	    /* An alerted unit will act on visibility information,
@@ -1511,7 +1511,7 @@
 			"v" : {
 		"type" : "Int",
 		"intVal" : 0
-	    }
+			}
 	},
 	{
 	    /* For internal AI use, do not set. */
@@ -1519,7 +1519,7 @@
 			"v" : {
 		"type" : "Int",
 		"intVal" : 0
-	    }
+			}
 	},
 	{
 	    /* For internal AI use, do not set. */
@@ -1527,7 +1527,7 @@
 			"v" : {
 		"type" : "Int",
 		"intVal" : 0
-	    }
+			}
 	},
 	{
 	    /* For internal AI use, do not set. */
@@ -1535,7 +1535,7 @@
 			"v" : {
 		"type" : "String",
 		"stringVal" : ""
-	    }
+			}
 	},
 	{
 	    /* For internal AI use, do not set. */
@@ -1543,7 +1543,7 @@
 			"v" : {
 		"type" : "Float",
 		"floatVal" : 100
-	    }
+			}
 	},
 	{
 	    /* For internal AI use, do not set. */
@@ -1551,7 +1551,7 @@
 			"v" : {
 		"type" : "Float",
 		"floatVal" : 0
-	    }
+			}
 	},
 	{
 	    /* For internal AI use, do not set. */
@@ -1559,7 +1559,7 @@
 			"v" : {
 		"type" : "String",
 		"stringVal" : ""
-	    }
+			}
 	},
 	{
 	    /* For internal AI use, do not set. */
@@ -1567,7 +1567,7 @@
 			"v" : {
 		"type": "String",
         "stringVal" : ""
-	    }
+			}
 	},
 	{
 	    /* For internal AI use, do not set. */
@@ -1575,7 +1575,7 @@
 			"v" : {
 		"type": "Int",
         "intVal" : "-1"
-	    }
+			}
 	},
 	{
 	    /* For internal AI use, do not set. */
@@ -1583,7 +1583,7 @@
 			"v" : {
 		"type": "Int",
         "intVal" : "-1"
-	    }
+			}
 	},
 	{
 	    /* Weight for an influence factor that seeks to stay
@@ -1592,7 +1592,7 @@
 			"v" : {
 		"type" : "Float",
 		"floatVal" : 0.75
-		}
+			}
 	},
 	{
 	    /* Weight for an influence factor that seeks to stay
@@ -1601,7 +1601,7 @@
 			"v" : {
 		"type" : "Float",
 		"floatVal" : 0.0
-		}
+			}
 	},
 	{
 	    /* Weight for an influence factor that seeks to stay
@@ -1610,7 +1610,7 @@
 			"v" : {
 		"type" : "Float",
 		"floatVal" : 100
-		}
+			}
 	},
 	{
 	    /* Weight for an influence factor that seeks to stay
@@ -1619,7 +1619,7 @@
 			"v" : {
 		"type" : "Float",
 		"floatVal" : 100
-		}
+			}
 	},
 	{
 	    /* Weight for an influence factor that seeks to stay
@@ -1628,7 +1628,7 @@
 			"v" : {
 		"type" : "Float",
 		"floatVal" : 0
-		}
+			}
 	},
 	{
 	    /* Weight for an influence factor that seeks to stay
@@ -1637,7 +1637,7 @@
 			"v" : {
 		"type" : "Float",
 		"floatVal" : 0
-		}
+			}
 	},
 	{
 	    /* Number of active probe targets before we even try to activate 
@@ -1646,7 +1646,7 @@
 			"v" : {
 		"type" : "Int",
 		"IntVal" : "999"
-		}
+			}
 	},
 	{
 	    /* Minimum number of stealth pips to allow for an ECM
@@ -1655,7 +1655,7 @@
 			"v" : {
 		"type" : "Int",
 		"IntVal" : "2"
-		}
+			}
 	},
 	{
 	    /* Enables advanced navigation behaviors only in urban biomes */
@@ -1663,7 +1663,7 @@
 			"v" : {
 		"type" : "Bool",
 		"boolVal" : true
-		}
+			}
 	},
 	{
 	    /* Enables advanced navigation behaviors on all biome types */
@@ -1671,7 +1671,7 @@
 			"v" : {
 		"type" : "Bool",
 		"boolVal" : false
-		}
+			}
 	},
 	{
 	    /*  Description: Float to track confidence in causing structural damage. Used to gague whether we should fire our weapon
@@ -1680,7 +1680,7 @@
 			"v" : {
 		"type" : "Float",
 		"floatVal" : 0.7
-		}
+			}
 	},
 	{
 	    /* When calculatiing expected damage, how much to lerp between the damage divided by number of weapons and the damage if every hit
@@ -1690,7 +1690,7 @@
 			"v" : {
 		"type" : "Float",
 		"floatVal" : 0.5
-		}
+			}
 	},
 	{
 	    /*  When getting the chance in causing significant damage, how much weight to give the amount of structural damage caused. */
@@ -1698,7 +1698,7 @@
 			"v" : {
 		"type" : "Float",
 		"floatVal" : 1
-		}
+			}
 	},
 	{
 	    /* When shooting in ghost state, lerp value to go from expected damage and max possible damage.
@@ -1707,7 +1707,7 @@
 			"v" : {
 		"type" : "Float",
 		"floatVal" : 0
-		}
+			}
 	},
 	{	
 	    /* For every round the ai does not shoot in ghost state, it adds to a mutiplier that increases the confidence in causing higher damage */
@@ -1715,7 +1715,7 @@
 			"v" : {
 		"type" : "Float",
 		"floatVal" : 0.3
-		}
+			}
 	},
 	{	
 	    /* Enables more precise predictions about expected damage by counting weapons in range and damage reductions of the unit*/
@@ -1723,7 +1723,7 @@
 			"v" : {
 		"type" : "Bool",
 		"boolVal" : false
-		}
+			}
 	},
 	{
 	    /*Enables the long-range pathfinding to be aware of actors blocking movement in nodes globally */
@@ -1731,7 +1731,7 @@
 			"v" : {
 		"type" : "Bool",
 		"boolVal" : false
-		}
+			}
 	},
 	{
 	    /* How close to the target region do we switch to short-range pathfinding */
@@ -1739,7 +1739,7 @@
 			"v" : {
 		"type" : "Float",
 		"floatVal" : 10
-		}
+			}
 	},
 	{
 	    /* Weight penalty multiplier for losing the ECM counter aura when positioning. 
@@ -1748,7 +1748,7 @@
 			"v" : {
 		"type" : "Float",
 		"floatVal" : 1
-		}
+			}
 	},
 	{
 	    /* Whether when enemy is ghosted, to use sprint or walk distance as marker to calculate influence map positional factors.
@@ -1757,7 +1757,7 @@
 			"v" : {
 		"type" : "Float",
 		"floatVal" : 0.5
-		}
+			}
 	},
     {
 	    /* Influence Factor Weight for standing still when hostiles are in melee range. */
