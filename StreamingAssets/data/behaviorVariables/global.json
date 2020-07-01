@@ -1002,7 +1002,7 @@
 			"k" : "Float_SprintAppetitivePreferIdealWeaponRangeToHostileFactorWeight",
 			"v" : {
 		"type" : "Float",
-		"floatVal" : 0.3
+		"floatVal" : 0.4
 			}
 	},
 	{
