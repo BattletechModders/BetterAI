@@ -1566,7 +1566,7 @@
 			"k" : "String_SensorLockedTargetGUID",
 			"v" : {
 		"type": "String",
-        "stringVal" : ""
+                "stringVal" : ""
 			}
 	},
 	{
@@ -1574,7 +1574,7 @@
 			"k" : "Int_LastAloneRoundNumber",
 			"v" : {
 		"type": "Int",
-        "intVal" : "-1"
+                "intVal" : "-1"
 			}
 	},
 	{
@@ -1582,7 +1582,7 @@
 			"k" : "Int_LastNotAloneRoundNumber",
 			"v" : {
 		"type": "Int",
-        "intVal" : "-1"
+                "intVal" : "-1"
 			}
 	},
 	{
@@ -1763,8 +1763,8 @@
 	    /* Influence Factor Weight for standing still when hostiles are in melee range. */
 			"k" : "Float_PreferStationaryWhenHostilesInMeleeRangeFactorWeight",
 			"v" : {
-        "type": "Float",
-        "floatVal": -0.1
+		"type": "Float",
+		"floatVal": -0.1
 			}
     },
     {
@@ -1773,8 +1773,8 @@
 	       Hostile Factor: 1.0 / 0.5 / 0.25 based on threat */
 			"k" : "Float_PreferAttackFromBehindHostileFactorWeight",
 			"v" : {
-        "type": "Float",
-        "floatVal": 0.1
+		"type": "Float",
+		"floatVal": 0.1
 			}
     },
     {
@@ -1783,8 +1783,8 @@
 	       Hostile Factor: 1.0 / 0.5 / 0.25 based on threat */
 			"k" : "Float_SprintPreferAttackFromBehindHostileFactorWeight",
 			"v" : {
-        "type": "Float",
-        "floatVal": 0.1
+		"type": "Float",
+		"floatVal": 0.1
 			}
     },
     {
@@ -1793,8 +1793,8 @@
 	       Hostile Factor: 1.0 / 0.5 / 0.25 based on threat */
 			"k" : "Float_PreferAttackFrom90DegreesToHostileFactorWeight",
 			"v" : {
-        "type": "Float",
-        "floatVal": 0.1
+		"type": "Float",
+		"floatVal": 0.1
 			}
     },
     {
@@ -1803,8 +1803,8 @@
 	       Hostile Factor: 1.0 / 0.5 / 0.25 based on threat */
 			"k" : "Float_SprintPreferAttackFrom90DegreesToHostileFactorWeight",
 			"v" : {
-        "type": "Float",
-        "floatVal": 0.1
+		"type": "Float",
+		"floatVal": 0.1
 			}
     },
     {
@@ -1812,8 +1812,8 @@
 	       minimum weapon range to hostiles.  */
 			"k" : "Float_PreferNoCloserThanMinDistToHostileFactorWeight",
 			"v" : {
-        "type": "Float",
-        "floatVal": 0.2
+		"type": "Float",
+		"floatVal": 0.2
 			}
     },
     {
@@ -1821,8 +1821,8 @@
 	       minimum weapon range to hostiles WHEN SPRINTING.  */
 			"k" : "Float_SprintPreferNoCloserThanMinDistToHostileFactorWeight",
 			"v" : {
-        "type": "Float",
-        "floatVal": 0.1
+		"type": "Float",
+		"floatVal": 0.1
 			}
     },
     {
@@ -1831,8 +1831,8 @@
 	       Hostile Factor: 1.0 / 0.5 / 0.25 based on threat */
 			"k" : "Float_PreferBeingBehindBracedHostileFactorWeight",
 			"v" : {
-        "type": "Float",
-        "floatVal": 0.1
+		"type": "Float",
+		"floatVal": 0.1
 			}
     },
     {
@@ -1841,8 +1841,8 @@
 	       Hostile Factor: 1.0 / 0.5 / 0.25 based on threat */
 			"k" : "Float_SprintPreferBeingBehindBracedHostileFactorWeight",
 			"v" : {
-        "type": "Float",
-        "floatVal": 0.1
+		"type": "Float",
+		"floatVal": 0.1
 			}
     },
     {
@@ -1850,8 +1850,8 @@
 		   hostiles. */
 			"k" : "Float_PreferLOSToMostHostilesFactorWeight",
 			"v" : {
-        "type": "Float",
-        "floatVal": 0.1
+		"type": "Float",
+		"floatVal": 0.1
 			}
     },
     {
@@ -1859,8 +1859,8 @@
 		   hostiles WHEN SPRINTING. */
 			"k" : "Float_SprintPreferLOSToMostHostilesFactorWeight",
 			"v" : {
-        "type": "Float",
-        "floatVal": 0.1
+		"type": "Float",
+		"floatVal": 0.1
 			}
     },
     {
@@ -1868,8 +1868,8 @@
 	       locations with damage reduction.*/
 			"k" : "Float_PreferHigherDamageReductionLocationsFactorWeight",
 			"v" : {
-        "type": "Float",
-        "floatVal": 0.1
+		"type": "Float",
+		"floatVal": 0.1
 			}
     },
     {
@@ -1877,8 +1877,8 @@
 	       locations with damage reduction WHEN SPRINTING.*/
 			"k" : "Float_SprintPreferHigherDamageReductionLocationsFactorWeight",
 			"v" : {
-        "type": "Float",
-        "floatVal": 0.1
+		"type": "Float",
+		"floatVal": 0.1
 			}
     },
     {
@@ -1886,8 +1886,8 @@
 	       locations with stability bonus. */
 			"k" : "Float_PreferLowerStabilityDamageMultiplierLocationsFactorWeight",
 			"v" : {
-        "type": "Float",
-        "floatVal": 0.1
+		"type": "Float",
+		"floatVal": 0.1
 			}
     },
     {
@@ -1895,8 +1895,8 @@
 	       locations with stability bonus WHEN SPRINTING. */
 			"k" : "Float_SprintPreferLowerStabilityDamageMultiplierLocationsFactorWeight",
 			"v" : {
-        "type": "Float",
-        "floatVal": 0.1
+		"type": "Float",
+		"floatVal": 0.1
 			}
     },
     {
@@ -1904,8 +1904,8 @@
 	       my own weak armor. */
 			"k" : "Float_PreferPresentingHigherArmorToHostileFactorWeight",
 			"v" : {
-        "type": "Float",
-        "floatVal": 0.45
+		"type": "Float",
+		"floatVal": 0.45
 			}
     },
     {
@@ -1913,8 +1913,8 @@
 	       my own weak armor WHEN SPRINTING. */
 			"k" : "Float_SprintPreferPresentingHigherArmorToHostileFactorWeight",
 			"v" : {
-        "type": "Float",
-        "floatVal": 0.3
+		"type": "Float",
+		"floatVal": 0.3
 			}
     }
   ]
