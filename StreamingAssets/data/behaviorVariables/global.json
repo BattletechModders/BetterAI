@@ -1851,7 +1851,7 @@
 	    		"k" : "Float_SprintPreferNoCloserThanPersonalSpaceToAllyFactorWeight",
 	    		"v" : {
 	"type" : "Float",
-	"floatVal" : 1.0
+	"floatVal" : 20.0
 	    }
     },
     {
