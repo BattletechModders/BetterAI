@@ -765,7 +765,7 @@
 			"k" : "Float_PreferNotLethalPositionFactorWeight",
 			"v" : {
 		"type" : "Float",
-		"floatVal" : 0.5
+		"floatVal" : 0.25
 			}
 	},
 	{
