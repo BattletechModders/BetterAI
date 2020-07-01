@@ -7,7 +7,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : 0.75
-            }
+			}
 	},
 	{
 	    /* How much a location must be damaged before an overheat
@@ -17,7 +17,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : 0.85
-            }
+			}
 	},
 	{
 	    /* How much a location must be damaged before a DFA attack
@@ -27,7 +27,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : 0.5
-            }
+			}
 	},
 	{
 	    /* Maximum leg damage allowed for DFA attack (above which
@@ -37,7 +37,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : 0.4
-            }
+			}
 	},
 	{
 	    /* Radius around waypoints that the lance must all be
@@ -46,7 +46,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : 70
-            }
+			}
 	},
 	{
 	    /* Distance beyond allies that a unit can run ahead while
@@ -55,7 +55,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : 10
-            }
+			}
 	},
 	{
 	    /* Whether the given route should loop. SET BY MAP
@@ -64,7 +64,7 @@
             "v" : {
 		"type" : "Bool",
 		"boolVal" : true
-            }
+			}
 	},
 	{
 	    /* When attacking a priority target, do not attack the
@@ -74,7 +74,7 @@
             "v" : {
 		"type" : "Int",
 		"intVal" : 11
-            }
+			}
 	},
 	{
 	    /* The "To Hit" threshold to use when attacking preferred
@@ -83,7 +83,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : 0.3
-            }
+			}
 	},
 	{
 	    /* Radius (in meters) that the AI must get to a waypoint
@@ -93,7 +93,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : 40
-            }
+			}
 	},
 	{
 	    /* Distance (in meters) that the AI wants to keep between
@@ -105,7 +105,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : 8
-            }
+			}
 	},
 	{
 	    /* Should targeting this unit distract it from attacking a
@@ -114,7 +114,7 @@
             "v" : {
 		"type" : "Bool",
 		"boolVal" : true
-            }
+			}
 	},
 	{
 	    /* Percentage (0-100) of time to attack priority
@@ -123,7 +123,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : 100
-            }
+			}
 	},
 	{
 	    /* Percentage (0-100) of time to move towards priority
@@ -132,15 +132,15 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : 100
-            }
+			}
 	},
 	{
 	    /* Influence Factor Weight for preferring moving less. */
             "k" : "Float_PreferLowerMovementFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : -0.5
-            }
+		"floatVal" : -0.6
+			}
 	},
 	{
 	    /* Influence Factor Weight for preferring moving less WHEN
@@ -148,8 +148,8 @@
             "k" : "Float_SprintPreferLowerMovementFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : -0.5
-            }
+		"floatVal" : -0.6
+			}
 	},
 	{
 	    /* Influence Factor Weight for preferring higher
@@ -158,7 +158,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : 0.2
-            }
+			}
 	},
 	{
 	    /* Influence Factor Weight for preferring higher
@@ -167,7 +167,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : 0.2
-            }
+			}
 	},
 	{
 	    /* Influence Factor Weight to maximize expected damage to
@@ -178,7 +178,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : 2.0
-            }
+			}
 	},
 	{
 	    /* Influence Factor Weight to maximize expected damage to
@@ -189,7 +189,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : 0.1
-            }
+			}
 	},
 	{
 	    /* Influence Factor Weight to minimize expected damage
@@ -197,8 +197,8 @@
             "k" : "Float_PreferLowerExpectedDamageFromHostileFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.2
-            }
+		"floatVal" : 0.3
+			}
 	},
 	{
 	    /* Influence Factor Weight to minimize expected damage
@@ -206,8 +206,8 @@
             "k" : "Float_SprintPreferLowerExpectedDamageFromHostileFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.2
-            }
+		"floatVal" : 0.3
+			}
 	},
 	{
 	    /* Influence Factor Weight to prefer facing hostiles.
@@ -217,7 +217,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : 0.35
-            }
+			}
 	},
 	{
 	    /* Influence Factor Weight to prefer facing hostiles WHEN
@@ -227,8 +227,8 @@
             "k" : "Float_SprintPreferFacingHostileFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.35
-            }
+		"floatVal" : 0.45
+			}
 	},
 	{
 	    /* Optimal distance to nearest ally. (See
@@ -237,7 +237,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : 168.0
-            }
+			}
 	},
 	{
 	    /* Optimal distance to nearest hostile. (See
@@ -246,7 +246,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : 200
-            }
+			}
 	},
 	{
 	    /* Influence Factor Weight to prefer locations close to
@@ -255,7 +255,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : 0.2
-            }
+			}
 	},
 	{
 	    /* Influence Factor Weight to prefer locations close to
@@ -263,8 +263,8 @@
             "k" : "Float_PreferOptimalDistanceToHostileFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0
-            }
+		"floatVal" : 0.2
+			}
 	},
 	{
 	    /* Influence Factor Weight to prefer locations close to
@@ -273,7 +273,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : 0.0
-            }
+			}
 	},
 	{
 	    /* Influence Factor Weight to prefer locations close to
@@ -282,7 +282,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : 0
-            }
+			}
 	},
 	{
 	    /* How much heat is acceptable before being subject to "overheat" logic.
@@ -294,7 +294,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : 1.99
-            }
+			}
 	},
 	{
 	    /* How much heat is acceptable before using "Vent Coolant" skill
@@ -306,7 +306,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : 2.1
-            }
+			}
 	},
 	{
 	    /* Minimum pilot hit points at which "Vent Coolant" skill will be used.
@@ -316,7 +316,7 @@
             "v" : {
 		"type" : "Int",
 		"intVal" : 2
-            }
+			}
 	},
 	{
 	    /* Boost provided to walk moves if the moving unit has the "Sure footing"
@@ -325,7 +325,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : 0.1
-            }
+			}
 	},
 
 	{
@@ -334,7 +334,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : 0.0
-            }
+			}
 	},
 	{
 	    /* When considering different kinds of attacks, multiply
@@ -344,7 +344,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : 1.0
-            }
+			}
 	},
 	{
 	    /* When considering different kinds of attacks, multiply
@@ -354,7 +354,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : 2
-            }
+			}
 	},
 	{
 	    /* When considering a melee attack against an unsteady
@@ -365,7 +365,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : 1.6
-            }
+			}
 	},
 	{
 	    /* When considering different kinds of attacks, multiply
@@ -375,7 +375,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : 1.4
-            }
+			}
 	},
 	{
 	    /* Distance (in meters) outside of which we consider
@@ -384,7 +384,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : 100.0
-            }
+			}
 	},
 	{
 	    /* Influence Factor Weight to control the desire to be
@@ -393,7 +393,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : 0.3
-            }
+			}
 	},
 	{
 	    /* Influence Factor Weight to control the desire to be
@@ -402,7 +402,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : 0.3
-            }
+			}
 	},
 	{
 	    /* Influence Factor Weight to control the desire to be
@@ -411,7 +411,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : 0.2
-            }
+			}
 	},
 	{
 	    /* Influence Factor Weight to control the desire to be
@@ -420,7 +420,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : 0.2
-            }
+			}
 	},
 	{
 	    /* Influence Factor Weight to control the desire to be
@@ -429,7 +429,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : -0.3
-            }
+			}
 	},
 	{
 	    /* Influence Factor Weight to control the desire to be
@@ -438,7 +438,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : -0.3
-            }
+			}
 	},
 	{
 	    /* Influence Factor Weight to control the desire to be in
@@ -465,7 +465,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : 0.8
-            }
+			}
 	},
 	{
 	    /* Influence Factor Weight to control the desire to attack
@@ -474,7 +474,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : 0.5
-            }
+			}
 	},
 	{
 	    /* Ratio between expected damage and target hit points to
@@ -483,7 +483,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : 0.65
-            }
+			}
 	},
 	{
 	    /* Damage multiplier when measuring vulnerability of called
@@ -492,7 +492,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : 3.0
-            }
+			}
 	},
 	{
 	    /* Ratio between hostile's expected damage and my hit points to
@@ -501,7 +501,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : 0.7
-            }
+			}
 	},
 	{
 	    /* How many phases to consider when looking for a melee
@@ -510,7 +510,7 @@
             "v" : {
 		"type" : "Int",
 		"intVal" : 5
-            }
+			}
 	},
 	{
 	    /* If a target is a melee revenge target, what additional
@@ -521,7 +521,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : 2.5
-            }
+			}
 	},
 	{
 	    /* If a target is a melee revenge target, but the ratio of
@@ -532,7 +532,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : 1.5
-            }
+			}
 	},
 	{
 	    /* If a unit takes this percentage damage or more in a
@@ -543,7 +543,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : 5.0
-            }
+			}
 	},
 	{
 	    /* When a weapon (e.g. flamer) generates heat, use this
@@ -553,7 +553,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : 2.0
-            }
+			}
 	},
 	{
 	    /* A weight for an influence factor to prefer to get
@@ -563,7 +563,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : -0.25
-            }
+			}
 	},
 	{
 	    /* A weight for an influence factor to prefer to get
@@ -573,7 +573,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : -0.25
-            }
+			}
 	},
 	{
 	    /* The number of hostiles considered when evaluating
@@ -582,7 +582,7 @@
             "v" : {
 		"type" : "Int",
 		"intVal" : 6
-            }
+			}
 	},
 	{
 	    /* The number of allies considered when evaluating
@@ -591,7 +591,7 @@
             "v" : {
 		"type" : "Int",
 		"intVal" : 3
-            }
+			}
 	},
 	{
 	    /* If unsteady, the chance of just deciding to switch to
@@ -600,7 +600,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : 60
-            }
+			}
 	},
 	{
 	    /* If my move would not result in being able to fire,
@@ -609,7 +609,7 @@
             "v" : {
 		"type" : "Bool",
 		"boolVal" : true
-            }
+			}
 	},
 	{
 	    /* Tag to control the desire to be near a tagged
@@ -618,7 +618,7 @@
             "v" : {
 		"type" : "String",
 		"stringVal" : ""
-            }
+			}
 	},
 	{
 	    /* How many degrees apart should I consider different
@@ -627,7 +627,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : 60.0
-            }
+			}
 	},
 	{
 	    /* Use dynamic lance roles (brawler, flanker, spotter, sniper) */
@@ -635,7 +635,7 @@
             "v" : {
 		"type" : "Bool",
 		"boolVal" : true
-            }
+			}
 	},
 	{
 	    /* How much of expected melee damage to add in again as
@@ -645,7 +645,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : 1.5
-            }
+			}
 	},
 	{
 	    /* How much of expected melee damage to add in again as
@@ -655,7 +655,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : 1.5
-            }
+			}
 	},
 	{
 	    /* How many damage points one unit of unsteadiness
@@ -665,7 +665,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : 1.40
-            }
+			}
 	},
 	{
 	    /* Influence Factor Weight to control the desire to be
@@ -673,8 +673,8 @@
             "k" : "Float_PreferLocationsThatGrantGuardFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.35
-            }
+		"floatVal" : 0.45
+			}
 	},
 	{
 	    /* Influence Factor Weight to control the desire to be
@@ -683,8 +683,8 @@
             "k" : "Float_SprintPreferLocationsThatGrantGuardFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.25
-            }
+		"floatVal" : 0.4
+			}
 	},
 	{
 	    /* Percentage (0-100) of best available move that will be
@@ -693,7 +693,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : 40
-            }
+			}
 	},
 	{
 	    /* Directory for influence map logs. Can be an absolute
@@ -703,20 +703,20 @@
             "v" : {
 		"type" : "String",
 		"stringVal" : "AI_Logs"
-            }
+			}
 	},
 	{
 	    /* Whether the AI will reserve or not. */
-	    "k" : "Bool_ReserveEnabled",
-	    "v" : {
+			"k" : "Bool_ReserveEnabled",
+			"v" : {
 		"type" : "Bool",
 		"boolVal" : true
 	    }
 	},
 	{
 	    /* The base percentage chance (0-100) to reserve. */
-	    "k" : "Float_ReserveBasePercentage",
-	    "v" : {
+			"k" : "Float_ReserveBasePercentage",
+			"v" : {
 		"type" : "Float",
 		"floatVal" : 50
 	    }
@@ -725,8 +725,8 @@
 	    /* The "X" value in "for every X percent of hostile units
 	       still to go this round, increase reserve chance by Y
 	       percent." (0-100) */
-	    "k" : "Float_ReserveHostilePercentageIncrementX",
-	    "v" : {
+			"k" : "Float_ReserveHostilePercentageIncrementX",
+			"v" : {
 		"type" : "Float",
 		"floatVal" : 25.0
 	    }
@@ -735,8 +735,8 @@
 	    /* The "Y" value in "for every X percent of hostile units
 	       still to go this round, increase reserve chance by Y
 	       percent." (0-100) */
-	    "k" : "Float_ReserveHostilePercentageIncrementY",
-	    "v" : {
+			"k" : "Float_ReserveHostilePercentageIncrementY",
+			"v" : {
 		"type" : "Float",
 		"floatVal" : 12.5
 	    }
@@ -744,8 +744,8 @@
 	{
 	    /* Positive values mean to go that much AFTER the average
 	       of the phases of remaining hostiles. */
-	    "k" : "Float_ReserveHostileOffset",
-	    "v" : {
+			"k" : "Float_ReserveHostileOffset",
+			"v" : {
 		"type" : "Float",
 		"floatVal" : 0.5
 	    }
@@ -753,8 +753,8 @@
 	{
 	    /* Threshold Percentage (100.0 equals 100%) of target hit
 	       points before we start trying to multi-target. */
-	    "k" : "Float_MultiTargetOverkillThreshold",
-	    "v" : {
+			"k" : "Float_MultiTargetOverkillThreshold",
+			"v" : {
 		"type" : "Float",
 		"floatVal" : 110.0
 	    }
@@ -762,8 +762,8 @@
 	{
 	    /* Weight to prefer not being in locations that have
 	       lethal amounts of expected damage */
-	    "k" : "Float_PreferNotLethalPositionFactorWeight",
-	    "v" : {
+			"k" : "Float_PreferNotLethalPositionFactorWeight",
+			"v" : {
 		"type" : "Float",
 		"floatVal" : 0.6
 	    }
@@ -771,68 +771,67 @@
 	{
 	    /* Weight to prefer sprinting to locations that do not
 	       have lethal amounts of expected damage */
-	    "k" : "Float_SprintPreferNotLethalPositionFactorWeight",
-	    "v" : {
+			"k" : "Float_SprintPreferNotLethalPositionFactorWeight",
+			"v" : {
 		"type" : "Float",
 		"floatVal" : 1.0
 	    }
 	},
 	{
-	    "k" : "Float_OverkillThresholdLowForLethalPositionFactor",
 	    /* Percentage (100.0 equals 100%) of unit's hit points
 	       below which damage is considered not lethal. Used by
 	       PreferNotLethalPositionFactor. */
-	    "v" : {
+			"k" : "Float_OverkillThresholdLowForLethalPositionFactor",
+			"v" : {
 		"type" : "Float",
 		"floatVal" : 100
 	    }
 	},
 	{
-	    "k" : "Float_OverkillThresholdHighForLethalPositionFactor",
 	    /* Percentage (100.0 equals 100%) of unit's hit points
 	       above which damage is considered lethal. Used by
 	       PreferNotLethalPositionFactor. */
-	    "v" : {
+			"k" : "Float_OverkillThresholdHighForLethalPositionFactor",
+			"v" : {
 		"type" : "Float",
 		"floatVal" : 350
 	    }
 	},
-	{
-	    "k" : "Float_OverkillThresholdLowForRearArcPositionFactor",
-	    /* Percentage (100.0 equals 100%) of unit's hit points
+	{	    /* Percentage (100.0 equals 100%) of unit's hit points
 	       below which damage is considered not lethal. Used by
 	       PreferLethalDamageToRearArcFromHostileFactor. */
-	    "v" : {
+			"k" : "Float_OverkillThresholdLowForRearArcPositionFactor",
+			"v" : {
 		"type" : "Float",
 		"floatVal" : 60
 	    }
 	},
 	{
-	    "k" : "Float_OverkillThresholdHighForRearArcPositionFactor",
 	    /* Percentage (100.0 equals 100%) of unit's hit points
 	       above which damage is considered lethal. Used by
 	       PreferLethalDamageToRearArcFromHostileFactor. */
-	    "v" : {
+			"k" : "Float_OverkillThresholdHighForRearArcPositionFactor",
+			"v" : {
 		"type" : "Float",
 		"floatVal" : 100
 	    }
 	},
 	{
-	    "k" : "Float_OverkillFactorForReserve",
 	    /* If a hostile actor can do this percentage (100.0
 	       equals 100%) of one of my unit's hit points, do
 	       not reserve. */
-	    "v" : {
+			"k" : "Float_OverkillFactorForReserve",
+			"v" : {
 		"type" : "Float",
 		"floatVal" : 150.0
 	    }
 	},
 	{
-	    "k" : "Float_CalledShotHeadBaseChance",
 	    /* Base chance for a called shot to the head. Not "out of"
 	       100, or any fixed number, out of the total
 	       applicable. */
-	    "v" : {
+			"k" : "Float_CalledShotHeadBaseChance",
+			"v" : {
 		"type" : "Float",
 		"floatVal" : 15.0
 	    }
@@ -841,8 +840,8 @@
 	    /* Base chance for a called shot to the center torso. Not
 	       "out of" 100, or any fixed number, out of the total
 	       applicable. */
-	    "k" : "Float_CalledShotCenterTorsoBaseChance",
-	    "v" : {
+			"k" : "Float_CalledShotCenterTorsoBaseChance",
+			"v" : {
 		"type" : "Float",
 		"floatVal" : 15.0
 	    }
@@ -851,8 +850,8 @@
 	    /* Base chance for a called shot to other locations. Not
 	       "out of" 100, or any fixed number, out of the total
 	       applicable. */
-	    "k" : "Float_CalledShotOtherBaseChance",
-	    "v" : {
+			"k" : "Float_CalledShotOtherBaseChance",
+			"v" : {
 		"type" : "Float",
 		"floatVal" : 2.5
 	    }
@@ -861,17 +860,17 @@
 	    /* Additional chance for a called shot per each point of
 	       expected weapon damage. Not "out of" 100, or any fixed
 	       number, out of the total applicable. */
-	    "k" : "Float_CalledShotWeaponDamageChance",
-	    "v" : {
+			"k" : "Float_CalledShotWeaponDamageChance",
+			"v" : {
 		"type" : "Float",
 		"floatVal" : 0.35
 	    }
 	},
 	{
-	    "k" : "Float_CalledShotDamagedChanceMultiplier",
 	    /* Called shot location multiplier if that location is
 	       damaged. */
-	    "v" : {
+			"k" : "Float_CalledShotDamagedChanceMultiplier",
+			"v" : {
 		"type" : "Float",
 		"floatVal" : 2.5
 	    }
@@ -879,8 +878,8 @@
 	{
 	    /* How long the AI is allowed to think, in seconds per
 	       unit per activation. */
-	    "k" : "Float_MaxThinkSeconds",
-	    "v" : {
+			"k" : "Float_MaxThinkSeconds",
+			"v" : {
 		"type" : "Float",
 		"floatVal" : 200.0
 	    }
@@ -897,7 +896,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : -1.0
-            }
+			}
 	},
 	{
 	    /* Influence Factor Weight to prefer moving to locations
@@ -911,7 +910,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : -1.5
-            }
+			}
 	},
 	{
 	    /* How far (in meters) a lance will allow itself to spread
@@ -921,7 +920,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : 140.0
-            }
+			}
 	},
 	{
 	    /* How far (in meters) a lance will allow itself to spread
@@ -931,13 +930,13 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : 180.0
-            }
+			}
 	},
 	{
 	    /* Appetitive Influence Factor Weight to approach
 	       hostile's rear arc. */
-	    "k" : "Float_AppetitivePreferApproachingRearArcOfHostileFactorWeight",
-	    "v" : {
+			"k" : "Float_AppetitivePreferApproachingRearArcOfHostileFactorWeight",
+			"v" : {
 		"type" : "Float",
 		"floatVal" : 0.6
 	    }
@@ -945,24 +944,24 @@
 	{
 	    /* Appetitive Influence Factor Weight to approach
 	       hostile's rear arc WHEN SPRINTING. */
-	    "k" : "Float_SprintAppetitivePreferApproachingRearArcOfHostileFactorWeight",
-	    "v" : {
+			"k" : "Float_SprintAppetitivePreferApproachingRearArcOfHostileFactorWeight",
+			"v" : {
 		"type" : "Float",
-		"floatVal" : 0.8
+		"floatVal" : 0.7
 	    }
 	},
 	{
 	    /* Radius (in meters) to avoid sprinting within. */
-	    "k" : "Float_SprintExclusionRadius",
-	    "v" : {
+			"k" : "Float_SprintExclusionRadius",
+			"v" : {
 		"type" : "Float",
 		"floatVal" : 244.0
 	    }
 	},
 	{
 	    /* Influence Factor Weight to be inside SprintExclusionRadius. */
-	    "k" : "Float_PreferInsideSprintExclusionRadiusHostileFactorWeight",
-	    "v" : {
+			"k" : "Float_PreferInsideSprintExclusionRadiusHostileFactorWeight",
+			"v" : {
 		"type" : "Float",
 		"floatVal" : 0.0
 	    }
@@ -973,8 +972,8 @@
 	       have NEGATIVE weights to discourage sprinting close to
 	       hostiles.
 	    */
-	    "k" : "Float_SprintPreferInsideSprintExclusionRadiusHostileFactorWeight",
-	    "v" : {
+			"k" : "Float_SprintPreferInsideSprintExclusionRadiusHostileFactorWeight",
+			"v" : {
 		"type" : "Float",
 		"floatVal" : -10
 	    }
@@ -982,8 +981,8 @@
 	{
 	    /* Maximum distance (in meters) to hostile used for
 	       SprintAppetitivePreferApproachingRearArcOfHostileFactor. */
-	    "k" : "Float_AppetitiveBehindMaximumRadius",
-	    "v" : {
+			"k" : "Float_AppetitiveBehindMaximumRadius",
+			"v" : {
 		"type" : "Float",
 		"floatVal" : 300.0
 	    }
@@ -991,17 +990,17 @@
 	{
 	    /* Appetitive Influence Factor Weight to approach ideal
 	       weapon range to hostile. */
-	    "k" : "Float_AppetitivePreferIdealWeaponRangeToHostileFactorWeight",
-	    "v" : {
+			"k" : "Float_AppetitivePreferIdealWeaponRangeToHostileFactorWeight",
+			"v" : {
 		"type" : "Float",
-		"floatVal" : 1.0
+		"floatVal" : 0.75
 	    }
 	},
 	{
 	    /* Appetitive Influence Factor Weight to approach ideal
 	       weapon range to hostile WHEN SPRINTING. */
-	    "k" : "Float_SprintAppetitivePreferIdealWeaponRangeToHostileFactorWeight",
-	    "v" : {
+			"k" : "Float_SprintAppetitivePreferIdealWeaponRangeToHostileFactorWeight",
+			"v" : {
 		"type" : "Float",
 		"floatVal" : 0.1
 	    }
@@ -1012,16 +1011,16 @@
 	       (Pre-July) version, which only looks at my ability to
 	       do damage to the target, and then distance. (Update:
 	       now always true.) */
-	    "k" : "Bool_UseNewThreatDEPRECATED",
-	    "v" : {
+			"k" : "Bool_UseNewThreatDEPRECATED",
+			"v" : {
 		"type" : "Bool",
 		"boolVal" : true
 	    }
 	},
 	{
 	    /* Influence Factor to prefer this lance to surround hostile units.*/
-	    "k" : "Float_PreferSurroundingHostileUnitsFactorWeight",
-	    "v" : {
+			"k" : "Float_PreferSurroundingHostileUnitsFactorWeight",
+			"v" : {
 		"type" : "Float",
 		"floatVal" : 0.8
 	    }
@@ -1029,16 +1028,16 @@
 	{
 	    /* Influence Factor to prefer this lance to surround
 	       hostile units WHEN SPRINTING.*/
-	    "k" : "Float_SprintPreferSurroundingHostileUnitsFactorWeight",
-	    "v" : {
+			"k" : "Float_SprintPreferSurroundingHostileUnitsFactorWeight",
+			"v" : {
 		"type" : "Float",
 		"floatVal" : 0.8
 	    }
 	},
 	{
 	    /* Influence Factor to prefer not to be surrounded by hostile units.*/
-	    "k" : "Float_PreferNotSurroundedByHostileUnitsFactorWeight",
-	    "v" : {
+			"k" : "Float_PreferNotSurroundedByHostileUnitsFactorWeight",
+			"v" : {
 		"type" : "Float",
 		"floatVal" : 0.25
 	    }
@@ -1046,8 +1045,8 @@
 	{
 	    /* Influence Factor to prefer not to be surrounded by
 	       hostile units WHEN SPRINTING.*/
-	    "k" : "Float_SprintPreferNotSurroundedByHostileUnitsFactorWeight",
-	    "v" : {
+			"k" : "Float_SprintPreferNotSurroundedByHostileUnitsFactorWeight",
+			"v" : {
 		"type" : "Float",
 		"floatVal" : 0.25
 	    }
@@ -1058,8 +1057,8 @@
 	       happens. Values can be between 0.0 and 1.0, with larger
 	       values (closer to 1.0) leaving more "sprint juice"
 	       around for next turn. */
-	    "k" : "Float_SprintHysteresisMultiplier",
-	    "v" : {
+			"k" : "Float_SprintHysteresisMultiplier",
+			"v" : {
 		"type" : "Float",
 		"floatVal" : 0.80
 	    }
@@ -1068,8 +1067,8 @@
 	    /* Sprint Hysteresis Recovery Turns, the number of turns
 	       not sprinting that it would take to recover from an
 	       empty "sprint juice" reservoir. */
-	    "k" : "Float_SprintHysteresisRecoveryTurns",
-	    "v" : {
+			"k" : "Float_SprintHysteresisRecoveryTurns",
+			"v" : {
 		"type" : "Float",
 		"floatVal" : 2.0
 	    }
@@ -1079,8 +1078,8 @@
 	       damage differential that we thought that inspiration
 	       might get us that we'll be willing to accept on the
 	       first round of having inspire available. */
-	    "k" : "Float_InspirationBaseDamageWindow",
-	    "v" : {
+			"k" : "Float_InspirationBaseDamageWindow",
+			"v" : {
 		"type" : "Float",
 		"floatVal" : 0.35
 	    }
@@ -1091,9 +1090,8 @@
 	       inspiration might get us that we'll be willing to
 	       accept on successive rounds of having inspire
 	       available. */
-
-	    "k" : "Float_InspirationIncrementalDamageWindow",
-	    "v" : {
+			"k" : "Float_InspirationIncrementalDamageWindow",
+			"v" : {
 		"type" : "Float",
 		"floatVal" : 0.3
 	    }
@@ -1101,8 +1099,8 @@
 	{
 	    /* The minimum expected damage inspiration should get us
 	       before we use inspiration. */
-	    "k" : "Float_MinimumInspirationDamage",
-	    "v" : {
+			"k" : "Float_MinimumInspirationDamage",
+			"v" : {
 		"type": "Float",
 		"floatVal" : 10.0
 	    }
@@ -1113,8 +1111,8 @@
 	       lance. Note - negative logic; this should use negative
 	       numbers, as it's designed to discourage being outside
 	       the radius and have no effect inside the fence. */
-	    "k" : "Float_PreferStayInsideFenceNegativeLogicFactorWeight",
-	    "v" : {
+			"k" : "Float_PreferStayInsideFenceNegativeLogicFactorWeight",
+			"v" : {
 		"type" : "Float",
 		"floatVal" : -6.0
 	    }
@@ -1126,8 +1124,8 @@
 	       should use negative numbers, as it's designed to
 	       discourage being outside the radius and have no effect
 	       inside the fence. */
-	    "k" : "Float_SprintPreferStayInsideFenceNegativeLogicFactorWeight",
-	    "v" : {
+			"k" : "Float_SprintPreferStayInsideFenceNegativeLogicFactorWeight",
+			"v" : {
 		"type" : "Float",
 		"floatVal" : -1.0
 	    }
@@ -1135,8 +1133,8 @@
 	{
 	    /* Fence radius (in meters) for
 	     * PreferStayInsideFenceFactor. */
-	    "k" : "Float_FenceRadius",
-	    "v" : {
+			"k" : "Float_FenceRadius",
+			"v" : {
 		"type" : "Float",
 		"floatVal" : 96.0
 	    }
@@ -1146,8 +1144,8 @@
 	       percentage (0.0 - 100.0), only shoot a single
 	       "conservative" shot. Note: ignored for attackers that
 	       are not mechs. */
-	    "k" : "Float_EvasiveToHitFloor",
-	    "v" : {
+			"k" : "Float_EvasiveToHitFloor",
+			"v" : {
 		"type": "Float",
 		"floatVal" : 40.0
 	    }
@@ -1158,8 +1156,8 @@
 	      locking turn needs to do over a straight up shooting
 	      turn before deciding to sensor lock. Positive is a
 	      shooting bias, negative is a sensor lock bias.*/
-	    "k" : "Float_MinimumSensorLockQuality",
-	    "v" : {
+			"k" : "Float_MinimumSensorLockQuality",
+			"v" : {
 		"type": "Float",
 		"floatVal" : 35
 	    }
@@ -1167,8 +1165,8 @@
 	{
 	    /* Multiplier for how 'strong' each point of head armor is
 	       when looking for weak armor. */
-	    "k" : "Float_HeadArmorMultiplier",
-	    "v" : {
+			"k" : "Float_HeadArmorMultiplier",
+			"v" : {
 		"type": "Float",
 		"floatVal" : 1000.0
 	    }
@@ -1176,8 +1174,8 @@
 	{
 	    /* Multiplier for how 'strong' each point of center torso
 	       front armor is when looking for weak armor. */
-	    "k" : "Float_CenterTorsoArmorMultiplier",
-	    "v" : {
+			"k" : "Float_CenterTorsoArmorMultiplier",
+			"v" : {
 		"type": "Float",
 		"floatVal" : 1.0
 	    }
@@ -1185,18 +1183,18 @@
 	{
 	    /* Multiplier for how 'strong' each point of center torso
 	       rear armor is when looking for weak armor. */
-	    "k" : "Float_CenterTorsoRearArmorMultiplier",
-	    "v" : {
+			"k" : "Float_CenterTorsoRearArmorMultiplier",
+			"v" : {
 		"type": "Float",
-		"floatVal" : 15
+		"floatVal" : 5
 	    }
 	},
 	{
 	    /* Multiplier for how 'strong' each point of center torso
 	       rear armor is when looking for weak armor *for rear arc
 	       influence factor*. */
-	    "k" : "Float_CenterTorsoRearArmorMultiplierForRearArc",
-	    "v" : {
+			"k" : "Float_CenterTorsoRearArmorMultiplierForRearArc",
+			"v" : {
 		"type": "Float",
 		"floatVal" : 1.0
 	    }
@@ -1204,8 +1202,8 @@
 	{
 	    /* Multiplier for how 'strong' each point of leg armor is
 	       when looking for weak armor on a legged mech. */
-	    "k" : "Float_RemainingLegArmorMultiplier",
-	    "v" : {
+			"k" : "Float_RemainingLegArmorMultiplier",
+			"v" : {
 		"type": "Float",
 		"floatVal" : 2.0
 	    }
@@ -1214,8 +1212,8 @@
 	    /* Percentage (0-100+) that the unit's locally evaluated
 	       best target must exceed the designated target's
 	       expected damage when considering opportunity fire. */
-	    "k" : "Float_OpportunityFireExceedsDesignatedTargetByPercentage",
-	    "v" : {
+			"k" : "Float_OpportunityFireExceedsDesignatedTargetByPercentage",
+			"v" : {
 		"type": "Float",
 		"floatVal" : 20.0
 	    }
@@ -1224,16 +1222,16 @@
 	    /* Percentage (0-100+) that the unit's locally evaluated
 	       best target must exceed the designated target's
 	       firepower takeaway when considering opportunity fire. */
-	    "k" : "Float_OpportunityFireExceedsDesignatedTargetFirepowerTakeawayByPercentage",
-	    "v" : {
+			"k" : "Float_OpportunityFireExceedsDesignatedTargetFirepowerTakeawayByPercentage",
+			"v" : {
 		"type": "Float",
 		"floatVal" : 20.0
 	    }
 	},
 	{
 	    /* Whether to use firepower takeaway when determining the designated target */
-	    "k" : "Bool_TargetDesignationUsesFirepowerTakeaway",
-	    "v" : {
+			"k" : "Bool_TargetDesignationUsesFirepowerTakeaway",
+			"v" : {
 		"type": "Bool",
 		"boolVal" : true
 	    }
@@ -1243,8 +1241,8 @@
 	       compare the attack hit probability to this
 	       threshold. Attacks with a lower probability than this
 	       will not be considered to strip an evasive pip. */
-	    "k" : "Float_PipStripAttackProbabilityThreshold",
-	    "v" : {
+			"k" : "Float_PipStripAttackProbabilityThreshold",
+			"v" : {
 		"type" : "Float",
 		"floatVal" : 0.75
 	    }
@@ -1252,8 +1250,8 @@
 	{
 	    /* Weight for an influence factor that seeks to maximize
 	     * ranged defense bonus (e.g. mineral fields). */
-	    "k" : "Float_PreferHigherRangedDefenseBonusLocationsFactorWeight",
-	    "v" : {
+			"k" : "Float_PreferHigherRangedDefenseBonusLocationsFactorWeight",
+			"v" : {
 		"type" : "Float",
 		"floatVal" : 1.0
 	    }
@@ -1261,8 +1259,8 @@
 	{
 	    /* Weight for an influence factor that seeks to maximize
 	     * ranged defense bonus (e.g. mineral fields) WHEN SPRINTING. */
-	    "k" : "Float_SprintPreferHigherRangedDefenseBonusLocationsFactorWeight",
-	    "v" : {
+			"k" : "Float_SprintPreferHigherRangedDefenseBonusLocationsFactorWeight",
+			"v" : {
 		"type" : "Float",
 		"floatVal" : 0.0
 	    }
@@ -1274,8 +1272,8 @@
 	       would make a downed mech as important as two other
 	       units. Values less than one would give the lance a
 	       tendency to abandon their wounded. */
-	    "k" : "Float_DownedMechFenceContributionMultiplier",
-	    "v" : {
+			"k" : "Float_DownedMechFenceContributionMultiplier",
+			"v" : {
 		"type" : "Float",
 		"floatVal" : 1.5
 	    }
@@ -1288,7 +1286,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : 95.0
-            }
+			}
 	},
 	{
 	    /* Fraction (0.0 - 1.0+) of a unit's heat generated in an
@@ -1298,7 +1296,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : 0.5
-            }
+			}
 	},
 	{
 	    /* Fraction (0.0 - 1.0+) of a unit's damage generated in
@@ -1308,7 +1306,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : 0.5
-            }
+			}
 	},
 	{
 	    /* Whether to use Bulwark actions*/
@@ -1316,22 +1314,22 @@
             "v" : {
 		"type" : "Bool",
 		"boolVal" : true
-            }
+			}
 	},
 	{
 	    /* how much to prefer to be in 'excluded' regions. Probably negative. */
-	    "k" : "Float_ExcludedRegionWeight",
-	    "v" : {
+			"k" : "Float_ExcludedRegionWeight",
+			"v" : {
 		"type": "Float",
-                "floatVal" : -20
+        "floatVal" : -20
 	    }
 	},
 	{
 	    /* how much to prefer to be in 'excluded' regions WHILE SPRINTING. Probably negative. */
-	    "k" : "Float_SprintExcludedRegionWeight",
-	    "v" : {
+			"k" : "Float_SprintExcludedRegionWeight",
+			"v" : {
 		"type": "Float",
-                "floatVal" : -20
+        "floatVal" : -20
 	    }
 	},
 	{
@@ -1340,7 +1338,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : 0
-            }
+			}
 	},
 	{
 	    /* Weight for how much to prefer to be exposed to enemy
@@ -1349,7 +1347,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : -0.8
-            }
+			}
 	},
 	{
 	    /* Weight for how much to prefer to be exposed to enemy
@@ -1358,7 +1356,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : -1.2
-            }
+			}
 	},
 	{
 	    /* How long to tolerate being alone, in turns. */
@@ -1366,7 +1364,7 @@
             "v" : {
 		"type" : "Int",
 		"floatVal" : 1
-            }
+			}
 	},
 	{
 	    /* How long to cool down after being alone, in turns. */
@@ -1374,7 +1372,7 @@
             "v" : {
 		"type" : "Int",
 		"floatVal" : 2
-            }
+			}
 	},
 	{
 	    /* When a buddy is exposed to enemy fire alone, apply this
@@ -1384,7 +1382,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : -0.8
-            }
+			}
 	},
 	{
 	    /* When a buddy is exposed to enemy fire alone, apply this
@@ -1394,7 +1392,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : -1.2
-            }
+			}
 	},
 	{
 	    /* When a buddy is exposed to enemy fire alone, close the
@@ -1407,7 +1405,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : -1.2
-            }
+			}
 	},
 	{
 	    /* When a buddy is exposed to enemy fire alone, close the
@@ -1420,14 +1418,14 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : -0.8
-            }
+			}
 	},
 	{
 	    /* Whether to allow long range pathfinding when following
 	     * routes. (Defaults to True) */
 
-	    "k" : "Bool_AllowLongRangePathfindingWhenPatrolling",
-	    "v" : {
+			"k" : "Bool_AllowLongRangePathfindingWhenPatrolling",
+			"v" : {
 		"type" : "Bool",
 		"boolVal" : true
 	    }
@@ -1438,69 +1436,63 @@
 	     * should be more accurate and efficient than the old
 	     * incline mesh pathfinding.
 	     */
-
-	    "k" : "Bool_UseDynamicLongRangePathfinding",
-	    "v" : {
+			"k" : "Bool_UseDynamicLongRangePathfinding",
+			"v" : {
 		"type" : "Bool",
 		"boolVal" : true
 	    }
 	},
 	{
-            /* How fast (percentage of full speed, 0% = 0, 100% = 100.0) to
-             * follow patrol routes.
+        /* How fast (percentage of full speed, 0% = 0, 100% = 100.0) to
+         * follow patrol routes.
 	     */
-
-	    "k" : "Float_PatrolRouteThrottlePercentage",
-	    "v" : {
+			"k" : "Float_PatrolRouteThrottlePercentage",
+			"v" : {
 		"type" : "Float",
 		"floatVal" : 80.0
 	    }
 	},
 	{
-            /* If we have priority targets, should we only consider priority
-             * targets when evaluating the "hostile" phase of influence maps?
+        /* If we have priority targets, should we only consider priority
+         * targets when evaluating the "hostile" phase of influence maps?
 	     */
-
-	    "k" : "Bool_FilterHostileInfluenceMapsToPriorityTargets",
-	    "v" : {
+			"k" : "Bool_FilterHostileInfluenceMapsToPriorityTargets",
+			"v" : {
 		"type" : "Bool",
 		"boolVal" : false
 	    }
 	},
 	{
-            /* If true, drop out of long range pathfinding if we can walk to
-             * a destination with LOF to a hostile. (TODO: roll this behavior out to
-             * all encounters.)
+        /* If true, drop out of long range pathfinding if we can walk to
+         * a destination with LOF to a hostile. (TODO: roll this behavior out to
+         * all encounters.)
 	     */
-
-	    "k" : "Bool_SimpleShortRangeLOF",
-	    "v" : {
+			"k" : "Bool_SimpleShortRangeLOF",
+			"v" : {
 		"type" : "Bool",
 		"boolVal" : false
 	    }
 	},
 	{
-            /* If true, apply "ruthless" mood to AIs that have priority
-             * targets and do not consider non-LOF destinations if destinations exist
-             * that have LOF
+        /* If true, apply "ruthless" mood to AIs that have priority
+         * targets and do not consider non-LOF destinations if destinations exist
+         * that have LOF
 	     */
-
-	    "k" : "Bool_RuthlessPriorityTargeting",
-	    "v" : {
+			"k" : "Bool_RuthlessPriorityTargeting",
+			"v" : {
 		"type" : "Bool",
 		"boolVal" : false
 	    }
 	},
-        {
-            /* If true, allow AI to attack hostiles. Otherwise, only move and brace.
-	     */
-
-	    "k" : "Bool_AllowAttack",
-	    "v" : {
+    {
+        /* If true, allow AI to attack hostiles. Otherwise, only move and brace.
+		 */
+			"k" : "Bool_AllowAttack",
+			"v" : {
 		"type" : "Bool",
 		"boolVal" : true
 	    }
-        },
+    },
 	{
 	    /* An alerted unit will act on visibility information,
 	       closing, attacking. Non-alerted units will still follow
@@ -1511,439 +1503,419 @@
             "v" : {
 		"type" : "Bool",
 		"boolVal" : false
-            }
+			}
 	},
 	{
 	    /* For internal AI use, do not set. */
-	    "k" : "Int_ReserveCalculationsLastDoneForRoundNumber",
-	    "v" : {
+			"k" : "Int_ReserveCalculationsLastDoneForRoundNumber",
+			"v" : {
 		"type" : "Int",
 		"intVal" : 0
 	    }
 	},
 	{
 	    /* For internal AI use, do not set. */
-	    "k" : "Int_ReserveCalculationsLastDoneForPhaseNumber",
-	    "v" : {
+			"k" : "Int_ReserveCalculationsLastDoneForPhaseNumber",
+			"v" : {
 		"type" : "Int",
 		"intVal" : 0
 	    }
 	},
 	{
 	    /* For internal AI use, do not set. */
-	    "k" : "Int_ReserveToPhaseNumber",
-	    "v" : {
+			"k" : "Int_ReserveToPhaseNumber",
+			"v" : {
 		"type" : "Int",
 		"intVal" : 0
 	    }
 	},
 	{
 	    /* For internal AI use, do not set. */
-	    "k" : "String_GuardLanceGUID",
-	    "v" : {
+			"k" : "String_GuardLanceGUID",
+			"v" : {
 		"type" : "String",
 		"stringVal" : ""
 	    }
 	},
 	{
 	    /* For internal AI use, do not set. */
-	    "k" : "Float_GuardLanceSpeedPercent",
-	    "v" : {
+			"k" : "Float_GuardLanceSpeedPercent",
+			"v" : {
 		"type" : "Float",
 		"floatVal" : 100
 	    }
 	},
 	{
 	    /* For internal AI use, do not set. */
-	    "k" : "Float_GuardLanceTetherDistance",
-	    "v" : {
+			"k" : "Float_GuardLanceTetherDistance",
+			"v" : {
 		"type" : "Float",
 		"floatVal" : 0
 	    }
 	},
 	{
 	    /* For internal AI use, do not set. */
-	    "k" : "String_StayInsideRegionGUID",
-	    "v" : {
+			"k" : "String_StayInsideRegionGUID",
+			"v" : {
 		"type" : "String",
 		"stringVal" : ""
 	    }
 	},
 	{
 	    /* For internal AI use, do not set. */
-	    "k" : "String_SensorLockedTargetGUID",
-	    "v" : {
+			"k" : "String_SensorLockedTargetGUID",
+			"v" : {
 		"type": "String",
-                "stringVal" : ""
+        "stringVal" : ""
 	    }
 	},
 	{
 	    /* For internal AI use, do not set. */
-	    "k" : "Int_LastAloneRoundNumber",
-	    "v" : {
+			"k" : "Int_LastAloneRoundNumber",
+			"v" : {
 		"type": "Int",
-                "intVal" : "-1"
+        "intVal" : "-1"
 	    }
 	},
 	{
 	    /* For internal AI use, do not set. */
-	    "k" : "Int_LastNotAloneRoundNumber",
-	    "v" : {
+			"k" : "Int_LastNotAloneRoundNumber",
+			"v" : {
 		"type": "Int",
-                "intVal" : "-1"
+        "intVal" : "-1"
 	    }
 	},
 	{
 	    /* Weight for an influence factor that seeks to stay
 	       within ECM range of friendlies */
-		"k" : "Float_PreferFriendlyECMFields",
-		"v" : 
-		{
-			"type" : "Float",
-			"floatVal" : 0.75
+			"k" : "Float_PreferFriendlyECMFields",
+			"v" : {
+		"type" : "Float",
+		"floatVal" : 0.75
 		}
 	},
 	{
 	    /* Weight for an influence factor that seeks to stay
 	       within ECM range of friendlies WHEN SPRINTING */
-		"k" : "Float_SprintPreferFriendlyECMFields",
-		"v" : 
-		{
-			"type" : "Float",
-			"floatVal" : 0.0
+			"k" : "Float_SprintPreferFriendlyECMFields",
+			"v" : {
+		"type" : "Float",
+		"floatVal" : 0.0
 		}
 	},
 	{
 	    /* Weight for an influence factor that seeks to stay
 	       within range of hostile ECM fields */
-		"k" : "Float_PreferHostileECMFields",
-		"v" : 
-		{
-			"type" : "Float",
-			"floatVal" : 100
+			"k" : "Float_PreferHostileECMFields",
+			"v" : {
+		"type" : "Float",
+		"floatVal" : 100
 		}
 	},
 	{
 	    /* Weight for an influence factor that seeks to stay
 	       within range of hostile ECM fields WHEN SPRINTING */
-		"k" : "Float_SprintPreferHostileECMFields",
-		"v" : 
-		{
-			"type" : "Float",
-			"floatVal" : 100
+			"k" : "Float_SprintPreferHostileECMFields",
+			"v" : {
+		"type" : "Float",
+		"floatVal" : 100
 		}
 	},
 	{
 	    /* Weight for an influence factor that seeks to stay
 	       within range of hostile ECM fields to use Active Probe */
-		"k" : "Float_PreferActiveProbePositions",
-		"v" : 
-		{
-			"type" : "Float",
-			"floatVal" : 0
+			"k" : "Float_PreferActiveProbePositions",
+			"v" : {
+		"type" : "Float",
+		"floatVal" : 0
 		}
 	},
 	{
 	    /* Weight for an influence factor that seeks to stay
 	       within range of hostile ECM fields to use Active Probe */
-		"k" : "Float_SprintPreferActiveProbePositions",
-		"v" : 
-		{
-			"type" : "Float",
-			"floatVal" : 0
+			"k" : "Float_SprintPreferActiveProbePositions",
+			"v" : {
+		"type" : "Float",
+		"floatVal" : 0
 		}
 	},
 	{
 	    /* Number of active probe targets before we even try to activate 
 	    active probe */
-		"k" : "Int_MinimumActiveProbeCount",
-		"v" : 
-		{
-			"type" : "Int",
-			"IntVal" : "999"
+			"k" : "Int_MinimumActiveProbeCount",
+			"v" : {
+		"type" : "Int",
+		"IntVal" : "999"
 		}
 	},
 	{
 	    /* Minimum number of stealth pips to allow for an ECM
 		ghosted mech to fire weapons */
-		"k" : "Int_MinimumECMGhostedPipsToFire",
-		"v" : 
-		{
-			"type" : "Int",
-			"IntVal" : "2"
+			"k" : "Int_MinimumECMGhostedPipsToFire",
+			"v" : {
+		"type" : "Int",
+		"IntVal" : "2"
 		}
 	},
 	{
 	    /* Enables advanced navigation behaviors only in urban biomes */
-		"k" : "Bool_EnableUrbanBiomeNavigation",
-		"v" : 
-		{
-			"type" : "Bool",
-			"boolVal" : true
+			"k" : "Bool_EnableUrbanBiomeNavigation",
+			"v" : {
+		"type" : "Bool",
+		"boolVal" : true
 		}
 	},
 	{
 	    /* Enables advanced navigation behaviors on all biome types */
-		"k" : "Bool_EnableUrbanBiomeNavigationEverywhere",
-		"v" : 
-		{
-			"type" : "Bool",
-			"boolVal" : false
+			"k" : "Bool_EnableUrbanBiomeNavigationEverywhere",
+			"v" : {
+		"type" : "Bool",
+		"boolVal" : false
 		}
 	},
 	{
 	    /*  Description: Float to track confidence in causing structural damage. Used to gague whether we should fire our weapon
 		from a ghosted state */
-		"k" : "Float_ConfidenceInSignificantDamageWhileGhostedLevel",
-		"v" : 
-		{
-			"type" : "Float",
-			"floatVal" : 0.7
+			"k" : "Float_ConfidenceInSignificantDamageWhileGhostedLevel",
+			"v" : {
+		"type" : "Float",
+		"floatVal" : 0.7
 		}
 	},
 	{
 	    /* When calculatiing expected damage, how much to lerp between the damage divided by number of weapons and the damage if every hit
 		was in the same location. 0 is damage divided and 1 is damage concentrated. 
 		Increases with Float_GhostStateHysteresisMultiplierTurnIncrease */
-		"k" : "Float_WeaponDamageSpreadLerpValue",
-		"v" : 
-		{
-			"type" : "Float",
-			"floatVal" : 0.5
+			"k" : "Float_WeaponDamageSpreadLerpValue",
+			"v" : {
+		"type" : "Float",
+		"floatVal" : 0.5
 		}
 	},
 	{
 	    /*  When getting the chance in causing significant damage, how much weight to give the amount of structural damage caused. */
-		"k" : "Float_StructuralDamagePercentageMultiplier",
-		"v" : 
-		{
-			"type" : "Float",
-			"floatVal" : 1
+			"k" : "Float_StructuralDamagePercentageMultiplier",
+			"v" : {
+		"type" : "Float",
+		"floatVal" : 1
 		}
 	},
 	{
 	    /* When shooting in ghost state, lerp value to go from expected damage and max possible damage.
 		Increases with Float_GhostStateHysteresisMultiplierTurnIncrease */
-		"k" : "Float_ExpectedAndMaxDamageShootingInGhostStateLerp",
-		"v" : 
-		{
-			"type" : "Float",
-			"floatVal" : 0
+			"k" : "Float_ExpectedAndMaxDamageShootingInGhostStateLerp",
+			"v" : {
+		"type" : "Float",
+		"floatVal" : 0
 		}
 	},
 	{	
 	    /* For every round the ai does not shoot in ghost state, it adds to a mutiplier that increases the confidence in causing higher damage */
-		"k" : "Float_GhostStateHysteresisMultiplierTurnIncrease",
-		"v" : 
-		{
-			"type" : "Float",
-			"floatVal" : 0.3
+			"k" : "Float_GhostStateHysteresisMultiplierTurnIncrease",
+			"v" : {
+		"type" : "Float",
+		"floatVal" : 0.3
 		}
 	},
 	{	
 	    /* Enables more precise predictions about expected damage by counting weapons in range and damage reductions of the unit*/
-		"k" : "Bool_ExpectedDamageAccuracyIncrease",
-		"v" : 
-		{
-			"type" : "Bool",
-			"boolVal" : false
+			"k" : "Bool_ExpectedDamageAccuracyIncrease",
+			"v" : {
+		"type" : "Bool",
+		"boolVal" : false
 		}
 	},
 	{
 	    /*Enables the long-range pathfinding to be aware of actors blocking movement in nodes globally */
-		"k" : "Bool_EnableLongRangePathfindingBeActorAware",
-		"v" : 
-		{
-			"type" : "Bool",
-			"boolVal" : false
+			"k" : "Bool_EnableLongRangePathfindingBeActorAware",
+			"v" : {
+		"type" : "Bool",
+		"boolVal" : false
 		}
 	},
 	{
 	    /* How close to the target region do we switch to short-range pathfinding */
-		"k" : "Float_LongRangeToShortRangeDistanceThreshold",
-		"v" : 
-		{
-			"type" : "Float",
-			"floatVal" : 10
+			"k" : "Float_LongRangeToShortRangeDistanceThreshold",
+			"v" : {
+		"type" : "Float",
+		"floatVal" : 10
 		}
 	},
 	{
 	    /* Weight penalty multiplier for losing the ECM counter aura when positioning. 
 		   If set to 1, it represents -Float_PreferHostileECMFields or -Float_SprintPreferHostileECMFields*/
-		"k" : "Float_PreferHostileECMFieldsPenaltyMultiplier",
-		"v" : 
-		{
-			"type" : "Float",
-			"floatVal" : 1
+			"k" : "Float_PreferHostileECMFieldsPenaltyMultiplier",
+			"v" : {
+		"type" : "Float",
+		"floatVal" : 1
 		}
 	},
 	{
 	    /* Whether when enemy is ghosted, to use sprint or walk distance as marker to calculate influence map positional factors.
 		Lerp is 0 - 1, Walking to Sprinting*/
-		"k" : "Float_SignalInWeapRngWhenEnemyGhostedWithinMoveDistance",
-		"v" : 
-		{
-			"type" : "Float",
-			"floatVal" : 0.5
+			"k" : "Float_SignalInWeapRngWhenEnemyGhostedWithinMoveDistance",
+			"v" : {
+		"type" : "Float",
+		"floatVal" : 0.5
 		}
 	},
-        {
-    	    /* Influence Factor Weight for standing still when hostiles are in melee range. */
-              "k": "Float_PreferStationaryWhenHostilesInMeleeRangeFactorWeight",
-              "v": {
-                        "type": "Float",
-                        "floatVal": -0.1
-              }
-        },
-        {
+    {
+	    /* Influence Factor Weight for standing still when hostiles are in melee range. */
+			"k" : "Float_PreferStationaryWhenHostilesInMeleeRangeFactorWeight",
+			"v" : {
+        "type": "Float",
+        "floatVal": -0.1
+			}
+    },
+    {
 	    /* Influence Factor Weight to prefer being behind
 	       hostiles.
 	       Hostile Factor: 1.0 / 0.5 / 0.25 based on threat */
-              "k": "Float_PreferAttackFromBehindHostileFactorWeight",
-              "v": {
-                        "type": "Float",
-                        "floatVal": 0.1
-              }
-        },
-        {
+			"k" : "Float_PreferAttackFromBehindHostileFactorWeight",
+			"v" : {
+        "type": "Float",
+        "floatVal": 0.1
+			}
+    },
+    {
 	    /* Influence Factor Weight to prefer being behind hostiles
 	       WHEN SPRINTING.
 	       Hostile Factor: 1.0 / 0.5 / 0.25 based on threat */
-              "k": "Float_SprintPreferAttackFromBehindHostileFactorWeight",
-              "v": {
-                        "type": "Float",
-                        "floatVal": 0.1
-              }
-        },
-        {
+			"k" : "Float_SprintPreferAttackFromBehindHostileFactorWeight",
+			"v" : {
+        "type": "Float",
+        "floatVal": 0.1
+			}
+    },
+    {
 	    /* Influence Factor Weight to prefer being beside
 	       hostiles.
 	       Hostile Factor: 1.0 / 0.5 / 0.25 based on threat */
-              "k": "Float_PreferAttackFrom90DegreesToHostileFactorWeight",
-              "v": {
-                        "type": "Float",
-                        "floatVal": 0.1
-      }
+			"k" : "Float_PreferAttackFrom90DegreesToHostileFactorWeight",
+			"v" : {
+        "type": "Float",
+        "floatVal": 0.1
+			}
     },
     {
 	    /* Influence Factor Weight to prefer being beside hostiles
 	       WHEN SPRINTING.
 	       Hostile Factor: 1.0 / 0.5 / 0.25 based on threat */
-      "k": "Float_SprintPreferAttackFrom90DegreesToHostileFactorWeight",
-      "v": {
+			"k" : "Float_SprintPreferAttackFrom90DegreesToHostileFactorWeight",
+			"v" : {
         "type": "Float",
         "floatVal": 0.1
-      }
+			}
     },
     {
 	    /* Influence Factor Weight to reject being closer than the
 	       minimum weapon range to hostiles.  */
-      "k": "Float_PreferNoCloserThanMinDistToHostileFactorWeight",
-      "v": {
+			"k" : "Float_PreferNoCloserThanMinDistToHostileFactorWeight",
+			"v" : {
         "type": "Float",
         "floatVal": 0.2
-      }
+			}
     },
     {
 	    /* Influence Factor Weight to reject being closer than the
 	       minimum weapon range to hostiles WHEN SPRINTING.  */
-      "k": "Float_SprintPreferNoCloserThanMinDistToHostileFactorWeight",
-      "v": {
+			"k" : "Float_SprintPreferNoCloserThanMinDistToHostileFactorWeight",
+			"v" : {
         "type": "Float",
         "floatVal": 0.1
-      }
+			}
     },
     {
 	    /* Influence Factor Weight to prefer being behind braced
 	       targets.
 	       Hostile Factor: 1.0 / 0.5 / 0.25 based on threat */
-      "k": "Float_PreferBeingBehindBracedHostileFactorWeight",
-      "v": {
+			"k" : "Float_PreferBeingBehindBracedHostileFactorWeight",
+			"v" : {
         "type": "Float",
         "floatVal": 0.1
-      }
+			}
     },
     {
 	    /* Influence Factor Weight to prefer being behind braced
 	       targets WHEN SPRINTING.
 	       Hostile Factor: 1.0 / 0.5 / 0.25 based on threat */
-      "k": "Float_SprintPreferBeingBehindBracedHostileFactorWeight",
-      "v": {
+			"k" : "Float_SprintPreferBeingBehindBracedHostileFactorWeight",
+			"v" : {
         "type": "Float",
         "floatVal": 0.1
-      }
+			}
     },
     {
 	    /* Influence Factor Weight to prefer having LOS to most
 		   hostiles. */
-      "k": "Float_PreferLOSToMostHostilesFactorWeight",
-      "v": {
+			"k" : "Float_PreferLOSToMostHostilesFactorWeight",
+			"v" : {
         "type": "Float",
         "floatVal": 0.1
-      }
+			}
     },
     {
 	    /* Influence Factor Weight to prefer having LOS to most
 		   hostiles WHEN SPRINTING. */
-      "k": "Float_SprintPreferLOSToMostHostilesFactorWeight",
-      "v": {
+			"k" : "Float_SprintPreferLOSToMostHostilesFactorWeight",
+			"v" : {
         "type": "Float",
         "floatVal": 0.1
-      }
+			}
     },
     {
 	    /* Influence Factor Weight to control the desire to be in
 	       locations with damage reduction.*/
-      "k": "Float_PreferHigherDamageReductionLocationsFactorWeight",
-      "v": {
+			"k" : "Float_PreferHigherDamageReductionLocationsFactorWeight",
+			"v" : {
         "type": "Float",
         "floatVal": 0.1
-      }
+			}
     },
     {
 	    /* Influence Factor Weight to control the desire to be in
 	       locations with damage reduction WHEN SPRINTING.*/
-      "k": "Float_SprintPreferHigherDamageReductionLocationsFactorWeight",
-      "v": {
+			"k" : "Float_SprintPreferHigherDamageReductionLocationsFactorWeight",
+			"v" : {
         "type": "Float",
         "floatVal": 0.1
-      }
+			}
     },
     {
 	    /* Influence Factor Weight to control the desire to be in
 	       locations with stability bonus. */
-      "k": "Float_PreferLowerStabilityDamageMultiplierLocationsFactorWeight",
-      "v": {
+			"k" : "Float_PreferLowerStabilityDamageMultiplierLocationsFactorWeight",
+			"v" : {
         "type": "Float",
         "floatVal": 0.1
-      }
+			}
     },
     {
 	    /* Influence Factor Weight to control the desire to be in
 	       locations with stability bonus WHEN SPRINTING. */
-      "k": "Float_SprintPreferLowerStabilityDamageMultiplierLocationsFactorWeight",
-      "v": {
+			"k" : "Float_SprintPreferLowerStabilityDamageMultiplierLocationsFactorWeight",
+			"v" : {
         "type": "Float",
         "floatVal": 0.1
-      }
+			}
     },
     {
 	    /* Influence Factor Weight to control the desire to defend
 	       my own weak armor. */
-      "k": "Float_PreferPresentingHigherArmorToHostileFactorWeight",
-      "v": {
+			"k" : "Float_PreferPresentingHigherArmorToHostileFactorWeight",
+			"v" : {
         "type": "Float",
-        "floatVal": 0.1
-      }
+        "floatVal": 0.45
+			}
     },
     {
 	    /* Influence Factor Weight to control the desire to defend
 	       my own weak armor WHEN SPRINTING. */
-      "k": "Float_SprintPreferPresentingHigherArmorToHostileFactorWeight",
-      "v": {
+			"k" : "Float_SprintPreferPresentingHigherArmorToHostileFactorWeight",
+			"v" : {
         "type": "Float",
-        "floatVal": 0.1
-      }
+        "floatVal": 0.3
+			}
     }
   ]
 }
