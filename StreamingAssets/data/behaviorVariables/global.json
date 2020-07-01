@@ -281,7 +281,7 @@
             "k" : "Float_SprintPreferOptimalDistanceToHostileFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.2
+		"floatVal" : 0.5
 			}
 	},
 	{
@@ -1002,7 +1002,7 @@
 			"k" : "Float_SprintAppetitivePreferIdealWeaponRangeToHostileFactorWeight",
 			"v" : {
 		"type" : "Float",
-		"floatVal" : 0.4
+		"floatVal" : 0.75
 			}
 	},
 	{
