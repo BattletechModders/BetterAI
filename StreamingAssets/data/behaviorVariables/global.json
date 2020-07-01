@@ -6,7 +6,7 @@
             "k" : "Float_AccuracyNeededForOverheatAttack",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.75
+		"floatVal" : 0.8
 			}
 	},
 	{
@@ -16,7 +16,7 @@
             "k" : "Float_ExistingTargetDamageForOverheatAttack",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.85
+		"floatVal" : 0.9
 			}
 	},
 	{
@@ -26,7 +26,7 @@
             "k" : "Float_ExistingTargetDamageForDFAAttack",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.5
+		"floatVal" : 0.1
 			}
 	},
 	{
@@ -36,7 +36,7 @@
             "k" : "Float_OwnMaxLegDamageForDFAAttack",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.4
+		"floatVal" : 0.55
 			}
 	},
 	{
