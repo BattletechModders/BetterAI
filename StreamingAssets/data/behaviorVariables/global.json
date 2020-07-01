@@ -175,7 +175,7 @@
       "k": "Float_PreferHigherExpectedDamageToHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 3.0
+        "floatVal": 3.8
       }
     },
     {
@@ -915,7 +915,7 @@
       "k": "Float_PreferLethalDamageToRearArcFromHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": -2.5
+        "floatVal": -2.25
       }
     },
     {
@@ -929,7 +929,7 @@
       "k": "Float_SprintPreferLethalDamageToRearArcFromHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": -2.5
+        "floatVal": -2.25
       }
     },
     {
