@@ -1850,8 +1850,8 @@
 	       personal space to allies WHEN SPRINTING. */
 	    		"k" : "Float_SprintPreferNoCloserThanPersonalSpaceToAllyFactorWeight",
 	    		"v" : {
-	"type" : "Float",
-	"floatVal" : 20.0
+		"type" : "Float",
+		"floatVal" : 21.0
 	    }
     },
     {
