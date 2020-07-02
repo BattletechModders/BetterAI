@@ -305,7 +305,7 @@
             "k" : "Float_VentCoolantHeatThreshold",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 2.1
+		"floatVal" : 1.9
 			}
 	},
 	{
@@ -315,7 +315,7 @@
             "k" : "Int_VentCoolantHealthThreshold",
             "v" : {
 		"type" : "Int",
-		"intVal" : 2
+		"intVal" : 1
 			}
 	},
 	{
@@ -599,7 +599,7 @@
             "k" : "Float_UnsteadyCausesDefensiveMovePercentage",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 60
+		"floatVal" : 50
 			}
 	},
 	{
@@ -1262,7 +1262,7 @@
 			"k" : "Float_SprintPreferHigherRangedDefenseBonusLocationsFactorWeight",
 			"v" : {
 		"type" : "Float",
-		"floatVal" : 0.0
+		"floatVal" : 0.3
 			}
 	},
 	{
@@ -1860,7 +1860,7 @@
 			"k" : "Float_PreferLOSToMostHostilesFactorWeight",
 			"v" : {
         "type": "Float",
-        "floatVal": 0.1
+        "floatVal": 0.2
 			}
     },
     {
@@ -1896,7 +1896,7 @@
 			"k" : "Float_PreferLowerStabilityDamageMultiplierLocationsFactorWeight",
 			"v" : {
         "type": "Float",
-        "floatVal": 0.1
+        "floatVal": 0.05
 			}
     },
     {
@@ -1905,7 +1905,7 @@
 			"k" : "Float_SprintPreferLowerStabilityDamageMultiplierLocationsFactorWeight",
 			"v" : {
         "type": "Float",
-        "floatVal": 0.1
+        "floatVal": 0.05
 			}
     },
     {
