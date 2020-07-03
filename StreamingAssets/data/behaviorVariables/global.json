@@ -562,7 +562,7 @@
             "k" : "Float_PreferInsideMeleeRangeFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : -0.25
+		"floatVal" : -0.3
 			}
 	},
 	{
@@ -572,7 +572,7 @@
             "k" : "Float_SprintPreferInsideMeleeRangeFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : -0.25
+		"floatVal" : -0.3
 			}
 	},
 	{
@@ -1764,7 +1764,7 @@
 			"k" : "Float_PreferStationaryWhenHostilesInMeleeRangeFactorWeight",
 			"v" : {
         "type": "Float",
-        "floatVal": -0.1
+        "floatVal": -0.2
 			}
     },
     {
