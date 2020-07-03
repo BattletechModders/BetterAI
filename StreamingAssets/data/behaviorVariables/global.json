@@ -803,7 +803,7 @@
 			"k" : "Float_OverkillThresholdLowForRearArcPositionFactor",
 			"v" : {
 		"type" : "Float",
-		"floatVal" : 50
+		"floatVal" : 60
 			}
 	},
 	{
@@ -813,7 +813,7 @@
 			"k" : "Float_OverkillThresholdHighForRearArcPositionFactor",
 			"v" : {
 		"type" : "Float",
-		"floatVal" : 80
+		"floatVal" : 100
 			}
 	},
 	{
