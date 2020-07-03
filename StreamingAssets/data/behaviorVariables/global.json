@@ -73,7 +73,7 @@
             "k" : "Int_RecentTargetThresholdPhases",
             "v" : {
 		"type" : "Int",
-		"intVal" : 11
+		"intVal" : 1
 			}
 	},
 	{
@@ -823,7 +823,7 @@
 			"k" : "Float_OverkillFactorForReserve",
 			"v" : {
 		"type" : "Float",
-		"floatVal" : 150.0
+		"floatVal" : 90.0
 			}
 	},
 	{
@@ -833,7 +833,7 @@
 			"k" : "Float_CalledShotHeadBaseChance",
 			"v" : {
 		"type" : "Float",
-		"floatVal" : 15.0
+		"floatVal" : 5.0
 			}
 	},
 	{
@@ -843,7 +843,7 @@
 			"k" : "Float_CalledShotCenterTorsoBaseChance",
 			"v" : {
 		"type" : "Float",
-		"floatVal" : 15.0
+		"floatVal" : 25.0
 			}
 	},
 	{
@@ -881,7 +881,7 @@
 			"k" : "Float_MaxThinkSeconds",
 			"v" : {
 		"type" : "Float",
-		"floatVal" : 200.0
+		"floatVal" : 60.0
 			}
 	},
 	{
@@ -929,7 +929,7 @@
             "k" : "Float_InterleavedLanceSpreadDistance",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 180.0
+		"floatVal" : 144.0
 			}
 	},
 	{
