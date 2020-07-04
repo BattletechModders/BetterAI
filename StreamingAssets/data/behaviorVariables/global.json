@@ -803,7 +803,7 @@
 			"k" : "Float_OverkillThresholdLowForRearArcPositionFactor",
 			"v" : {
 		"type" : "Float",
-		"floatVal" : 60
+		"floatVal" : 40
 			}
 	},
 	{
@@ -813,7 +813,7 @@
 			"k" : "Float_OverkillThresholdHighForRearArcPositionFactor",
 			"v" : {
 		"type" : "Float",
-		"floatVal" : 100
+		"floatVal" : 50
 			}
 	},
 	{
@@ -1305,7 +1305,7 @@
             "k" : "Float_DamageFracForHeatFilter",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.5
+		"floatVal" : 0.0
 			}
 	},
 	{
@@ -1774,7 +1774,7 @@
 			"k" : "Float_PreferAttackFromBehindHostileFactorWeight",
 			"v" : {
         "type": "Float",
-        "floatVal": 0.1
+        "floatVal": 0.2
 			}
     },
     {
@@ -1804,7 +1804,7 @@
 			"k" : "Float_SprintPreferAttackFrom90DegreesToHostileFactorWeight",
 			"v" : {
         "type": "Float",
-        "floatVal": 0.1
+        "floatVal": 0.15
 			}
     },
     {
