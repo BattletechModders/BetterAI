@@ -955,7 +955,7 @@
 			"k" : "Float_SprintExclusionRadius",
 			"v" : {
 		"type" : "Float",
-		"floatVal" : 244.0
+		"floatVal" : 192.0
 			}
 	},
 	{
@@ -1205,7 +1205,7 @@
 			"k" : "Float_RemainingLegArmorMultiplier",
 			"v" : {
 		"type": "Float",
-		"floatVal" : 2.0
+		"floatVal" : 1.0
 			}
 	},
 	{
@@ -1244,7 +1244,7 @@
 			"k" : "Float_PipStripAttackProbabilityThreshold",
 			"v" : {
 		"type" : "Float",
-		"floatVal" : 0.75
+		"floatVal" : 0.1
 			}
 	},
 	{
@@ -1654,7 +1654,7 @@
 			"k" : "Int_MinimumECMGhostedPipsToFire",
 			"v" : {
 		"type" : "Int",
-		"IntVal" : "2"
+		"IntVal" : "1"
 			}
 	},
 	{
