@@ -938,7 +938,7 @@
 			"k" : "Float_AppetitivePreferApproachingRearArcOfHostileFactorWeight",
 			"v" : {
 		"type" : "Float",
-		"floatVal" : 0.6
+		"floatVal" : 0.4
 			}
 	},
 	{
@@ -947,7 +947,7 @@
 			"k" : "Float_SprintAppetitivePreferApproachingRearArcOfHostileFactorWeight",
 			"v" : {
 		"type" : "Float",
-		"floatVal" : 0.7
+		"floatVal" : 0.4
 			}
 	},
 	{
@@ -955,7 +955,7 @@
 			"k" : "Float_SprintExclusionRadius",
 			"v" : {
 		"type" : "Float",
-		"floatVal" : 192.0
+		"floatVal" : 216.0
 			}
 	},
 	{
@@ -1147,7 +1147,7 @@
 			"k" : "Float_EvasiveToHitFloor",
 			"v" : {
 		"type": "Float",
-		"floatVal" : 40.0
+		"floatVal" : 30.0
 			}
 	},
 	{
@@ -1346,7 +1346,7 @@
             "k" : "Float_AlonePreferenceWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : -0.8
+		"floatVal" : -1.0
 			}
 	},
 	{
@@ -1355,7 +1355,7 @@
             "k" : "Float_SprintAlonePreferenceWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : -1.2
+		"floatVal" : -1.5
 			}
 	},
 	{
@@ -1381,7 +1381,7 @@
             "k" : "Float_BuddyAloneFiringSolutionPreferenceWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : -0.8
+		"floatVal" : -1.0
 			}
 	},
 	{
