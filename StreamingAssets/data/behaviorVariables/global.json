@@ -188,7 +188,7 @@
             "k" : "Float_SprintPreferHigherExpectedDamageToHostileFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.3
+		"floatVal" : 0.4
 			}
 	},
 	{
@@ -673,7 +673,7 @@
             "k" : "Float_PreferLocationsThatGrantGuardFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.55
+		"floatVal" : 0.6
 			}
 	},
 	{
@@ -683,7 +683,7 @@
             "k" : "Float_SprintPreferLocationsThatGrantGuardFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.45
+		"floatVal" : 0.5
 			}
 	},
 	{
