@@ -6,7 +6,7 @@
             "k" : "Float_AccuracyNeededForOverheatAttack",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.8
+		"floatVal" : 0.85
 			}
 	},
 	{
@@ -16,7 +16,7 @@
             "k" : "Float_ExistingTargetDamageForOverheatAttack",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.9
+		"floatVal" : 0.95
 			}
 	},
 	{
@@ -293,7 +293,7 @@
             "k" : "Float_AcceptableHeatLevel",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 1.99
+		"floatVal" : 0.8
 			}
 	},
 	{
@@ -305,7 +305,7 @@
             "k" : "Float_VentCoolantHeatThreshold",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 1.9
+		"floatVal" : 0.8
 			}
 	},
 	{
