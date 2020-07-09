@@ -6,7 +6,7 @@
       "k": "Float_AccuracyNeededForOverheatAttack",
       "v": {
         "type": "Float",
-        "floatVal": 0.8
+        "floatVal": 0.75
       }
     },
     {
@@ -26,7 +26,17 @@
       "k": "Float_OwnMaxLegDamageForDFAAttack",
       "v": {
         "type": "Float",
-        "floatVal": 0.75
+        "floatVal": 0.85
+      }
+    },
+    {
+      /* Influence Factor Weight to maximize expected damage to
+         hostiles.
+         Hostile Factor: 1.0 / 0.5 / 0.25 based on threat */
+      "k": "Float_PreferHigherExpectedDamageToHostileFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 3.0
       }
     },
     {
@@ -35,7 +45,7 @@
       "k": "Float_OptimalHostileDistance",
       "v": {
         "type": "Float",
-        "floatVal": 144
+        "floatVal": 72
       }
     },
     {
@@ -55,7 +65,7 @@
       "k": "Float_DFADamageMultiplier",
       "v": {
         "type": "Float",
-        "floatVal": 3.5
+        "floatVal": 6
       }
     },
     {
@@ -93,26 +103,7 @@
       "k": "Float_UnsteadyCausesDefensiveMovePercentage",
       "v": {
         "type": "Float",
-        "floatVal": 25
-      }
-    },
-    {
-      /* Influence Factor Weight to control the desire to be
-         inside forests or other locations that grant guard. */
-      "k": "Float_PreferLocationsThatGrantGuardFactorWeight",
-      "v": {
-        "type": "Float",
-        "floatVal": 0.8
-      }
-    },
-    {
-      /* Influence Factor Weight to control the desire to be
-         inside forests or other locations that grant guard WHEN
-         SPRINTING. */
-      "k": "Float_SprintPreferLocationsThatGrantGuardFactorWeight",
-      "v": {
-        "type": "Float",
-        "floatVal": 0.7
+        "floatVal": 20
       }
     },
     {
@@ -156,7 +147,7 @@
       "k": "Float_SprintExclusionRadius",
       "v": {
         "type": "Float",
-        "floatVal": 72.0
+        "floatVal": 48.0
       }
     },
     {
@@ -263,7 +254,7 @@
       "k": "Float_PreferLOSToMostHostilesFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.3
+        "floatVal": 0.25
       }
     },
     {
@@ -273,24 +264,6 @@
       "v": {
         "type": "Float",
         "floatVal": 0.2
-      }
-    },
-    {
-      /* Influence Factor Weight to control the desire to defend
-         my own weak armor. */
-      "k": "Float_PreferPresentingHigherArmorToHostileFactorWeight",
-      "v": {
-        "type": "Float",
-        "floatVal": 0.6
-      }
-    },
-    {
-      /* Influence Factor Weight to control the desire to defend
-         my own weak armor WHEN SPRINTING. */
-      "k": "Float_SprintPreferPresentingHigherArmorToHostileFactorWeight",
-      "v": {
-        "type": "Float",
-        "floatVal": 0.5
       }
     }
   ]
