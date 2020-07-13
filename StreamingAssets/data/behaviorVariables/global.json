@@ -889,7 +889,7 @@
       "k": "Float_PreferLethalDamageToRearArcFromHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": -0.1
+        "floatVal": -0.15
       }
     },
     {
@@ -1140,7 +1140,7 @@
       "k": "Float_EvasiveToHitFloor",
       "v": {
         "type": "Float",
-        "floatVal": 30.0
+        "floatVal": 25.0
       }
     },
     {
