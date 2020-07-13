@@ -195,7 +195,7 @@
       "k": "Float_SprintPreferNotSurroundedByHostileUnitsFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.3
+        "floatVal": 0.1
       }
     },
     {
