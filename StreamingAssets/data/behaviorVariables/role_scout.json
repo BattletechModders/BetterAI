@@ -85,7 +85,7 @@
       "k": "Float_PreferInsideMeleeRangeFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": -0.7
+        "floatVal": -0.8
       }
     },
     {
@@ -114,7 +114,7 @@
       "k": "Float_MeleeBonusMultiplierWhenAttackingEvasiveTargets",
       "v": {
         "type": "Float",
-        "floatVal": 3.7
+        "floatVal": 4.0
       }
     },
     {
