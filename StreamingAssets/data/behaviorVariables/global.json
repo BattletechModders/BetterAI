@@ -299,7 +299,7 @@
       "k": "Float_VentCoolantHeatThreshold",
       "v": {
         "type": "Float",
-        "floatVal": 1.5
+        "floatVal": 1.0
       }
     },
     {
