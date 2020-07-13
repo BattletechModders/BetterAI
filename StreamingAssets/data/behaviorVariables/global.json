@@ -637,7 +637,7 @@
       "k": "Float_MeleeBonusMultiplierWhenAttackingEvasiveTargets",
       "v": {
         "type": "Float",
-        "floatVal": 1.7
+        "floatVal": 1.8
       }
     },
     {
