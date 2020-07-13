@@ -7,7 +7,7 @@
       "k": "Float_ExistingTargetDamageForOverheatAttack",
       "v": {
         "type": "Float",
-        "floatVal": 0.9
+        "floatVal": 0.95
       }
     },
     {
@@ -25,7 +25,7 @@
       "k": "Float_PreferLowerMovementFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": -1.0
+        "floatVal": -1.1
       }
     },
     {
@@ -34,7 +34,7 @@
       "k": "Float_SprintPreferLowerMovementFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": -0.8
+        "floatVal": -0.7
       }
     },
     {
@@ -85,7 +85,7 @@
       "k": "Float_PreferInsideMeleeRangeFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": -0.5
+        "floatVal": -0.6
       }
     },
     {
@@ -251,7 +251,7 @@
       "k": "Float_AlonePreferenceWeight",
       "v": {
         "type": "Float",
-        "floatVal": -1.5
+        "floatVal": -2.0
       }
     },
     {
@@ -343,7 +343,7 @@
       "k": "Float_SprintPreferLOSToFewestHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.1
+        "floatVal": 0.2
       }
     },
     {
