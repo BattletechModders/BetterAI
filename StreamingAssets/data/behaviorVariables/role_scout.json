@@ -114,7 +114,7 @@
       "k": "Float_MeleeBonusMultiplierWhenAttackingEvasiveTargets",
       "v": {
         "type": "Float",
-        "floatVal": 3.0
+        "floatVal": 3.7
       }
     },
     {
@@ -307,7 +307,7 @@
       "k": "Float_PreferStationaryWhenHostilesInMeleeRangeFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": -1.0
+        "floatVal": -1.5
       }
     },
     {
