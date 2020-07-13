@@ -40,6 +40,15 @@
       }
     },
     {
+      /* Influence Factor Weight to prefer facing hostiles.
+         Hostile Factor: 1.0 / 0.5 / 0.25 based on threat */
+      "k": "Float_PreferFacingHostileFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.6
+      }
+    },
+    {
       /* Optimal distance to nearest hostile. (See
          Float_PreferOptimalDistanceToHostileFactorWeight.) */
       "k": "Float_OptimalHostileDistance",
@@ -141,7 +150,7 @@
       "k": "Float_MeleeDamageRatioCap",
       "v": {
         "type": "Float",
-        "floatVal": 10.0
+        "floatVal": 50.0
       }
     },
     {
@@ -221,6 +230,14 @@
          have NEGATIVE weights to discourage sprinting close to
          hostiles. */
       "k": "Float_SprintPreferInsideSprintExclusionRadiusHostileFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.1
+      }
+    },
+    {
+      /* Influence Factor to prefer this lance to surround hostile units.*/
+      "k": "Float_PreferSurroundingHostileUnitsFactorWeight",
       "v": {
         "type": "Float",
         "floatVal": 0.1
