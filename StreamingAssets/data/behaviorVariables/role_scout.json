@@ -135,6 +135,15 @@
       }
     },
     {
+      /* Positive values mean to go that much AFTER the average
+         of the phases of remaining hostiles. */
+      "k": "Float_ReserveHostileOffset",
+      "v": {
+        "type": "Float",
+        "floatVal": 1.5
+      }
+    },
+    {
       /* Percentage (100.0 equals 100%) of unit's hit points
          below which damage is considered not lethal. Used by
          PreferNotLethalPositionFactor. */
