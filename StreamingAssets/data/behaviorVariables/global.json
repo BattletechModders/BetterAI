@@ -1848,6 +1848,15 @@
       }
     },
     {
+      /* Influence Factor Weight to prefer being far away from
+         closest hostile. Useful for defensive moves. */
+      "k" : "Float_PreferHigherDistanceFromClosestHostileFactorWeight",
+      "v" : {
+        "type" : "Float",
+        "floatVal" : 0.0
+      }
+	},
+    {
       /* Influence Factor Weight to prefer having LOS to
          fewest hostiles. Useful for defensive moves. */
       "k": "Float_PreferLOSToFewestHostileFactorWeight",
