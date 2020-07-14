@@ -47,6 +47,15 @@
       }
     },
     {
+      /* Influence Factor Weight to prefer locations close to
+         optimal distance to other allies. */
+      "k": "Float_PreferOptimalDistanceToAllyFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.4
+      }
+    },
+    {
       /* When considering different kinds of attacks, multiply
          the melee damage by this value to decide which attack
          to use. */
