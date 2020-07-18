@@ -302,6 +302,15 @@
       }
     },
     {
+      /* How fast (percentage of full speed, 0% = 0, 100% = 100.0) to
+	     follow patrol routes. */
+      "k": "Float_PatrolRouteThrottlePercentage",
+      "v": {
+        "type": "Float",
+        "floatVal": 70.0
+      }
+    },
+    {
       /* Weight for an influence factor that seeks to stay
          within ECM range of friendlies WHEN SPRINTING */
       "k": "Float_SprintPreferFriendlyECMFields",
@@ -317,7 +326,7 @@
       "k": "Float_SignalInWeapRngWhenEnemyGhostedWithinMoveDistance",
       "v": {
         "type": "Float",
-        "floatVal": 0.90
+        "floatVal": 0.45
       }
     },
     {
