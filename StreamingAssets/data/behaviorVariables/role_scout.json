@@ -257,7 +257,7 @@
     },
     {
       /* Weight for an influence factor that seeks to maximize
-	     ranged defense bonus (e.g. mineral fields). */
+         ranged defense bonus (e.g. mineral fields). */
       "k": "Float_PreferHigherRangedDefenseBonusLocationsFactorWeight",
       "v": {
         "type": "Float",
@@ -266,7 +266,7 @@
     },
     {
       /* Weight for an influence factor that seeks to maximize
-	     ranged defense bonus (e.g. mineral fields) WHEN SPRINTING. */
+         ranged defense bonus (e.g. mineral fields) WHEN SPRINTING. */
       "k": "Float_SprintPreferHigherRangedDefenseBonusLocationsFactorWeight",
       "v": {
         "type": "Float",
@@ -275,7 +275,7 @@
     },
     {
       /* Weight for how much to prefer to be exposed to enemy
-	     fire alone. Probably negative. */
+         fire alone. Probably negative. */
       "k": "Float_AlonePreferenceWeight",
       "v": {
         "type": "Float",
@@ -284,7 +284,7 @@
     },
     {
       /* Weight for how much to prefer to be exposed to enemy
-	     fire alone WHEN SPRINTING. Probably negative. */
+         fire alone WHEN SPRINTING. Probably negative. */
       "k": "Float_SprintAlonePreferenceWeight",
       "v": {
         "type": "Float",
@@ -293,8 +293,8 @@
     },
     {
       /* When a buddy is exposed to enemy fire alone, apply this
-	     weight to locations that DO NOT have line of fire to
-	     hostiles. Probably negative. */
+         weight to locations that DO NOT have line of fire to
+         hostiles. Probably negative. */
       "k": "Float_BuddyAloneFiringSolutionPreferenceWeight",
       "v": {
         "type": "Float",
@@ -303,7 +303,7 @@
     },
     {
       /* How fast (percentage of full speed, 0% = 0, 100% = 100.0) to
-	     follow patrol routes. */
+         follow patrol routes. */
       "k": "Float_PatrolRouteThrottlePercentage",
       "v": {
         "type": "Float",
@@ -418,6 +418,6 @@
         "type": "Float",
         "floatVal": 0.1
       }
-    },
+    }
   ]
 }
