@@ -131,8 +131,8 @@
     },
     {
       /* When a buddy is exposed to enemy fire alone, apply this
-	     weight to locations that DO NOT have line of fire to
-	     hostiles. Probably negative. */
+         weight to locations that DO NOT have line of fire to
+         hostiles. Probably negative. */
       "k": "Float_BuddyAloneFiringSolutionPreferenceWeight",
       "v": {
         "type": "Float",
@@ -141,8 +141,8 @@
     },
     {
       /* When a buddy is exposed to enemy fire alone, apply this
-	     weight to locations that DO NOT have line of fire to
-	     hostiles WHEN SPRINTING. Probably negative. */
+         weight to locations that DO NOT have line of fire to
+         hostiles WHEN SPRINTING. Probably negative. */
       "k": "Float_SprintBuddyAloneFiringSolutionPreferenceWeight",
       "v": {
         "type": "Float",
@@ -151,11 +151,11 @@
     },
     {
       /* When a buddy is exposed to enemy fire alone, close the
-	     distance to the alone unit by applying this weight
-	     proportionately to locations radiating out from the
-	     alone unit (e.g. the alone unit's location would get
-	     0.0, this unit's location would get 1.0 * this
-	     weight. Probably negative. */
+         distance to the alone unit by applying this weight
+         proportionately to locations radiating out from the
+         alone unit (e.g. the alone unit's location would get
+         0.0, this unit's location would get 1.0 * this
+         weight. Probably negative. */
       "k": "Float_BuddyAloneMoveNearbyPreferenceWeight",
       "v": {
         "type": "Float",
@@ -164,11 +164,11 @@
     },
     {
       /* When a buddy is exposed to enemy fire alone, close the
-	     distance to the alone unit by applying this weight
-	     proportionately to locations radiating out from the
-	     alone unit (e.g. the alone unit's location would get
-	     0.0, this unit's location would get 1.0 * this
-	     weight WHEN SPRINTING. Probably negative. */
+         distance to the alone unit by applying this weight
+         proportionately to locations radiating out from the
+         alone unit (e.g. the alone unit's location would get
+         0.0, this unit's location would get 1.0 * this
+         weight WHEN SPRINTING. Probably negative. */
       "k": "Float_SprintBuddyAloneMoveNearbyPreferenceWeight",
       "v": {
         "type": "Float",
@@ -245,6 +245,6 @@
         "type": "Float",
         "floatVal": 0.0
       }
-    },
+    }
   ]
 }
