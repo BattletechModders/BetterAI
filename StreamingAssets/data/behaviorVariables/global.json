@@ -1660,7 +1660,7 @@
     },
     {
       /* Description: Float to track confidence in causing structural 
-	     damage. Used to gague whether we should fire our weapon
+         damage. Used to gague whether we should fire our weapon
          from a ghosted state */
       "k": "Float_ConfidenceInSignificantDamageWhileGhostedLevel",
       "v": {
