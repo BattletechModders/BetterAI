@@ -262,7 +262,7 @@
     },
     {
       /* Weight for an influence factor that seeks to maximize
-	     ranged defense bonus (e.g. mineral fields). */
+         ranged defense bonus (e.g. mineral fields). */
       "k": "Float_PreferHigherRangedDefenseBonusLocationsFactorWeight",
       "v": {
         "type": "Float",
@@ -271,7 +271,7 @@
     },
     {
       /* Weight for an influence factor that seeks to maximize
-	     ranged defense bonus (e.g. mineral fields) WHEN SPRINTING. */
+         ranged defense bonus (e.g. mineral fields) WHEN SPRINTING. */
       "k": "Float_SprintPreferHigherRangedDefenseBonusLocationsFactorWeight",
       "v": {
         "type": "Float",
