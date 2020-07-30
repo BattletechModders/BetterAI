@@ -184,7 +184,7 @@
       "k": "Float_SprintPreferHigherExpectedDamageToHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.6
+        "floatVal": 0.4
       }
     },
     {
@@ -394,7 +394,7 @@
       "k": "Float_SprintPreferLessTargetableLocationFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.3
+        "floatVal": 0.25
       }
     },
     {
@@ -412,7 +412,7 @@
       "k": "Float_SprintPreferHigherHeatSinkLocationsFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.2
+        "floatVal": 0.15
       }
     },
     {
@@ -913,7 +913,7 @@
       "k": "Float_NonInterleavedLanceSpreadDistance",
       "v": {
         "type": "Float",
-        "floatVal": 100.0
+        "floatVal": 51.0
       }
     },
     {
@@ -923,7 +923,7 @@
       "k": "Float_InterleavedLanceSpreadDistance",
       "v": {
         "type": "Float",
-        "floatVal": 100.0
+        "floatVal": 51.0
       }
     },
     {
@@ -995,7 +995,7 @@
       "k": "Float_SprintAppetitivePreferIdealWeaponRangeToHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.9
+        "floatVal": 0.7
       }
     },
     {
@@ -1024,7 +1024,7 @@
       "k": "Float_SprintPreferSurroundingHostileUnitsFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.05
+        "floatVal": 0.3
       }
     },
     {
@@ -1728,7 +1728,7 @@
       "k": "Float_LongRangeToShortRangeDistanceThreshold",
       "v": {
         "type": "Float",
-        "floatVal": 10
+        "floatVal": 100
       }
     },
     {
@@ -1785,7 +1785,7 @@
       "k": "Float_PreferAttackFrom90DegreesToHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.1
+        "floatVal": 0.15
       }
     },
     {
@@ -1795,7 +1795,7 @@
       "k": "Float_SprintPreferAttackFrom90DegreesToHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.15
+        "floatVal": 0.1
       }
     },
     {
