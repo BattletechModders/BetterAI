@@ -1952,6 +1952,17 @@
         "type": "Float",
         "floatVal": 0.4
       }
+    },
+    {
+      /* When choosing to turn the strongest armor towards the
+         enemy, the rear armor can be presented to the enemy if
+         the unit is in "offensive" mode, only if this is set to
+         True. */
+      "k" : "Bool_AllowTurningRearArmorToEnemy",
+      "v" : {
+        "type" : "Bool",
+        "boolVal" : false
+      }
     }
   ]
 }
