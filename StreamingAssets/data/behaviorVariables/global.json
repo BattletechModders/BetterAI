@@ -837,7 +837,7 @@
       "k": "Float_CalledShotCenterTorsoBaseChance",
       "v": {
         "type": "Float",
-        "floatVal": 35.0
+        "floatVal": 40.0
       }
     },
     {
