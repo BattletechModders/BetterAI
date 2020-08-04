@@ -103,7 +103,7 @@
       "k": "Float_UnsteadyCausesDefensiveMovePercentage",
       "v": {
         "type": "Float",
-        "floatVal": 20
+        "floatVal": 15
       }
     },
     {
