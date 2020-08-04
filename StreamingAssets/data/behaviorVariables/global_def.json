@@ -169,7 +169,7 @@
       "k": "Float_SprintPreferInsideMeleeRangeFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": -0.7
+        "floatVal": -0.65
       }
     },
     {
@@ -214,7 +214,7 @@
       "k": "Float_SprintPreferNotLethalPositionFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.5
+        "floatVal": 0.45
       }
     },
     {
@@ -240,7 +240,7 @@
       "k": "Float_SprintAppetitivePreferIdealWeaponRangeToHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.2
+        "floatVal": 0.1
       }
     },
     {
@@ -257,7 +257,7 @@
       "k": "Float_SprintPreferNotSurroundedByHostileUnitsFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.3
+        "floatVal": 0.25
       }
     },
     {
@@ -275,7 +275,7 @@
       "k": "Float_SprintPreferHigherRangedDefenseBonusLocationsFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.2
+        "floatVal": 0.15
       }
     },
     {
@@ -294,7 +294,7 @@
       "k": "Float_PreferFriendlyECMFields",
       "v": {
         "type": "Float",
-        "floatVal": 1.0
+        "floatVal": 1.5
       }
     },
     {
@@ -303,7 +303,7 @@
       "k": "Float_SprintPreferFriendlyECMFields",
       "v": {
         "type": "Float",
-        "floatVal": 1.0
+        "floatVal": 1.5
       }
     },
     {
@@ -320,7 +320,7 @@
       "k": "Float_PreferStationaryWhenHostilesInMeleeRangeFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": -0.8
+        "floatVal": -1
       }
     },
     {
