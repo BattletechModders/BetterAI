@@ -211,7 +211,7 @@
       "k": "Float_PreferFacingHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.40
+        "floatVal": 0.4
       }
     },
     {
@@ -230,7 +230,7 @@
       "k": "Float_OptimalAllyDistance",
       "v": {
         "type": "Float",
-        "floatVal": 168.0
+        "floatVal": 168
       }
     },
     {
@@ -941,7 +941,7 @@
       "k": "Float_SprintAppetitivePreferApproachingRearArcOfHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.4
+        "floatVal": 0.25
       }
     },
     {
@@ -1217,7 +1217,7 @@
       "k": "Float_OpportunityFireExceedsDesignatedTargetFirepowerTakeawayByPercentage",
       "v": {
         "type": "Float",
-        "floatVal": 20.0
+        "floatVal": 15
       }
     },
     {
