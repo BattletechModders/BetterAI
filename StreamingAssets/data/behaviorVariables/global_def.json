@@ -97,6 +97,16 @@
       }
     },
     {
+      /* When considering different kinds of attacks, multiply
+         the DFA damage by this value to decide which attack to
+         use. */
+      "k": "Float_DFADamageMultiplier",
+      "v": {
+        "type": "Float",
+        "floatVal": 1.5
+      }
+    },
+    {
       /* Distance (in meters) outside of which we consider
          ourselves OK to stop and cool down. */
       "k": "Float_CoolDownRange",
