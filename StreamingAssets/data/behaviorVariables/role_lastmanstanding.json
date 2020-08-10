@@ -26,7 +26,7 @@
       "k": "Float_OwnMaxLegDamageForDFAAttack",
       "v": {
         "type": "Float",
-        "floatVal": 0.85
+        "floatVal": 0.95
       }
     },
     {
@@ -45,7 +45,7 @@
       "k": "Float_OptimalHostileDistance",
       "v": {
         "type": "Float",
-        "floatVal": 72
+        "floatVal": 24
       }
     },
     {
@@ -65,7 +65,7 @@
       "k": "Float_DFADamageMultiplier",
       "v": {
         "type": "Float",
-        "floatVal": 8
+        "floatVal": 12
       }
     },
     {
