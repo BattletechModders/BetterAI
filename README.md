@@ -46,6 +46,17 @@ https://github.com/BattletechModders/cFixes/releases - Commuinity bug fixes, Bet
 ## Stock Files Edited:
 #### StreamingAssets\data\behaviorVariables - AI variable edits
     global.json
+    global_def.json
+    global_sensorlock.json
+    role_activeprobe.json
+    role_ecmcarrier.json
+    role_ewe.json
+    role_lastmanstanding.json
+    role_meleeonly.json
+    role_noncombatant.json
+    role_scout.json
+    role_sniper.json
+    role_vehicle.json
 
 #### StreamingAssets\data\constants - AI Crit Chance
     CombatGameConstants.json
