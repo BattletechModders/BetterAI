@@ -34,7 +34,7 @@
       "k": "Float_MeleeDamageMultiplier",
       "v": {
         "type": "Float",
-        "floatVal": 1.75
+        "floatVal": 2
       }
     },
     {
@@ -44,7 +44,7 @@
       "k": "Float_DFADamageMultiplier",
       "v": {
         "type": "Float",
-        "floatVal": 2.25
+        "floatVal": 2.75
       }
     },
     {
