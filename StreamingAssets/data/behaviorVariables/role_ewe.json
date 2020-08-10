@@ -104,6 +104,16 @@
       }
     },
     {
+      /* When considering different kinds of attacks, multiply
+         the DFA damage by this value to decide which attack to
+         use. */
+      "k": "Float_DFADamageMultiplier",
+      "v": {
+        "type": "Float",
+        "floatVal": 1.5
+      }
+    },
+    {
       /* Influence Factor Weight to control the desire to be
          inside e.g. forests. */
       "k": "Float_PreferLessTargetableLocationFactorWeight",
