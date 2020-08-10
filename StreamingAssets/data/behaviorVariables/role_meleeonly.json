@@ -82,7 +82,7 @@
       "k": "Float_MeleeDamageMultiplier",
       "v": {
         "type": "Float",
-        "floatVal": 12
+        "floatVal": 5
       }
     },
     {
@@ -92,7 +92,7 @@
       "k": "Float_DFADamageMultiplier",
       "v": {
         "type": "Float",
-        "floatVal": 9.0
+        "floatVal": 12
       }
     },
     {
