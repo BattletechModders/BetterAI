@@ -17,7 +17,7 @@
       "k": "Float_OwnMaxLegDamageForDFAAttack",
       "v": {
         "type": "Float",
-        "floatVal": 0.30
+        "floatVal": 0.3
       }
     },
     {
@@ -179,7 +179,7 @@
       "k": "Float_OverkillFactorForReserve",
       "v": {
         "type": "Float",
-        "floatVal": 60.0
+        "floatVal": 60
       }
     },
     {
@@ -216,7 +216,7 @@
       "k": "Float_SprintHysteresisMultiplier",
       "v": {
         "type": "Float",
-        "floatVal": 1.0
+        "floatVal": 1
       }
     },
     {
@@ -228,7 +228,7 @@
       "k": "Float_PreferStayInsideFenceNegativeLogicFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": -4.0
+        "floatVal": -4
       }
     },
     {
@@ -241,7 +241,7 @@
       "k": "Float_SprintPreferStayInsideFenceNegativeLogicFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": -2.0
+        "floatVal": -2
       }
     },
     {
@@ -279,7 +279,7 @@
       "k": "Float_AlonePreferenceWeight",
       "v": {
         "type": "Float",
-        "floatVal": -2.0
+        "floatVal": -2
       }
     },
     {
@@ -307,7 +307,7 @@
       "k": "Float_PatrolRouteThrottlePercentage",
       "v": {
         "type": "Float",
-        "floatVal": 70.0
+        "floatVal": 70
       }
     },
     {
@@ -362,7 +362,7 @@
       "k": "Float_SprintPreferNoCloserThanPersonalSpaceToAllyFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 20.25
+        "floatVal": 22.25
       }
     },
     {
@@ -389,7 +389,7 @@
       "k": "Float_PreferLOSToMostHostilesFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.0
+        "floatVal": 0
       }
     },
     {
@@ -398,7 +398,7 @@
       "k": "Float_SprintPreferLOSToMostHostilesFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.0
+        "floatVal": 0
       }
     },
     {
