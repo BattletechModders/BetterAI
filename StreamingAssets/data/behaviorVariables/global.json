@@ -1207,7 +1207,7 @@
       "k": "Float_OpportunityFireExceedsDesignatedTargetByPercentage",
       "v": {
         "type": "Float",
-        "floatVal": 10
+        "floatVal": 15
       }
     },
     {
@@ -1217,7 +1217,7 @@
       "k": "Float_OpportunityFireExceedsDesignatedTargetFirepowerTakeawayByPercentage",
       "v": {
         "type": "Float",
-        "floatVal": 10
+        "floatVal": 15
       }
     },
     {
