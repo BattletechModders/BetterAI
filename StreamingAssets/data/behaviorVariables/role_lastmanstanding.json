@@ -36,7 +36,7 @@
       "k": "Float_PreferHigherExpectedDamageToHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 3.0
+        "floatVal": 3
       }
     },
     {
@@ -103,7 +103,7 @@
       "k": "Float_UnsteadyCausesDefensiveMovePercentage",
       "v": {
         "type": "Float",
-        "floatVal": 15
+        "floatVal": 5
       }
     },
     {
@@ -129,7 +129,7 @@
       "k": "Float_MultiTargetOverkillThreshold",
       "v": {
         "type": "Float",
-        "floatVal": 90.0
+        "floatVal": 90
       }
     },
     {
@@ -139,7 +139,7 @@
       "k": "Float_CalledShotHeadBaseChance",
       "v": {
         "type": "Float",
-        "floatVal": 30.0
+        "floatVal": 30
       }
     },
     {
@@ -147,7 +147,7 @@
       "k": "Float_SprintExclusionRadius",
       "v": {
         "type": "Float",
-        "floatVal": 48.0
+        "floatVal": 48
       }
     },
     {
@@ -176,7 +176,7 @@
       "k": "Float_PreferStayInsideFenceNegativeLogicFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.0
+        "floatVal": 0
       }
     },
     {
@@ -189,7 +189,7 @@
       "k": "Float_SprintPreferStayInsideFenceNegativeLogicFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.0
+        "floatVal": 0
       }
     },
     {
@@ -209,7 +209,7 @@
       "k": "Float_AlonePreferenceWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.0
+        "floatVal": 0
       }
     },
     {
@@ -218,7 +218,7 @@
       "k": "Float_SprintAlonePreferenceWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.0
+        "floatVal": 0
       }
     },
     {
@@ -227,7 +227,7 @@
       "k": "Float_PreferFriendlyECMFields",
       "v": {
         "type": "Float",
-        "floatVal": 1.0
+        "floatVal": 1
       }
     },
     {
@@ -236,7 +236,7 @@
       "k": "Float_SprintPreferFriendlyECMFields",
       "v": {
         "type": "Float",
-        "floatVal": 1.0
+        "floatVal": 1
       }
     },
     {
