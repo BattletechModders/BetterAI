@@ -6,7 +6,7 @@
       "k": "Float_PreferHigherPositionFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.0
+        "floatVal": 0
       }
     },
     {
@@ -62,7 +62,7 @@
       "k": "Float_PreferOptimalDistanceToAllyFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 2.0
+        "floatVal": 2
       }
     },
     {
@@ -90,7 +90,7 @@
       "k": "Float_ShootingDamageMultiplier",
       "v": {
         "type": "Float",
-        "floatVal": 2.0
+        "floatVal": 2
       }
     },
     {
@@ -127,7 +127,7 @@
       "k": "Float_PreferHigherHeatSinkLocationsFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.0
+        "floatVal": 0
       }
     },
     {
@@ -136,7 +136,7 @@
       "k": "Float_SprintPreferHigherHeatSinkLocationsFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.0
+        "floatVal": 0
       }
     },
     {
@@ -281,7 +281,7 @@
       "k": "Float_FenceRadius",
       "v": {
         "type": "Float",
-        "floatVal": 50.0
+        "floatVal": 50
       }
     },
     {
@@ -431,7 +431,7 @@
       "k": "Float_PreferLOSToMostHostilesFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.0
+        "floatVal": 0
       }
     },
     {
@@ -440,7 +440,7 @@
       "k": "Float_SprintPreferLOSToMostHostilesFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.0
+        "floatVal": 0
       }
     }
   ]
