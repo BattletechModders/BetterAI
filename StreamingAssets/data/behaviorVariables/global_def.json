@@ -6,7 +6,7 @@
       "k": "Float_PreferHigherPositionFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.0
+        "floatVal": 0
       }
     },
     {
@@ -72,7 +72,7 @@
       "k": "Float_PreferOptimalDistanceToHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.0
+        "floatVal": 0
       }
     },
     {
@@ -81,7 +81,7 @@
       "k": "Float_SprintPreferOptimalDistanceToHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.0
+        "floatVal": 0
       }
     },
     {
@@ -112,7 +112,7 @@
       "k": "Float_CoolDownRange",
       "v": {
         "type": "Float",
-        "floatVal": 192.0
+        "floatVal": 192
       }
     },
     {
@@ -159,7 +159,7 @@
       "k": "Float_MeleeRevengeBonus",
       "v": {
         "type": "Float",
-        "floatVal": 1.0
+        "floatVal": 1
       }
     },
     {
@@ -188,7 +188,7 @@
       "k": "Float_PreferLocationsThatGrantGuardFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 1.0
+        "floatVal": 1
       }
     },
     {
@@ -295,7 +295,7 @@
       "k": "Float_UnsteadyOverkillThreshold",
       "v": {
         "type": "Float",
-        "floatVal": 50.0
+        "floatVal": 50
       }
     },
     {
@@ -375,7 +375,7 @@
       "k": "Float_PreferLOSToMostHostilesFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.0
+        "floatVal": 0
       }
     },
     {
@@ -384,7 +384,7 @@
       "k": "Float_SprintPreferLOSToMostHostilesFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.0
+        "floatVal": 0
       }
     },
     {
