@@ -7,7 +7,7 @@
       "k": "Float_ExistingTargetDamageForDFAAttack",
       "v": {
         "type": "Float",
-        "floatVal": 0.0
+        "floatVal": 0
       }
     },
     {
@@ -26,7 +26,7 @@
       "k": "Float_PreferHigherPositionFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.0
+        "floatVal": 0
       }
     },
     {
@@ -63,7 +63,7 @@
       "k": "Float_PreferOptimalDistanceToAllyFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.0
+        "floatVal": 0
       }
     },
     {
@@ -101,7 +101,7 @@
       "k": "Float_PreferHigherHeatSinkLocationsFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.0
+        "floatVal": 0
       }
     },
     {
@@ -110,7 +110,7 @@
       "k": "Float_SprintPreferHigherHeatSinkLocationsFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.0
+        "floatVal": 0
       }
     },
     {
@@ -150,7 +150,7 @@
       "k": "Float_MeleeDamageRatioCap",
       "v": {
         "type": "Float",
-        "floatVal": 50.0
+        "floatVal": 50
       }
     },
     {
@@ -213,7 +213,7 @@
       "k": "Float_SprintExclusionRadius",
       "v": {
         "type": "Float",
-        "floatVal": 1.0
+        "floatVal": 1
       }
     },
     {
@@ -248,7 +248,7 @@
       "k": "Float_PreferNotSurroundedByHostileUnitsFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.0
+        "floatVal": 0
       }
     },
     {
@@ -257,7 +257,7 @@
       "k": "Float_SprintPreferNotSurroundedByHostileUnitsFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.0
+        "floatVal": 0
       }
     },
     {
@@ -269,7 +269,7 @@
       "k": "Float_SprintHysteresisMultiplier",
       "v": {
         "type": "Float",
-        "floatVal": 1.0
+        "floatVal": 1
       }
     },
     {
@@ -303,7 +303,7 @@
       "k": "Float_FenceRadius",
       "v": {
         "type": "Float",
-        "floatVal": 240.0
+        "floatVal": 240
       }
     },
     {
@@ -327,7 +327,7 @@
       "k": "Float_DownedMechFenceContributionMultiplier",
       "v": {
         "type": "Float",
-        "floatVal": 1.0
+        "floatVal": 1
       }
     },
     {
