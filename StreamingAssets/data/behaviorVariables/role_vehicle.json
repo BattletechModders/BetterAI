@@ -34,7 +34,7 @@
       "k": "Float_SureFootingAbilityWalkBoost",
       "v": {
         "type": "Float",
-        "floatVal": 0.0
+        "floatVal": 0
       }
     },
     {
@@ -157,7 +157,7 @@
       "k": "Float_PreferLOSToMostHostilesFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.0
+        "floatVal": 0
       }
     },
     {
@@ -166,10 +166,10 @@
       "k": "Float_SprintPreferLOSToMostHostilesFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.0
+        "floatVal": 0
       }
     },
-	{
+    {
       /* When choosing to turn the strongest armor towards the
          enemy, the rear armor can be presented to the enemy if
          the unit is in "offensive" mode, only if this is set to
@@ -179,6 +179,6 @@
         "type" : "Bool",
         "boolVal" : true
       }
-	}
+    }
   ]
 }
