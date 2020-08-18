@@ -340,15 +340,6 @@
       }
     },
     {
-      /* Influence Factor Weight to control the desire to be in
-         locations with damage reduction WHEN SPRINTING.*/
-      "k": "Float_SprintPreferHigherDamageReductionLocationsFactorWeight",
-      "v": {
-        "type": "Float",
-        "floatVal": 0.1
-      }
-    },
-    {
       /* Influence Factor Weight to control the desire to defend
          my own weak armor. */
       "k": "Float_PreferPresentingHigherArmorToHostileFactorWeight",
