@@ -211,7 +211,7 @@
       "k": "Float_PreferFacingHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.4
+        "floatVal": 0.6
       }
     },
     {
@@ -221,7 +221,7 @@
       "k": "Float_SprintPreferFacingHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.55
+        "floatVal": 0.6
       }
     },
     {
@@ -889,7 +889,7 @@
       "k": "Float_PreferLethalDamageToRearArcFromHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": -0.2
+        "floatVal": 0
       }
     },
     {
@@ -903,7 +903,7 @@
       "k": "Float_SprintPreferLethalDamageToRearArcFromHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": -0.5
+        "floatVal": 0
       }
     },
     {
@@ -1941,7 +1941,7 @@
       "k": "Float_PreferPresentingHigherArmorToHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.45
+        "floatVal": 0.65
       }
     },
     {
@@ -1950,7 +1950,7 @@
       "k": "Float_SprintPreferPresentingHigherArmorToHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.4
+        "floatVal": 0.6
       }
     },
     {
