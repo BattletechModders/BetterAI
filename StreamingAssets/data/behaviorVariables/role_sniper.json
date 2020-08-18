@@ -29,16 +29,6 @@
     },
     {
       /* When considering different kinds of attacks, multiply
-         the melee damage by this value to decide which attack
-         to use. */
-      "k": "Float_MeleeDamageMultiplier",
-      "v": {
-        "type": "Float",
-        "floatVal": 2
-      }
-    },
-    {
-      /* When considering different kinds of attacks, multiply
          the DFA damage by this value to decide which attack to
          use. */
       "k": "Float_DFADamageMultiplier",
