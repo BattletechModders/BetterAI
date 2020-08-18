@@ -125,15 +125,6 @@
     },
     {
       /* Influence Factor Weight to control the desire to be
-         inside water. */
-      "k": "Float_PreferHigherHeatSinkLocationsFactorWeight",
-      "v": {
-        "type": "Float",
-        "floatVal": 0.2
-      }
-    },
-    {
-      /* Influence Factor Weight to control the desire to be
          inside water WHEN SPRINTING. */
       "k": "Float_SprintPreferHigherHeatSinkLocationsFactorWeight",
       "v": {
