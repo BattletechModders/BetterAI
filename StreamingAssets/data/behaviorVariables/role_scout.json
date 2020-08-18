@@ -242,7 +242,7 @@
       "k": "Float_MinimumSensorLockQuality",
       "v": {
         "type": "Float",
-        "floatVal": 40
+        "floatVal": 35
       }
     },
     {
