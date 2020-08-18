@@ -316,7 +316,7 @@
       "k": "Float_SignalInWeapRngWhenEnemyGhostedWithinMoveDistance",
       "v": {
         "type": "Float",
-        "floatVal": 0.45
+        "floatVal": 0.75
       }
     },
     {
