@@ -242,15 +242,6 @@
       }
     },
     {
-      /* Weight for an influence factor that seeks to maximize
-         ranged defense bonus (e.g. mineral fields) WHEN SPRINTING. */
-      "k": "Float_SprintPreferHigherRangedDefenseBonusLocationsFactorWeight",
-      "v": {
-        "type": "Float",
-        "floatVal": 0.15
-      }
-    },
-    {
       /* Weight for an influence factor that seeks to stay
          within ECM range of friendlies */
       "k": "Float_PreferFriendlyECMFields",
