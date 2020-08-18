@@ -30,15 +30,6 @@
       }
     },
     {
-      /* Influence Factor Weight to prefer facing hostiles.
-         Hostile Factor: 1.0 / 0.5 / 0.25 based on threat */
-      "k": "Float_PreferFacingHostileFactorWeight",
-      "v": {
-        "type": "Float",
-        "floatVal": 0.6
-      }
-    },
-    {
       /* Optimal distance to nearest hostile. (See
          Float_PreferOptimalDistanceToHostileFactorWeight.) */
       "k": "Float_OptimalHostileDistance",
