@@ -1,16 +1,6 @@
 {
   "behaviorVariables": [
     {
-      /* How much a location must be damaged before a DFA attack
-         will be considered , as a fraction from 0.0 (undamaged)
-         to 1.0 (location destroyed) */
-      "k": "Float_ExistingTargetDamageForDFAAttack",
-      "v": {
-        "type": "Float",
-        "floatVal": 0
-      }
-    },
-    {
       /* Maximum leg damage allowed for DFA attack (above which
          attacks will not be considered), as a fraction from 0.0
          (undamaged) to 1.0 (location destroyed) */
