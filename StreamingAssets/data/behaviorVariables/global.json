@@ -1954,6 +1954,15 @@
       }
     },
     {
+      /* Weight for an influence factor that seeks to minimize
+           ranged to hit penalties (e.g. mineral fields). */
+      "k" : "Float_PreferLowerRangedToHitPenaltyLocationsFactorWeight",
+      "v" : {
+        "type" : "Float",
+        "floatVal" : 0
+      }
+    },
+    {
       /* When choosing to turn the strongest armor towards the
          enemy, the rear armor can be presented to the enemy if
          the unit is in "offensive" mode, only if this is set to
