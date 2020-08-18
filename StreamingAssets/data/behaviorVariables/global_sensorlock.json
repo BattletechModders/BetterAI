@@ -233,15 +233,6 @@
       }
     },
     {
-      /* Influence Factor to prefer not to be surrounded by
-         hostile units WHEN SPRINTING.*/
-      "k": "Float_SprintPreferNotSurroundedByHostileUnitsFactorWeight",
-      "v": {
-        "type": "Float",
-        "floatVal": 0.25
-      }
-    },
-    {
       /* Weight for an influence factor that seeks to maximize
          ranged defense bonus (e.g. mineral fields). */
       "k": "Float_PreferHigherRangedDefenseBonusLocationsFactorWeight",
