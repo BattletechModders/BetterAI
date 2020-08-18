@@ -28,15 +28,6 @@
       }
     },
     {
-      /* Influence Factor Weight to minimize expected damage
-         from hostiles. */
-      "k": "Float_PreferLowerExpectedDamageFromHostileFactorWeight",
-      "v": {
-        "type": "Float",
-        "floatVal": 0.4
-      }
-    },
-    {
       /* Optimal distance to nearest hostile. (See
          Float_PreferOptimalDistanceToHostileFactorWeight.) */
       "k": "Float_OptimalHostileDistance",
