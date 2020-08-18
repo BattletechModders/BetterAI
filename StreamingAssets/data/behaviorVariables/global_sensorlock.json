@@ -347,15 +347,6 @@
         "type": "Float",
         "floatVal": 0.7
       }
-    },
-    {
-      /* Influence Factor Weight to control the desire to defend
-         my own weak armor WHEN SPRINTING. */
-      "k": "Float_SprintPreferPresentingHigherArmorToHostileFactorWeight",
-      "v": {
-        "type": "Float",
-        "floatVal": 0.6
-      }
     }
   ]
 }
