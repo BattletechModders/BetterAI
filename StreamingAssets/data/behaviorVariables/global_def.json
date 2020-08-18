@@ -252,15 +252,6 @@
       }
     },
     {
-      /* Weight for an influence factor that seeks to maximize
-         ranged defense bonus (e.g. mineral fields) WHEN SPRINTING. */
-      "k": "Float_SprintPreferHigherRangedDefenseBonusLocationsFactorWeight",
-      "v": {
-        "type": "Float",
-        "floatVal": 0.15
-      }
-    },
-    {
       /* Percentage (0.0 - 100.0+) of my "critical hit points"
          (weakest armor, vital structure) above which the AI
          won't brace to get rid of instability. */
