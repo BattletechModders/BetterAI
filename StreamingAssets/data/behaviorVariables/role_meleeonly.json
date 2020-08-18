@@ -36,7 +36,7 @@
       "k": "Float_PreferHigherExpectedDamageToHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 3.0
+        "floatVal": 3
       }
     },
     {
@@ -139,7 +139,7 @@
       "k": "Float_MeleeRevengeBonus",
       "v": {
         "type": "Float",
-        "floatVal": 3.0
+        "floatVal": 3
       }
     },
     {
