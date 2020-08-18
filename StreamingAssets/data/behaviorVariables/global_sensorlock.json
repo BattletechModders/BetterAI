@@ -381,7 +381,7 @@
       "k": "Float_SprintPreferPresentingHigherArmorToHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.60
+        "floatVal": 0.6
       }
     }
   ]
