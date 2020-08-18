@@ -333,7 +333,7 @@
       "k": "Float_PreferAttackFromBehindHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.2
+        "floatVal": 0.3
       }
     },
     {
@@ -343,7 +343,7 @@
       "k": "Float_PreferAttackFrom90DegreesToHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.15
+        "floatVal": 0.2
       }
     },
     {
