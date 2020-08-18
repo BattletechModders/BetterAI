@@ -245,6 +245,15 @@
         "type": "Float",
         "floatVal": 0
       }
+    },
+    {
+      /* Weight for an influence factor that seeks to minimize
+           ranged to hit penalties (e.g. mineral fields). */
+      "k" : "Float_PreferLowerRangedToHitPenaltyLocationsFactorWeight",
+      "v" : {
+        "type" : "Float",
+        "floatVal" : 0.2
+      }
     }
   ]
 }
