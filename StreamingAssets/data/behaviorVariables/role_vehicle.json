@@ -170,6 +170,24 @@
       }
     },
     {
+      /* Influence Factor Weight to control the desire to defend
+         my own weak armor. */
+      "k": "Float_PreferPresentingHigherArmorToHostileFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.75
+      }
+    },
+    {
+      /* Influence Factor Weight to control the desire to defend
+         my own weak armor WHEN SPRINTING. */
+      "k": "Float_SprintPreferPresentingHigherArmorToHostileFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.65
+      }
+    },
+    {
       /* When choosing to turn the strongest armor towards the
          enemy, the rear armor can be presented to the enemy if
          the unit is in "offensive" mode, only if this is set to
