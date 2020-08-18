@@ -318,6 +318,26 @@
       }
     },
     {
+      /* Percentage (0-100+) that the unit's locally evaluated
+         best target must exceed the designated target's
+         expected damage when considering opportunity fire. */
+      "k": "Float_OpportunityFireExceedsDesignatedTargetByPercentage",
+      "v": {
+        "type": "Float",
+        "floatVal": 1
+      }
+    },
+    {
+      /* Percentage (0-100+) that the unit's locally evaluated
+         best target must exceed the designated target's
+         firepower takeaway when considering opportunity fire. */
+      "k": "Float_OpportunityFireExceedsDesignatedTargetFirepowerTakeawayByPercentage",
+      "v": {
+        "type": "Float",
+        "floatVal": 1
+      }
+    },
+    {
       /* Multiplier applied when considering the value of a
          downed mech when calculating the centerpoint of the
          lance fence. 1.0 would be no special consideration, 2.0
