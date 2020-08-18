@@ -1851,7 +1851,7 @@
       "k" : "Float_PreferHigherDistanceFromClosestHostileFactorWeight",
       "v" : {
         "type" : "Float",
-        "floatVal" : 0.0
+        "floatVal" : 0
       }
     },
     {
@@ -1860,7 +1860,7 @@
       "k" : "Float_SprintPreferHigherDistanceFromClosestHostileFactorWeight",
       "v" : {
         "type" : "Float",
-        "floatVal" : 0.0
+        "floatVal" : 0
       }
     },
     {
@@ -1869,7 +1869,7 @@
       "k": "Float_PreferLOSToFewestHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.0
+        "floatVal": 0
       }
     },
     {
@@ -1878,7 +1878,7 @@
       "k": "Float_SprintPreferLOSToFewestHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.0
+        "floatVal": 0
       }
     },
     {
