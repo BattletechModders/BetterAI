@@ -328,15 +328,6 @@
       }
     },
     {
-      /* Weight for how much to prefer to be exposed to enemy
-         fire alone WHEN SPRINTING. Probably negative. */
-      "k": "Float_SprintAlonePreferenceWeight",
-      "v": {
-        "type": "Float",
-        "floatVal": -1.5
-      }
-    },
-    {
       /* Weight for an influence factor that seeks to stay
          within ECM range of friendlies */
       "k": "Float_PreferFriendlyECMFields",
