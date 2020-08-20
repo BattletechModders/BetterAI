@@ -403,7 +403,7 @@
       "k": "Float_PreferHigherHeatSinkLocationsFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.2
+        "floatVal": 0.3
       }
     },
     {
@@ -457,7 +457,7 @@
       "k": "Float_PreferAttackingLowerArmorHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.8
+        "floatVal": 0.9
       }
     },
     {
