@@ -1,22 +1,35 @@
-# BetterAI - AI Behavior Variable Tweaks for HBS BATTLETECH
-This is a ModTek mod to improve the tactical AI in combat.  The AI is allowed to reserve 'Mechs and execute "Double Turns," AI critical hit chance is on par with the player's, it now considers protecting their weakened side and exploits the damaged sides of the target to a greater degree.  The Pilot selections for AI Lances are constrained to put appropriate pilots in the right units, this has been limited to two 'Mechs or less per Lance to preserve encounter variety, all vehicles have had "useless" pilot abilities excluded.  This should be harder to fight than stock, but some bad choices are not fixable with .json edits.  
+# Better AI - AI Behavior Variable Tweaks for HBS BATTLETECH
+This is a mod to improve the tactical AI in combat.  It has been overhauled to work better as a Lance, reserve and make smarter indivudual choices.  The AI's critical hit chance is adjusted to be on par with the player's.  The Pilot selections for AI Lances are tuned to put appropriate pilots in the right units.  This has been limited to two 'Mechs or less per Lance to preserve encounter variety, all vehicles have had "useless" pilot abilities excluded.  BetterAI should be harder to fight than stock, but some bad choices are not fixable with .json edits.  
 
-Better AI shouldn't cause any errors with save files, even saves in combat, or with version updates.  I've done extensive testing back and forth between stock and modded play without any errors.  It does not add any new items to the VersionManifest.csv.
+When used with ModTek, Better AI shouldn't cause any errors with save files, even saves in combat, or with version changes. I've done extensive testing back and forth between stock and modded play without any errors. It does not add any new items to the VersionManifest.csv.  Of course, when used with the HBS Mod Loader, any save that has this mod enabled will need it going forward as normal.
 
 ##### Credits:
-    Mpstark + ModTek Crew: For creating this inital git and ModTek support
+    Mpstark + ModTek Crew: For creating this inital git and ModTek support, and again to Mpstark for making the AIToolkit
     scJazz: The idea for Lance Pilot tuning
+    Koztaz: For the fresh eyes on an old project
     Thanks to all who have provided feedback and bounced ideas around with me, 
     Team Banzai, Goons, discord modders and everyone since beta onward that has helped shape the AI.
 
 ### Instructions:
 
-    Copy Better AI folder in to Mods folder created for ModTek.  Remove older Better AI folder if present.
+    Remove older editions of Better AI if present.
+    Copy Better AI folder in to Mods folder.
+    
+### ModTek
+
+This mod can use either HBS Mod Manager or ModTek:
+
+https://github.com/BattletechModders/ModTek/releases
     
 #### Optional Dependancies:
     cFixes
     Z_Sab_JK_RarityTables
-Better AI will load AFTER these mods by default, none of these are required to use Better AI.  This is so they may apply their JSON overwrites first, then Better AI's advanvced JSON merge will apply on top of the modded file.  Better AI edits some 'Mech Tags in MechDefs and nearly all Pilot's Tags in LanceDefs.
+Better AI will load AFTER these mods by default, none of these are required.  This is so they may apply their JSON overwrites first, then Better AI's advanvced JSON merge will apply on top of the modded file.  Better AI edits some 'Mech Tags in MechDefs and nearly all Pilot's Tags in LanceDefs.
+
+#### Optional AI Modules:
+
+    https://github.com/Amechwarrior/BetterAI-Permanent-Evasion-Add-On/releases/tag/v1.9.1.1
+This is a module that applies on top of Better AI for players or mod packs using permanent or semi-permanent evasion mechanics.
 
 ### Full change log can be found here:
 
@@ -28,12 +41,7 @@ https://docs.google.com/spreadsheets/d/1Q-Z0jSjb1rRd5-r0zYHwH_yES8cgVdmv-kE2WS_7
 
 ### Recommended Companion Mods
 
-https://github.com/BattletechModders/cFixes/releases - Commuinity bug fixes, Better AI greatly benifits from the corrected NPC pilot traits fixes and integrates with that mod's 'Mech tag fixes.  NPC pilots are missing a lot of passive traits without cFixes.
-
-### ModTek
-This mod needs ModTek to work:
-
-https://github.com/BattletechModders/ModTek/releases
+https://github.com/BattletechModders/cFixes/releases - Commuinity bug fixes, Better AI greatly benifits from the corrected NPC pilot traits fixes and integrates with that mod's 'Mech tag fixes.
 
 ## Stock Files Edited:
 #### StreamingAssets\data\behaviorVariables - AI variable edits
@@ -44,12 +52,13 @@ https://github.com/BattletechModders/ModTek/releases
     role_ecmcarrier.json
     role_ewe.json
     role_lastmanstanding.json
+    role_lastmanstanding_def.json
     role_meleeonly.json
     role_noncombatant.json
     role_scout.json
     role_sniper.json
+    role_sniper_def.json
     role_vehicle.json
-    role_vehicle_def.json
 
 #### StreamingAssets\data\constants - AI Crit Chance
     CombatGameConstants.json
@@ -160,3 +169,4 @@ https://github.com/BattletechModders/ModTek/releases
     mechdef_urbanmech_UM-R90.json
     mechdef_victor_VTR-9S.json
     mechdef_zeus_ZEU-6S.json
+    mechdef_zeus_ZEU-6T.json
