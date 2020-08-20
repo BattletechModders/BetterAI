@@ -49,8 +49,6 @@ https://github.com/BattletechModders/cFixes/releases - Commuinity bug fixes, Bet
     global_def.json
     global_sensorlock.json
     role_activeprobe.json
-    role_brawler.json
-    role_brawler_def.json
     role_ecmcarrier.json
     role_ewe.json
     role_lastmanstanding.json
