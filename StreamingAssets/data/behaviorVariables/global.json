@@ -457,7 +457,7 @@
       "k": "Float_PreferAttackingLowerArmorHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.9
+        "floatVal": 0.8
       }
     },
     {
