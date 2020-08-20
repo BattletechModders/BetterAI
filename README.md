@@ -28,7 +28,7 @@ Better AI will load AFTER these mods by default, none of these are required.  Th
 
 #### Optional AI Modules:
 
-    https://github.com/Amechwarrior/BetterAI-Permanent-Evasion-Add-On/releases/tag/v1.4.1
+    https://github.com/Amechwarrior/BetterAI-Permanent-Evasion-Add-On/releases/tag/v1.9.1.1
 This is a module that applies on top of Better AI for players or mod packs using permanent or semi-permanent evasion mechanics.
 
 ### Full change log can be found here:
@@ -52,10 +52,12 @@ https://github.com/BattletechModders/cFixes/releases - Commuinity bug fixes, Bet
     role_ecmcarrier.json
     role_ewe.json
     role_lastmanstanding.json
+    role_lastmanstanding_def.json
     role_meleeonly.json
     role_noncombatant.json
     role_scout.json
     role_sniper.json
+    role_sniper_def.json
     role_vehicle.json
 
 #### StreamingAssets\data\constants - AI Crit Chance
